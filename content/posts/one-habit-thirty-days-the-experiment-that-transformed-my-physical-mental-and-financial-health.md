@@ -1,7 +1,7 @@
-"---
-title: ""One Habit, Thirty Days: The Experiment That Transformed My Physical, Mental and Financial Health""
+---
+title: "One Habit, Thirty Days: The Experiment That Transformed My Physical, Mental and Financial Health"
 date: 2023-04-17T11:08:40
-slug: ""one-habit-thirty-days-the-experiment-that-transformed-my-physical-mental-and-financial-health""
+slug: "one-habit-thirty-days-the-experiment-that-transformed-my-physical-mental-and-financial-health"
 draft: false
 ---
 
@@ -253,4 +253,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p>As much as I thank my friend and am grateful for igniting the spark to take things into my own hand, I don't want to take away credit from my own willpower which helped me reach the stage where I am.<br><br>The first fortnight was a breeze, like cruising on autopilot, but then the temptations came knocking at the end of the second week, testing my resolve. But my willpower stood firm, a mighty shield against the onslaught, and saved me from succumbing to old habits.<br><br>I write this with the sole intention to make myself more accountable for my actions and use this medium to open up about my habits to the public.<br><br>Magnifying the effects of what started this snowball effect in the first place - opening up.<br><br>Now there is no shame, only progress.<br><br>There is no going back.<br><br>And if any of my young brothers find themselves stuck at a place I was, my LinkedIn DMs and Email is always open to lend a non-judgemental ear to your experiences.<br><br>If I came back from where I was, the least I owe to others is help them do the same with their life.<br><br>Stay Strong Kings!</p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
