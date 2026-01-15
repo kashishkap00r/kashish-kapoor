@@ -1,7 +1,7 @@
-"---
-title: ""The Silent Epidemic: Why Mental Health Is The Biggest Crisis Facing Our Generation""
+---
+title: "The Silent Epidemic: Why Mental Health Is The Biggest Crisis Facing Our Generation"
 date: 2023-04-15T09:34:05
-slug: ""the-silent-epidemic-why-mental-health-is-the-biggest-crisis-facing-our-generation""
+slug: "the-silent-epidemic-why-mental-health-is-the-biggest-crisis-facing-our-generation"
 draft: false
 ---
 
@@ -145,4 +145,4 @@ https://twitter.com/GabbbarSingh/status/1507358847945814022?lang=en
 
 <!-- wp:paragraph -->
 <p>In a nutshell, take care of your mind like you take care of your phone: charge it daily (meditation), remove unnecessary apps (social media), and don't be afraid to restart it when (seek therapy) needed. <br><br>Remember, mental health is not a luxury, it's a necessity.</p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
