@@ -35,13 +35,7 @@ attempting to say, and you will not be disappointed.\
 I am talking about 'The Fight Club' and here are the most thought
 provoking dialogues that made me fall in love with this movie.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -80,13 +74,7 @@ raw selves.
 \
 Knowledge is power. Knowledge of oneself is a bliss.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -125,9 +113,6 @@ Stop being stupid.
 :::
 
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -181,13 +166,8 @@ In all the things we want we will always feel the pain. I know this is
 hard at first but that's what makes life challenging. We must learn to
 sustain the pain we've been choosen.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -221,13 +201,7 @@ tags you have been carrying as baggage all your life.\
 \
 Only when you have lost everything, you are free to do anything.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -253,13 +227,7 @@ that was being fed to them. They were producing and creating.\
 \
 Be a creator. Create your own destiny.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
@@ -285,13 +253,7 @@ And as I mentioned earlier, self destruction is the answer. If we are
 not putting ourselves in harm\'s way, how will we ever truly know who we
 are let alone give us a chance to improve.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
-
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
 
 <figure class="wp-block-image">
 <img
