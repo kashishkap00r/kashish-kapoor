@@ -1,16 +1,16 @@
 ---
-title: ""What did I learn in 2024?""
+title: "What did I learn in 2024?"
 date: 2025-01-01T18:33:57
-slug: ""what-did-i-learn-in-2024""
+slug: "what-did-i-learn-in-2024"
 draft: false
 ---
 
 <!-- wp:paragraph -->
-<p>This post was originally written as an exercise we did at Zerodha. Check the video <a href=""https://www.youtube.com/watch?v=kErosHy_T1w&amp;t"">here</a>.</p>
+<p>This post was originally written as an exercise we did at Zerodha. Check the video <a href="https://www.youtube.com/watch?v=kErosHy_T1w&amp;t">here</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
-<hr class=""wp-block-separator has-alpha-channel-opacity""/>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
@@ -22,20 +22,20 @@ draft: false
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>That said, we did agree on one thing. We both were baffled on how people can really be okay with being <a href=""https://bhuvan.substack.com/p/are-you-really-okay-being-this-incurious"">so “incurious” in life</a>:</p>
+<p>That said, we did agree on one thing. We both were baffled on how people can really be okay with being <a href="https://bhuvan.substack.com/p/are-you-really-okay-being-this-incurious">so “incurious” in life</a>:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul class=""wp-block-list""><!-- wp:list-item -->
-<li>How are you okay not knowing why bad weather in Brazil is making your morning coffee more <a href=""https://www.bbc.com/news/articles/c36pgrrjllyo"">expensive</a>?</li>
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>How are you okay not knowing why bad weather in Brazil is making your morning coffee more <a href="https://www.bbc.com/news/articles/c36pgrrjllyo">expensive</a>?</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>How are you okay not knowing the perfect air conditioner temperature according to <a href=""https://www.cbc.ca/news/science/air-conditioning-set-point-1.7260815"">studies</a> by the Japanese Ministry of the Environment and World Health Organization?</li>
+<li>How are you okay not knowing the perfect air conditioner temperature according to <a href="https://www.cbc.ca/news/science/air-conditioning-set-point-1.7260815">studies</a> by the Japanese Ministry of the Environment and World Health Organization?</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>How are you okay not knowing that your late-night Netflix binge might be costing your country’s GDP <a href=""https://pmc.ncbi.nlm.nih.gov/articles/PMC5627640/#:~:text=Up%20to%20%24680%20Billion%20Is,Countries%20Due%20to%20Insufficient%20Sleep"">1-3% annually</a>?</li>
+<li>How are you okay not knowing that your late-night Netflix binge might be costing your country’s GDP <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5627640/#:~:text=Up%20to%20%24680%20Billion%20Is,Countries%20Due%20to%20Insufficient%20Sleep">1-3% annually</a>?</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -68,7 +68,7 @@ draft: false
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul class=""wp-block-list""><!-- wp:list-item -->
+<ul class="wp-block-list"><!-- wp:list-item -->
 <li>When <strong>interest rates go up</strong>, borrowing becomes expensive for businesses and consumers.</li>
 <!-- /wp:list-item -->
 
@@ -82,7 +82,7 @@ draft: false
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>From May 2022 to February 2023, the Reserve Bank of India (RBI) went on a rate hike spree, raising the repo rate from <strong>4% to 6.5%</strong> in just nine months—one of the <a href=""https://www.richmondfed.org/publications/research/economic_brief/2023/eb_23-26?utm_source=chatgpt.com"">steepest hikes</a> in recent history. By textbook logic, this should’ve slowed down the growth of loans.</p>
+<p>From May 2022 to February 2023, the Reserve Bank of India (RBI) went on a rate hike spree, raising the repo rate from <strong>4% to 6.5%</strong> in just nine months—one of the <a href="https://www.richmondfed.org/publications/research/economic_brief/2023/eb_23-26?utm_source=chatgpt.com">steepest hikes</a> in recent history. By textbook logic, this should’ve slowed down the growth of loans.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -93,8 +93,8 @@ draft: false
 <p>Yes, loans grew from <strong>10% to 17%</strong>, even as borrowing costs skyrocketed. The very thing that was supposed to slow down—picked up speed.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {""id"":979} -->
-<figure class=""wp-block-image""><img src=""https://kashishkapoor.com/wp-content/uploads/2025/01/AD_4nXeb7MZxid3ZrUH84sUWsX3K6tggkqCdrDqImrSA-Dsocc0DFEkIbkf0NXTyBFoxBs5k0Z35WWbFQCpDKrgzhCvYcEMjtEdTYpkzYYC4XQIMt_Mltg0Kp1FEfk1v7gQYgZtf0WUI_w.png"" alt="""" class=""wp-image-979""/><figcaption class=""wp-element-caption"">Source: <a href=""https://analytics.indiadatahub.com/banking"">India Data Hub</a> &amp; <a href=""http://investing.com"">Investing.com</a></figcaption></figure>
+<!-- wp:image {"id":979} -->
+<figure class="wp-block-image"><img src="https://kashishkapoor.com/wp-content/uploads/2025/01/AD_4nXeb7MZxid3ZrUH84sUWsX3K6tggkqCdrDqImrSA-Dsocc0DFEkIbkf0NXTyBFoxBs5k0Z35WWbFQCpDKrgzhCvYcEMjtEdTYpkzYYC4XQIMt_Mltg0Kp1FEfk1v7gQYgZtf0WUI_w.png" alt="" class="wp-image-979"/><figcaption class="wp-element-caption">Source: <a href="https://analytics.indiadatahub.com/banking">India Data Hub</a> &amp; <a href="http://investing.com">Investing.com</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -110,7 +110,7 @@ draft: false
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This is especially true for <a href=""https://www.linkedin.com/posts/kashishkap00r_why-are-estimates-and-forecasts-in-natural-activity-7221042928645722113-ojx5?utm_source=share&amp;utm_medium=member_desktop"">social sciences</a> like economics than natural sciences like physics or maths. Making prescriptive statements—statements that dictate how things <em>should</em> be—might work in nature, governed by the laws of physics. But economics? That’s a wild, wild world with no rules.</p>
+<p>This is especially true for <a href="https://www.linkedin.com/posts/kashishkap00r_why-are-estimates-and-forecasts-in-natural-activity-7221042928645722113-ojx5?utm_source=share&amp;utm_medium=member_desktop">social sciences</a> like economics than natural sciences like physics or maths. Making prescriptive statements—statements that dictate how things <em>should</em> be—might work in nature, governed by the laws of physics. But economics? That’s a wild, wild world with no rules.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -142,7 +142,7 @@ draft: false
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul class=""wp-block-list""><!-- wp:list-item -->
+<ul class="wp-block-list"><!-- wp:list-item -->
 <li>Was my coffee expensive only because of bad weather in Brazil, or did Vietnamese plantations play a role too?</li>
 <!-- /wp:list-item -->
 
