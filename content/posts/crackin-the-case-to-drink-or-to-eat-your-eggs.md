@@ -1,7 +1,7 @@
-"---
-title: ""Crackin' the Case: To Drink or to Eat Your Eggs?""
+---
+title: "Crackin' the Case: To Drink or to Eat Your Eggs?"
 date: 2023-03-31T08:10:02
-slug: ""crackin-the-case-to-drink-or-to-eat-your-eggs""
+slug: "crackin-the-case-to-drink-or-to-eat-your-eggs"
 draft: false
 ---
 
@@ -51,4 +51,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p></p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
