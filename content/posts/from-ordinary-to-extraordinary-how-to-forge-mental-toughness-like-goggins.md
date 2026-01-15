@@ -1,7 +1,7 @@
-"---
-title: ""From Ordinary to Extraordinary: How to Forge Mental Toughness Like Goggins""
+---
+title: "From Ordinary to Extraordinary: How to Forge Mental Toughness Like Goggins"
 date: 2023-04-16T13:33:30
-slug: ""from-ordinary-to-extraordinary-how-to-forge-mental-toughness-like-goggins""
+slug: "from-ordinary-to-extraordinary-how-to-forge-mental-toughness-like-goggins"
 draft: false
 ---
 
@@ -135,4 +135,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p><br>But I feel it is incomplete.<br><br>It should rather be -<br><br>""It is a shame for a man to grow old without seeing the beauty and strength of which his body <strong><mark style=""background-color:#E2E2E2"" class=""has-inline-color has-primary-color"">and mind</mark></strong> is capable""<br><br>For if you have tamed the wild beast of your mind, you have conquered the world within and unlocked the gateway to limitless possibilities.</p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
