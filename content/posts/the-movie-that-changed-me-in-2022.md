@@ -149,11 +149,7 @@ venture.\
 If we get rejected by the girl we want, there's a chance that we can be
 better for our next approach.
 
-<figure class="wp-block-pullquote" style="font-size:30px">
-<blockquote>
-<p>Seek discomfort to grow. Self help is fantasies</p>
-</blockquote>
-</figure>
+>Seek discomfort to grow. Self help is fantasies
 
 We should feel the pain (Self-Destruction). We should be comfortable
 with it. Because that is the way forward. Real growth happens when we
@@ -177,11 +173,7 @@ destroyed, and it frees him up to follow his heart and start an
 underground anarchist group. However, the phrase is powerful enough to
 inspire people to do more positive things with their lives too.
 
-<figure class="wp-block-pullquote" style="font-size:30px">
-<blockquote>
-<p>The Things You Own End Up Owning You</p>
-</blockquote>
-</figure>
+>The Things You Own End Up Owning You
 
 There is deeper relevance to this than just material things. It relates
 to everything else in your life that you tie your identity to.\
@@ -235,12 +227,10 @@ src="https://lh6.googleusercontent.com/Lfv1PxfyNrFlnEq7e-XVckyQ2yE4KAQ6u09Hs06EU
 We\'re the middle children of the history, no purpose or place, we have
 no Great war, no Great depression.
 
-<figure class="wp-block-pullquote" style="font-size:30px">
-<blockquote>
-<p>Tough times create strong men, strong men create easy times. Easy
-times create weak men, weak men create tough times</p>
-</blockquote>
-</figure>
+
+>Tough times create strong men, strong men create easy times. Easy
+times create weak men, weak men create tough times
+
 
 Our forefathers were one tough motherfuckers to have created such
 blissful times for us. They fought for our independence so that we could
