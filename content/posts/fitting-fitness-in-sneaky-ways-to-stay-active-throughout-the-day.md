@@ -1,4 +1,4 @@
-"---
+---
 title: ""Fitting Fitness In: Sneaky Ways to Stay Active Throughout the Day""
 date: 2023-04-04T09:14:49
 slug: ""fitting-fitness-in-sneaky-ways-to-stay-active-throughout-the-day""
@@ -151,4 +151,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p>Portion control is not about being miserly with your food; it's about knowing how much your body actually needs. Your fitness goals should guide your actions. If you want to get lean, eat less than you burn. Keep it simple.<br></p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
