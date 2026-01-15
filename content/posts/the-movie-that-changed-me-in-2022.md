@@ -149,7 +149,7 @@ venture.\
 If we get rejected by the girl we want, there's a chance that we can be
 better for our next approach.
 
->Seek discomfort to grow. Self help is fantasies
+> Seek discomfort to grow. Self help is fantasies
 
 We should feel the pain (Self-Destruction). We should be comfortable
 with it. Because that is the way forward. Real growth happens when we
@@ -173,7 +173,7 @@ destroyed, and it frees him up to follow his heart and start an
 underground anarchist group. However, the phrase is powerful enough to
 inspire people to do more positive things with their lives too.
 
->The Things You Own End Up Owning You
+> The Things You Own End Up Owning You
 
 There is deeper relevance to this than just material things. It relates
 to everything else in your life that you tie your identity to.\
@@ -228,7 +228,7 @@ We\'re the middle children of the history, no purpose or place, we have
 no Great war, no Great depression.
 
 
->Tough times create strong men, strong men create easy times. Easy
+> Tough times create strong men, strong men create easy times. Easy
 times create weak men, weak men create tough times
 
 
