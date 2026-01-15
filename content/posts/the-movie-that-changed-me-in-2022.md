@@ -109,9 +109,6 @@ results you will be complete is nothing short of stupidity.\
 \
 Stop being stupid.
 
-::: {.wp-block-spacer style="height:50px" aria-hidden="true"}
-:::
-
 ------------------------------------------------------------------------
 
 <figure class="wp-block-image">
