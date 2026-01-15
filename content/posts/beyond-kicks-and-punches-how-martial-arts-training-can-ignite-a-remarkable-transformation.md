@@ -1,7 +1,7 @@
-"---
-title: ""Beyond Kicks and Punches: How Martial Arts Training Can Ignite A Remarkable Transformation""
+---
+title: "Beyond Kicks and Punches: How Martial Arts Training Can Ignite A Remarkable Transformation"
 date: 2023-04-22T23:46:42
-slug: ""beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation""
+slug: "beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation"
 draft: false
 ---
 
@@ -201,4 +201,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p></p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
