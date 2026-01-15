@@ -1,32 +1,32 @@
 ---
-title: ""On Making (Very) Tough Decisions""
+title: "On Making (Very) Tough Decisions"
 date: 2024-07-05T00:07:05
-slug: ""on-making-very-tough-decisions""
+slug: "on-making-very-tough-decisions"
 draft: false
 ---
 
 <!-- wp:paragraph -->
-<p>""College A has an average placement CTC of ₹9.34 lakh, while College B only has ₹8.87 lakh.""</p>
+<p>"College A has an average placement CTC of ₹9.34 lakh, while College B only has ₹8.87 lakh."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Okay.""</p>
+<p>"Okay."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""So, I think I should go for College A.""</p>
+<p>"So, I think I should go for College A."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Why?""</p>
+<p>"Why?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Because it has better placements.""</p>
+<p>"Because it has better placements."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""And why does that matter?""</p>
+<p>"And why does that matter?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -77,8 +77,8 @@ draft: false
 <p>That's when she turned to placement stats to break the tie, and I couldn’t have been more furious.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
@@ -109,20 +109,20 @@ draft: false
 <p>But that's not why people should pursue college, and we must approach this from a first-principles perspective.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p>I simply love the ""Five Whys"" approach because of how uncomfortable it makes me in every situation.&nbsp;</p>
+<p>I simply love the "Five Whys" approach because of how uncomfortable it makes me in every situation.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>It helps me determine the root cause of the problem by repeating the question ""why?"" five times, each time directing the current ""why"" to the answer of the previous ""why.""</p>
+<p>It helps me determine the root cause of the problem by repeating the question "why?" five times, each time directing the current "why" to the answer of the previous "why."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If you are truly honest in answering those questions, and then make a decision based on the last ""why,"" that decision is the rawest and most honest depiction of your true self.</p>
+<p>If you are truly honest in answering those questions, and then make a decision based on the last "why," that decision is the rawest and most honest depiction of your true self.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -141,64 +141,64 @@ draft: false
 <p>This is because only “your” decisions will have the backing of the internal belief system that you uphold. Rest decisions fade into oblivion.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p>""Okay, let's take a step back.""</p>
+<p>"Okay, let's take a step back."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Hmm...""</p>
+<p>"Hmm..."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Why did you take up science in the first place?""</p>
+<p>"Why did you take up science in the first place?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Because I liked it.""</p>
+<p>"Because I liked it."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Why did you like it?""</p>
+<p>"Why did you like it?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Because I had an interest in computers and stuff.""</p>
+<p>"Because I had an interest in computers and stuff."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Why did computers interest you?""</p>
+<p>"Why did computers interest you?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""I don't know.""</p>
+<p>"I don't know."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Haha, koi baat nahin. So your decision to choose science was because you had an interest in it?""</p>
+<p>"Haha, koi baat nahin. So your decision to choose science was because you had an interest in it?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Yes.""</p>
+<p>"Yes."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""And it had nothing to do with money or career growth?""</p>
+<p>"And it had nothing to do with money or career growth?"</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Ummm... No.""</p>
+<p>"Ummm... No."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>""Then why are you making a decision based on that now? If money and placements were the only things that mattered to you, shouldn't you actually go for a field that pays the highest?""</p>
+<p>"Then why are you making a decision based on that now? If money and placements were the only things that mattered to you, shouldn't you actually go for a field that pays the highest?"</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
@@ -225,8 +225,8 @@ draft: false
 <p>Was it the right or wrong decision? - We don't know.<br>Was it HER decision? - Abso-fucking-lutely yes.<br>Will she make this the right decision for herself? - I do not doubt it.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
