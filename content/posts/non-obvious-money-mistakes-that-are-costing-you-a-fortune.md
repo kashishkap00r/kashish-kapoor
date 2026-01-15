@@ -1,7 +1,7 @@
-"---
-title: ""6 Non Obvious Money Mistakes That Are Costing You a Fortune""
+---
+title: "6 Non Obvious Money Mistakes That Are Costing You a Fortune"
 date: 2023-05-01T18:33:18
-slug: ""non-obvious-money-mistakes-that-are-costing-you-a-fortune""
+slug: "non-obvious-money-mistakes-that-are-costing-you-a-fortune"
 draft: false
 ---
 
@@ -303,4 +303,4 @@ https://twitter.com/soicfinance/status/1448643901795958790
 
 <!-- wp:paragraph -->
 <p></p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
