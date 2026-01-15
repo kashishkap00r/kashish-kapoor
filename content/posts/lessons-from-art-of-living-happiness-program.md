@@ -1,7 +1,7 @@
-"---
-title: ""From Stress to Serenity: What I Learned from the Art of Living 4-day Course""
+---
+title: "From Stress to Serenity: What I Learned from the Art of Living 4-day Course"
 date: 2023-04-12T10:53:01
-slug: ""lessons-from-art-of-living-happiness-program""
+slug: "lessons-from-art-of-living-happiness-program"
 draft: false
 ---
 
@@ -173,4 +173,4 @@ draft: false
 
 <!-- wp:paragraph -->
 <p>Well, you can have all the knowledge in the world, but it won't do you any good unless you put it into practice and Gurudev suggested it takes the whole of your lifetime to do this.<br><br>You can't just keep these nuggets of wisdom in your pocket like a lucky charm and hope things magically change.<br><br>It's like having a gym membership but never going to the gym.<br><br>So, let's roll up our sleeves, get out there, and turn knowledge into wisdom. Atleast that's what I will be doing.<br><br>After all, as the saying goes, knowledge is power, but applied knowledge is superpower!</p>
-<!-- /wp:paragraph -->"
+<!-- /wp:paragraph -->
