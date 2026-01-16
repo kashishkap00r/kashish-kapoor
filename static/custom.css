@@ -1,0 +1,52 @@
+/* Kashish custom tweaks */
+
+.kk-footer {
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+  opacity: 0.92;
+}
+
+.kk-footer__rule {
+  height: 1px;
+  width: 100%;
+  opacity: 0.25;
+  background: currentColor;
+  margin-bottom: 1.25rem;
+}
+
+.kk-footer__inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.kk-footer__line {
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
+.kk-footer__socials {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.kk-footer__link {
+  text-transform: lowercase;
+  letter-spacing: 0.06em;
+  font-size: 0.9em;
+  opacity: 0.9;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  border-bottom-color: rgba(255,255,255,0.25);
+}
+
+.kk-footer__link:hover {
+  border-bottom-color: currentColor;
+  opacity: 1;
+}
