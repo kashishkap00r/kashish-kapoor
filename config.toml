@@ -8,9 +8,6 @@ build_search_index = true
 generate_feeds = true         # Creates RSS feed (corrected from generate_feed)
 compile_sass = true          # Enables Sass/SCSS compilation
 
-taxonomies = [
-    {name = "tags"}
-]
 
 [markdown]
 highlight_code = true
@@ -31,9 +28,8 @@ dynamic_note = true          # Enables dynamic notes feature
 
 # Navigation menu
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/writings", url = "/writings", weight = 1 },
     { name = "/about", url = "/about", weight = 2 },
-    { name = "/tags", url = "/tags", weight = 3 },
 ]
 
 # Social media links
@@ -41,7 +37,9 @@ socials = [
     # Add your social media links here, for example:
     { name = "twitter", url = "https://x.com/kashishkap00r", icon = "twitter" },
     { name = "linkedin", url = "https://www.linkedin.com/in/kashishkap00r", icon = "linkedin" },
-    { name = "email", url = "mailto:kashishkapoor538@gmail.com", icon = "email" }, ]
+    { name = "email", url = "mailto:kashishkapoor538@gmail.com", icon = "mail" }, 
+    { name = "youtube", url = "https://www.youtube.com/@kashishkap00rYT", icon = "youtube" },
+    ]
     
 
 # Optional: Analytics configuration
