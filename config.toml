@@ -25,6 +25,7 @@ toc = false                   # Enable table of contents
 favicon = "/favicon.svg" # Path to your favicon
 fancy_code = true            # Enables fancy code block styling
 dynamic_note = true          # Enables dynamic notes feature
+footer = "Small site. Smaller opinions."
 
 # Navigation menu
 menu = [
