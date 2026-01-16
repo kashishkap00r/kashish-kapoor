@@ -1,17 +1,19 @@
-<footer class="footer">
-  <div class="footer__inner">
-    <p class="footer__text">
+<footer class="kk-footer">
+  <div class="kk-footer__rule"></div>
+
+  <div class="kk-footer__inner">
+    <p class="kk-footer__line">
       {{ config.extra.footer | default(value="Small site. Smaller opinions.") }}
     </p>
 
     {% if config.extra.socials %}
-      <div class="footer__socials">
+      <nav class="kk-footer__socials" aria-label="Social links">
         {% for s in config.extra.socials %}
-          <a href="{{ s.url }}" target="_blank" rel="noopener noreferrer">
+          <a class="kk-footer__link" href="{{ s.url }}" target="_blank" rel="noopener noreferrer">
             {{ s.name }}
           </a>
         {% endfor %}
-      </div>
+      </nav>
     {% endif %}
   </div>
 </footer>
