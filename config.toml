@@ -22,7 +22,7 @@ smart_punctuation = true             # Enables smart punctuation
 theme = "toggle"              # Options: "light", "dark", "auto", "toggle"
 use_cdn = false              # Set to true if you want to use CDN for assets
 toc = true                   # Enable table of contents
-favicon = "/static/favicon.svg" # Path to your favicon
+favicon = "/favicon.svg" # Path to your favicon
 fancy_code = true            # Enables fancy code block styling
 dynamic_note = true          # Enables dynamic notes feature
 
