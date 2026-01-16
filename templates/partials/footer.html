@@ -1,0 +1,17 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__text">
+      {{ config.extra.footer | default(value="Small site. Smaller opinions.") }}
+    </p>
+
+    {% if config.extra.socials %}
+      <div class="footer__socials">
+        {% for s in config.extra.socials %}
+          <a href="{{ s.url }}" target="_blank" rel="noopener noreferrer">
+            {{ s.name }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</footer>
