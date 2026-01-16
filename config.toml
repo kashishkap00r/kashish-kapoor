@@ -40,7 +40,9 @@ menu = [
 socials = [
     # Add your social media links here, for example:
     { name = "twitter", url = "https://x.com/kashishkap00r", icon = "twitter" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/kashishkap00r", icon = "linkedin" },]
+    { name = "linkedin", url = "https://www.linkedin.com/in/kashishkap00r", icon = "linkedin" },
+    { name = "email", url = "mailto:kashishkapoor538@gmail.com", icon = "email" },
+    
 
 # Optional: Analytics configuration
 [extra.analytics]
