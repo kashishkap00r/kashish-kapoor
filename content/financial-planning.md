@@ -1,6 +1,7 @@
 +++
 title = "1:1 Money Help"
 description = "Personal finance is personal. I help you build a simple system and take action."
+date = 2026-01-22
 +++
 
 Personal finance is more personal, than finance.  
