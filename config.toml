@@ -30,7 +30,7 @@ dynamic_note = true          # Enables dynamic notes feature
 menu = [
     { name = "/writings", url = "/writings", weight = 1 },
     { name = "/about", url = "/about", weight = 2 },
-    { name = "/financial-planning", url = "/financial-planning", weight = 3 },
+    { name = "/financial planning", url = "/financial-planning", weight = 3 },
 ]
 
 # Social media links
