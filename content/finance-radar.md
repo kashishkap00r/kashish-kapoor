@@ -44,8 +44,8 @@ Still early, still experimental — but directionally focused on improving signa
 ## How it’s built (lightly)
 
 FinanceRadar is built on top of:
-- **[Miniflux]([url](https://miniflux.app/))**, an open-source RSS reader
-- hosted on a **VPS via [DigitalOcean]([url](https://cloud.digitalocean.com/))**
+- **[Miniflux](https://miniflux.app/)**, an open-source RSS reader
+- hosted on a **VPS via [DigitalOcean](https://cloud.digitalocean.com/)**
 - with custom logic on top to clean, filter, and present the feed
 
 Nothing fancy. Just open-source tools stitched together to solve a very real personal problem.
