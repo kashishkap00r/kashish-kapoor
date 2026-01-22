@@ -31,7 +31,7 @@ menu = [
     { name = "/writings", url = "/writings", weight = 1 },
     { name = "/about", url = "/about", weight = 2 },
     { name = "/financial planning", url = "/financial-planning", weight = 3 },
-    { name = "/finance radar", url = "/finance-radar", weight = 4 },
+    { name = "/financeradar", url = "/finance-radar", weight = 4 },
 ]
 
 # Social media links
