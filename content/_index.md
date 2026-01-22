@@ -24,8 +24,7 @@ Most of my writing is here:
 
 ## Quickest way to reach me
 
-DM me on LinkedIn:  
-[linkedin.com/in/kashishkap00r →](https://www.linkedin.com/in/kashishkap00r/)
+DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
 
 ---
 
