@@ -1,10 +1,8 @@
 +++
-title = "Kashish Kapoor"
+title = "Hey, I'm Kashish Kapoor"
 template = "homepage.html"
 description = "Finance writing + a little bit of fitness."
 +++
-
-# Hey, I’m Kashish.
 
 I work at **Zerodha** in **Bangalore**.  
 I write about money, markets, and how to think clearly — and I’m pretty into **fitness** (cricket, runs, gym… the usual damage).
