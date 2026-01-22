@@ -4,6 +4,7 @@ description = "Personal finance is personal. I help you build a simple system an
 +++
 
 Personal finance is more personal, than finance.  
+
 You don’t need more “financial literacy”. You need a simple structure that fits *your* life — and the push to actually act on it.
 
 That's why I do 1:1 sessions with early–mid career professionals (salaried or freelance) who want clarity and momentum with money.
@@ -16,6 +17,7 @@ Most people aren’t stuck because they don’t know the basics. It's because th
 This makes the decisions messy, and the action gets delayed.
 
 What I bring is not secret knowledge.  
+
 I bring **structure**, **simplicity**, and a bias towards **doing the next right thing**.
 
 ---
