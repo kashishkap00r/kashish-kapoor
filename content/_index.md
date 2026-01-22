@@ -19,7 +19,7 @@ Most of my writing is here:
 - **The Daily Brief (Zerodha)** → [read it](https://thedailybrief.zerodha.com/)
 - **The Chatter (Zerodha)** → [read it](https://thechatterbyzerodha.substack.com/)
 
-(Yes, my `[/writings](https://kashishkapoor.com/writings)` page is a bit outdated right now.)
+(Yes, my `/writings` page is a bit outdated right now.)
 
 ---
 
