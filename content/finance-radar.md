@@ -1,6 +1,7 @@
 +++
 title = "FinanceRadar"
 description = "A lightweight tool I built to clean news noise and speed up financial research."
+date = 2026-01-22
 +++
 
 [FinanceRadar](http://app.financeradar.kashishkapoor.com) is a small internal tool I built for myself.
