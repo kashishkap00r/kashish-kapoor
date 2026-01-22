@@ -3,7 +3,7 @@ title = "FinanceRadar"
 description = "A lightweight tool I built to clean news noise and speed up financial research."
 +++
 
-FinanceRadar is a small internal tool I built for myself.
+[FinanceRadar](http://app.financeradar.kashishkapoor.com) is a small internal tool I built for myself.
 
 I wanted a way to track financial and business news for my job @ Zerodha without:
 - doomscrolling
