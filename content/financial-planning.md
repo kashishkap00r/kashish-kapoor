@@ -3,8 +3,6 @@ title = "1:1 Money Help"
 description = "Personal finance is personal. I help you build a simple system and take action."
 +++
 
-# 1:1 Money Help.
-
 Personal finance is personal.  
 You don’t need more “financial literacy”. You need a simple structure that fits *your* life — and the push to actually act on it.
 
