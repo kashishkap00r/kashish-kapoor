@@ -1,6 +1,6 @@
 +++
 title = "Kashish Kapoor"
-description = "Finance writing + a lot of fitness."
+description = "Finance writing + a little bit of fitness."
 +++
 
 # Hey, I’m Kashish.
