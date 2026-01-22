@@ -1,10 +1,45 @@
 +++
-title = "Kashish's Blog"
-template = "homepage.html"
+title = "Kashish Kapoor"
+description = "Finance writing + a lot of fitness."
 +++
 
-Hi! I'm Kashish Kapoor. This is my personal blog where I share my thoughts and experiences about technology, web development, and digital innovations.
+# Hey, I’m Kashish.
 
-You can find my latest posts in the [posts section](/posts) or learn more [about me](/about).
+I work at **Zerodha** in **Bangalore**.  
+I write about money, markets, and how to think clearly — and I’m pretty into **fitness** (cricket, runs, gym… the usual damage).
 
-Feel free to connect with me on [Twitter](https://x.com/kashishkap00r) or [LinkedIn](https://www.linkedin.com/in/kashishkap00r).
+Want the longer version? [Know more about me →](/about/)
+
+---
+
+## Where I write
+
+Most of my writing is here:
+
+- **The Daily Brief (Zerodha)** → [read it](https://thedailybrief.zerodha.com/)
+- **The Chatter (Zerodha / Substack)** → [read it](https://thechatterbyzerodha.substack.com/)
+
+(Yes, my `/writings` page is a bit outdated right now.)
+
+---
+
+## Quickest way to reach me
+
+DM me on LinkedIn:  
+[linkedin.com/in/kashishkap00r →](https://www.linkedin.com/in/kashishkap00r/)
+
+---
+
+## If you want 1:1 help with money
+
+I do a small amount of **1:1 money help** — very practical, very action-oriented.
+
+[See what that looks like →](/financial-planning/)
+
+---
+
+## Small side project
+
+I built a lightweight news dashboard called **FinanceRadar** for my own research workflow.
+
+[See FinanceRadar →](/finance-radar/)
