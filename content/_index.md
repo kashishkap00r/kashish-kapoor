@@ -1,5 +1,6 @@
 +++
 title = "Kashish Kapoor"
+template = "homepage.html"
 description = "Finance writing + a little bit of fitness."
 +++
 
