@@ -17,9 +17,9 @@ Want the longer version? [Know more about me →](/about/)
 Most of my writing is here:
 
 - **The Daily Brief (Zerodha)** → [read it](https://thedailybrief.zerodha.com/)
-- **The Chatter (Zerodha / Substack)** → [read it](https://thechatterbyzerodha.substack.com/)
+- **The Chatter (Zerodha)** → [read it](https://thechatterbyzerodha.substack.com/)
 
-(Yes, my `/writings` page is a bit outdated right now.)
+(Yes, my `[/writings](https://kashishkapoor.com/writings)` page is a bit outdated right now.)
 
 ---
 
