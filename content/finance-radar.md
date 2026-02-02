@@ -1,10 +1,9 @@
 +++
 title = "FinanceRadar"
 description = "A lightweight tool I built to clean news noise and speed up financial research."
-date = 2026-01-22
 +++
 
-[FinanceRadar](http://app.financeradar.kashishkapoor.com) is a small internal tool I built for myself.
+[FinanceRadar](http://financeradar.kashishkapoor.com) is a small internal tool I built for myself.
 
 I wanted a way to track financial and business news for my job @ Zerodha without:
 - doomscrolling
@@ -57,7 +56,7 @@ Nothing fancy. Just open-source tools stitched together to solve a very real per
 
 You can explore the live dashboard here:
 
-[Open FinanceRadar →](https://app.financeradar.kashishkapoor.com)
+[Open FinanceRadar →](https://financeradar.kashishkapoor.com)
 
 ---
 
