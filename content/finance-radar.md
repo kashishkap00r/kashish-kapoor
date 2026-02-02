@@ -16,7 +16,7 @@ So I vibe-coded a system that pulls from 50+ credible sources, cleans the feed, 
 
 ## What it does (today)
 
-FinanceRadar is **V1**.
+FinanceRadar is now **V2**.
 
 Right now, it:
 - aggregates news from curated, high-quality sources
@@ -30,7 +30,7 @@ It’s a **workflow tool** — built to make idea generation for my writings (sl
 
 ## What’s coming next
 
-In **V2**, I plan to layer in AI-driven filtering and prioritisation.
+In **V3**, I plan to layer in AI-driven filtering and prioritisation.
 
 The idea is not “AI summaries for everything”, but:
 - better clustering of similar stories
@@ -41,14 +41,21 @@ Still early, still experimental — but directionally focused on improving signa
 
 ---
 
-## How it’s built (lightly)
+## V1 → V2 (what changed)
 
-FinanceRadar is built on top of:
-- **[Miniflux](https://miniflux.app/)**, an open-source RSS reader
-- hosted on a **VPS via [DigitalOcean](https://cloud.digitalocean.com/)**
-- with custom logic on top to clean, filter, and present the feed
+**V1** was built on:
+- **[Miniflux](https://miniflux.app/)** (open-source RSS reader)
+- hosted on a **DigitalOcean VPS**
+- with custom logic layered on top to clean and present the feed
 
-Nothing fancy. Just open-source tools stitched together to solve a very real personal problem.
+It worked, but it cost me **~₹1,000/month** to keep a VPS running.
+
+**V2** is completely different:
+- a lightweight Python script generates a static `index.html`
+- **GitHub Actions** runs it hourly
+- **Cloudflare Pages** hosts it for free on my domain
+
+So the same workflow is now **zero-cost**, easier to maintain, and faster to load.
 
 ---
 
