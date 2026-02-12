@@ -39,5 +39,5 @@ I do a small amount of **1:1 money help** — very practical, very action-orient
 
 ## Side projects
 
-- **FinanceRadar**: a lightweight news dashboard I use for my own research workflow. [See FinanceRadar →](/finance-radar/)
-- **CompanyRadar**: a place where our Markets by Zerodha work is organized by company so you can discover it in one place. [See CompanyRadar →](/company-radar/)
+- **[FinanceRadar](/finance-radar/)**: a lightweight news dashboard I use for my own research workflow.
+- **[CompanyRadar](/company-radar/)**: a place where our Markets by Zerodha work is organized by company so you can discover it in one place.
