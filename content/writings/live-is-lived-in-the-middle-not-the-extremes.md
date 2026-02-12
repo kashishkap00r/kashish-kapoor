@@ -66,7 +66,7 @@ That’s where things went south for Zerodha because I knew I could charm anyone
 
 All this while, the anticipation of joining the largest and most reputed stock broking firm in the country (maybe the world) built up so much. I even got interviewed by Nithin in my final round, where I outright told him, that regardless of the outcome of the interview I am getting a pic clicked with him.
 
-![AD 4nXeqAp3clW6I0z8STvkLtczKDlvvnoJTImTIrcAVjSica0NLiT8EYJe8f2jr9KVQCqkKMJTIcoFM](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqAp3clW6I0z8STvkLtczKDlvvnoJTImTIrcAVjSica0NLiT8EYJe8f2jr9KVQCqkKMJTIcoFMXMa8YS9olHWij5jG1wxkLcLLOhhWCGYzNTgtg1yHaBtNQAE2bLEf4C0KjVJ7yQ5CSpUFtU0n_R0LlQU?key=r4wpax8u9yEBd6OY-iSoEA)
+![Photo with Nithin](/images/writings/live-is-lived-in-the-middle-not-the-extremes/image-01.jpg)
 
 No points for guessing, but my interview went great, as expected, and I now waited for the offer letter.
 
@@ -84,9 +84,9 @@ So never really stayed at a geographical location long enough to call it home. F
 
 And I got really ill away from my family recently. It was navratri and garba season. I am not a big party person, but Garba is not a thing I can say no to.&nbsp;
 
-![AD 4nXdPzvYA9laaBXjGYWLsC6gRIdrAJlnsgLzMRGWWV6uEIXODlGFBUy7GPG0iEJ7vJ3m FK9880eL](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPzvYA9laaBXjGYWLsC6gRIdrAJlnsgLzMRGWWV6uEIXODlGFBUy7GPG0iEJ7vJ3m_FK9880eLpP1ffM_aUZesR1u22WoTX4nrn8yqgkRMXgQmXEY4YkseW2HE3s56Ic4x-viaZKXzFtNUjDZMnxHI5AqP?key=r4wpax8u9yEBd6OY-iSoEA)
+![Garba night](/images/writings/live-is-lived-in-the-middle-not-the-extremes/image-02.webp)
 
-![AD 4nXdAyJ7MWfr YRtxQ MUQ7XC78sd42XxTvLKmzT RPRUIII atSfDX1DdAItTVFnDTrF7LcV9dBb](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAyJ7MWfr_YRtxQ_MUQ7XC78sd42XxTvLKmzT_RPRUIII_atSfDX1DdAItTVFnDTrF7LcV9dBbb77rix1SnkiAKuDUjphoiejQZbHS_Z0BFigIbaUpn8poswEV5OBeFF83G6Yue5pksKW8IEjP6P5W79k?key=r4wpax8u9yEBd6OY-iSoEA)
+![Garba night photo](/images/writings/live-is-lived-in-the-middle-not-the-extremes/image-03.jpg)
 
 So I went for a couple of nights. It was Friday night. After an exhausting garba session when I was already covered in sweat, it rained and I got drenched. Add to that, I stayed wet (😜) long enough to not let my immune system stand even a remote chance of fighting off illness. And I got ill.
 

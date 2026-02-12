@@ -50,8 +50,9 @@ But guess what actually happened? Credit growth accelerated.
 
 Yes, loans grew from <strong>10% to 17%</strong>, even as borrowing costs skyrocketed. The very thing that was supposed to slow down—picked up speed.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Source: India Data Hub & Investing.com
+![RBI repo rate vs credit growth](/images/writings/what-did-i-learn-in-2024/medium-01.png)
+
+*Source: India Data Hub & Investing.com*
 
 The market did what it wanted, despite what the textbooks would have predicted.
 
