@@ -14,6 +14,12 @@
             Nothing here?!
         {% endblock main_content %}
 
+        <footer class="site-footer" role="contentinfo">
+            <span class="site-footer-copy">© <span id="site-footer-year">2026</span> Kashish</span>
+            <span class="site-footer-sep">·</span>
+            <span id="site-footer-witty" class="site-footer-witty">Thanks for scrolling all the way down like a responsible internet citizen.</span>
+        </footer>
+
         {% if page.extra.comment is defined  %}
             {% set show_comment = page.extra.comment %}
         {% else %}
@@ -25,6 +31,27 @@
         {% include "_giscus_script.html" %}
         {% endif %}
     </div>
+    <script>
+        (function () {
+            var yearEl = document.getElementById("site-footer-year");
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
+
+            var wittyEl = document.getElementById("site-footer-witty");
+            if (!wittyEl) {
+                return;
+            }
+
+            var lines = [
+                "If you made it this far, you probably optimize your coffee too.",
+                "Thanks for scrolling all the way down like a responsible internet citizen.",
+                "Congratulations. You found the least useful but most honest part of the page."
+            ];
+            var line = lines[Math.floor(Math.random() * lines.length)];
+            wittyEl.textContent = line;
+        })();
+    </script>
 </body>
 
 </html>
