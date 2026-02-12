@@ -23,12 +23,6 @@ Most of my writing is here:
 
 ---
 
-## Quickest way to reach me
-
-DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
-
----
-
 ## Side projects
 
 **[Financial Planning](/financial-planning/)**: a comprehensive 1:1 personal finance help for early/mid-career professionals.
@@ -36,3 +30,9 @@ DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
 **[FinanceRadar](/finance-radar/)**: a lightweight news dashboard I use for my own research workflow.
 
 **[CompanyRadar](/company-radar/)**: a place where our Markets by Zerodha work is organized by company so you can discover it in one place.
+
+---
+
+## Quickest way to reach me
+
+DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
