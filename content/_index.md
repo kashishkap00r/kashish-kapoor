@@ -31,7 +31,7 @@ DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
 
 ## Side projects
 
-**[Financial Planning](/financial-planning/)**: a comprehensive 1:1 money help to early/mid-career professionals.
+**[Financial Planning](/financial-planning/)**: a comprehensive 1:1 personal finance help for early/mid-career professionals.
 
 **[FinanceRadar](/finance-radar/)**: a lightweight news dashboard I use for my own research workflow.
 
