@@ -11,7 +11,9 @@ The core idea is simple: instead of reading edition by edition, I wanted to read
 
 ## What it does
 
-CompanyRadar turns The Chatter archive into company-centric pages by:
+Our team at Markets by Zerodha publishes a lot of company-focused work across [The Daily Brief](https://thedailybrief.zerodha.com/) and [The Chatter](https://thechatterbyzerodha.substack.com/).
+
+CompanyRadar organizes this work into company-centric pages by:
 
 - scraping historical editions
 - extracting company mentions and quote blocks
@@ -22,10 +24,9 @@ CompanyRadar turns The Chatter archive into company-centric pages by:
 
 ## Why I built it
 
-Most content streams are time-first.  
-Research is usually entity-first.
+For company-wide analysis done by our team, I needed one place where all insights are grouped by company instead of scattered across editions.
 
-If I am tracking one company, I want one clean place to see what has been said about it over time.
+So I built CompanyRadar.
 
 ---
 

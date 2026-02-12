@@ -3,7 +3,7 @@ title = "Projects"
 description = "Small products I build to solve real workflow problems."
 +++
 
-I like building lightweight tools that reduce noise and make decision-making faster.
+I like building tools that help me do my job.
 
 ---
 
