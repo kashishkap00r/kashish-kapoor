@@ -37,10 +37,7 @@ provoking dialogues that made me fall in love with this movie.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh6.googleusercontent.com/mGnhac2HNfTMwCo2DY6SGQhUdilxKdOjSsNXxnkEErli28aaSI70iCj5HlK62J9_HEfrFaBFrC7Lbi27rQ8Dr2vpkP140JumWCs8UpB-olSh5DuDKcCGqvfDynrUf8omZwPs129oSkLKcm8aqD04mt1k8vjiFzS71fiRV5G6MdjLIv1X5X4U8jFO2yOuDA" />
-</figure>
+![mGnhac2HNfTMwCo2DY6SGQhUdilxKdOjSsNXxnkEErli28aaSI70iCj5HlK62J9 HEfrFaBFrC7Lbi27](https://lh6.googleusercontent.com/mGnhac2HNfTMwCo2DY6SGQhUdilxKdOjSsNXxnkEErli28aaSI70iCj5HlK62J9_HEfrFaBFrC7Lbi27rQ8Dr2vpkP140JumWCs8UpB-olSh5DuDKcCGqvfDynrUf8omZwPs129oSkLKcm8aqD04mt1k8vjiFzS71fiRV5G6MdjLIv1X5X4U8jFO2yOuDA)
 
 \
 While we spend most of our time attempting to understand others around
@@ -76,10 +73,7 @@ Knowledge is power. Knowledge of oneself is a bliss.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh4.googleusercontent.com/DT9Vt5g_xXlhdjceoF6UhmAAupYwPOu-F1RE52XTomUhVYTzdPuY60F6r3Psu0HocJhLD1elaF7FsY0EufCrQWwHyAanvmnnW3OW6_9rLvmudNlizrcOLTkixv24xkKEkSEd2RRUuY7ucUyT26AEYhNjhsVrTJ8i78mF3LwR5UI583DJ5Rj3w8zc6Pt6TA" />
-</figure>
+![DT9Vt5g xXlhdjceoF6UhmAAupYwPOu F1RE52XTomUhVYTzdPuY60F6r3Psu0HocJhLD1elaF7FsY0E](https://lh4.googleusercontent.com/DT9Vt5g_xXlhdjceoF6UhmAAupYwPOu-F1RE52XTomUhVYTzdPuY60F6r3Psu0HocJhLD1elaF7FsY0EufCrQWwHyAanvmnnW3OW6_9rLvmudNlizrcOLTkixv24xkKEkSEd2RRUuY7ucUyT26AEYhNjhsVrTJ8i78mF3LwR5UI583DJ5Rj3w8zc6Pt6TA)
 
 \
 I talked to many people my age since moving to Bangalore. Struck deep
@@ -111,10 +105,7 @@ Stop being stupid.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh5.googleusercontent.com/jyCWTOjROdkd8cFt4x_99Ep9TnbYidKALpJ5SosGw1WjbhVBk62UQI3fiuon6aMY-f8CfoIiyvB-T2v0NeM8h8Riqg9D7FWRtogtYRbImRKZhxlzZPSVaKXyjieeatsKuuuiQdEa_7B8TuHkIQ4_in39L9MX4OFugvBOnjC-Iz1PuKJAeDF5a7GsAImnlQ" />
-</figure>
+![jyCWTOjROdkd8cFt4x 99Ep9TnbYidKALpJ5SosGw1WjbhVBk62UQI3fiuon6aMY f8CfoIiyvB T2v0](https://lh5.googleusercontent.com/jyCWTOjROdkd8cFt4x_99Ep9TnbYidKALpJ5SosGw1WjbhVBk62UQI3fiuon6aMY-f8CfoIiyvB-T2v0NeM8h8Riqg9D7FWRtogtYRbImRKZhxlzZPSVaKXyjieeatsKuuuiQdEa_7B8TuHkIQ4_in39L9MX4OFugvBOnjC-Iz1PuKJAeDF5a7GsAImnlQ)
 
 \
 It's human nature to want to make progress, but becoming better just for
@@ -161,10 +152,7 @@ sustain the pain we've been choosen.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh3.googleusercontent.com/YuwSlff-5UYeRZ_FlIHOW7ZHrnK-evtlxU99JzIvpcdQKmAF9nG1EwcIn6Z7hVBPX37kLjGkGmnqj_EWqJqhW5e7tkmcLrHg7Estw-3NVwpkgTBjdsKS4ZiMXHutXe6_EKDNV4-bdEDaKkAmX2z-lJ_ygm76hkX7EtzAO1gxSJOoYz7lq90om1yE1YI4rA" />
-</figure>
+![YuwSlff 5UYeRZ FlIHOW7ZHrnK evtlxU99JzIvpcdQKmAF9nG1EwcIn6Z7hVBPX37kLjGkGmnqj EW](https://lh3.googleusercontent.com/YuwSlff-5UYeRZ_FlIHOW7ZHrnK-evtlxU99JzIvpcdQKmAF9nG1EwcIn6Z7hVBPX37kLjGkGmnqj_EWqJqhW5e7tkmcLrHg7Estw-3NVwpkgTBjdsKS4ZiMXHutXe6_EKDNV4-bdEDaKkAmX2z-lJ_ygm76hkX7EtzAO1gxSJOoYz7lq90om1yE1YI4rA)
 
 \
 In Fight Club, the Narrator loses everything when his apartment is
@@ -191,10 +179,7 @@ Only when you have lost everything, you are free to do anything.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh4.googleusercontent.com/UQV_innK4KJKX0e5TjLZs0oCeiQtM_UTuwin_CM5_XNmDUi8HlFsap7Tdzmji4LvUHnW3-1rq5PIWaDjb5GUcOo0wt9CHQFgPLQIA-YPItzQ1vn-3ZBuh_1gFpDxUoMe-DKyJWJDm3p2hSkXhULGsB6H-804MB9VJzJ2pLxHw_5H1uoZdd409XlcuaZcTg" />
-</figure>
+![UQV innK4KJKX0e5TjLZs0oCeiQtM UTuwin CM5 XNmDUi8HlFsap7Tdzmji4LvUHnW3 1rq5PIWaDj](https://lh4.googleusercontent.com/UQV_innK4KJKX0e5TjLZs0oCeiQtM_UTuwin_CM5_XNmDUi8HlFsap7Tdzmji4LvUHnW3-1rq5PIWaDjb5GUcOo0wt9CHQFgPLQIA-YPItzQ1vn-3ZBuh_1gFpDxUoMe-DKyJWJDm3p2hSkXhULGsB6H-804MB9VJzJ2pLxHw_5H1uoZdd409XlcuaZcTg)
 
 \
 This is a straight jab to the face of consumerism by Tyler. We have
@@ -217,10 +202,7 @@ Be a creator. Create your own destiny.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh6.googleusercontent.com/Lfv1PxfyNrFlnEq7e-XVckyQ2yE4KAQ6u09Hs06EUOfWeww0IoAh0Reoz3byIE-oVKoY96oNyKl-RrQNMRfrAKGIPXR9GpbvELljveyLf3miQA2ZoNIanY9fU3nQ5h4kUqtUqtkOqUkVN1c8MY5Up1zR8TZsVu45vTKTQA2gg4kocShxqJg9_SLZlZeZzA" />
-</figure>
+![Lfv1PxfyNrFlnEq7e XVckyQ2yE4KAQ6u09Hs06EUOfWeww0IoAh0Reoz3byIE oVKoY96oNyKl RrQN](https://lh6.googleusercontent.com/Lfv1PxfyNrFlnEq7e-XVckyQ2yE4KAQ6u09Hs06EUOfWeww0IoAh0Reoz3byIE-oVKoY96oNyKl-RrQNMRfrAKGIPXR9GpbvELljveyLf3miQA2ZoNIanY9fU3nQ5h4kUqtUqtkOqUkVN1c8MY5Up1zR8TZsVu45vTKTQA2gg4kocShxqJg9_SLZlZeZzA)
 
 \
 We\'re the middle children of the history, no purpose or place, we have
@@ -239,10 +221,7 @@ are let alone give us a chance to improve.
 
 ------------------------------------------------------------------------
 
-<figure class="wp-block-image">
-<img
-src="https://lh6.googleusercontent.com/-wBbZ-ceiJUVBlHWcrFyX3M1ERNqkaHto_jWD7R2nxJDNEZHcrdZan2LG9lE2abadLUnwR0MMZe9lyv2MEBpx08rmzXcHSH94fbxM34yiz7J_k17X1XnTrsAitAIfJfvITOgW0DKXO3KrEYLBxUxC-E7xX9BwCwHZJYRUCXEuUomtWsxZ8qiUyi7B9IKpA" />
-</figure>
+![wBbZ ceiJUVBlHWcrFyX3M1ERNqkaHto jWD7R2nxJDNEZHcrdZan2LG9lE2abadLUnwR0MMZe9lyv2M](https://lh6.googleusercontent.com/-wBbZ-ceiJUVBlHWcrFyX3M1ERNqkaHto_jWD7R2nxJDNEZHcrdZan2LG9lE2abadLUnwR0MMZe9lyv2MEBpx08rmzXcHSH94fbxM34yiz7J_k17X1XnTrsAitAIfJfvITOgW0DKXO3KrEYLBxUxC-E7xX9BwCwHZJYRUCXEuUomtWsxZ8qiUyi7B9IKpA)
 
 \
 This is my most favorite line of the movie.
