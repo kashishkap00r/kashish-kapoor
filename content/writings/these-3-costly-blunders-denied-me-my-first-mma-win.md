@@ -56,9 +56,8 @@ We instinctively seek the <strong>path of least resistance</strong>, yearning fo
 
 <br>In the weeks leading up to the fight, I must confess, my focus had shifted elsewhere.<br><br>The <em>irresistible pull</em> of the gym had captured my attention, and I found myself loving the post-lift pump after bench pressing weight.<br><br>I became addicted to this <a href="/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/" target="_blank" rel="noreferrer noopener">new fitness pursuit</a>, completely neglecting my MMA training in the process.<br><br>Though I had initially intended to strike a balance between <a href="https://gumroad.com/a/219685587/mrrqkh" target="_blank" rel="noreferrer noopener">building muscle</a> and maintaining flexibility, I couldn't resist the magnetic pull of the weight room.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Photo by Anastase Maragos on Unsplash
-> Alt text: Man deadlifting in dark
+
+![Author in black is ready to fight the opponent in orange in an MMA duel](/images/writings/these-3-costly-blunders-denied-me-my-first-mma-win/medium-01.png)
 
 Days turned into weeks without me slipping on my gloves, as I immersed myself in gruelling gym sessions.<br><br>Even a mere couple of days before the match, I pushed myself through an intense leg day, leaving my limbs <em>fatigued</em> and <em>depleted</em> (rookie mistake).<br><br>This <strong>lack of preparation</strong> combined with the <strong>exhaustion</strong> from relentless gym workouts, created the perfect recipe for defeat.<br><br>It became evident that I had not taken my impending match seriously or given it the respect it deserved.
 

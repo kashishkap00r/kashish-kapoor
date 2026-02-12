@@ -18,8 +18,8 @@ With the end goal in mind, I stuck with the course of action of&nbsp;<strong>bul
 
 Now I stand at 23.1 BMI.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Author through the age 14 to 21
+
+![Embedded image](/images/writings/healthwise-notes-3/medium-01.jpeg)
 
 Looking back, I’ve made good progress towards my goal.
 
@@ -133,8 +133,8 @@ You might have diverse stock portfolios, covering F&amp;O, short-term trading, l
 
 And believe me, my returns are not subpar as well when it comes to my portfolio.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: My MF portfolio XIRR with concentrated bets!
+
+![Author transformation from 18 to 23 BMI](/images/writings/healthwise-notes-3/medium-02.jpg)
 
 Furthermore, my Return on Time Invested (RoTI) is impressive in such cases. I’m not chained to my screen, obsessively tracking positions weekly.
 

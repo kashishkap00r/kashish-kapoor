@@ -6,8 +6,9 @@ draft: false
 ---
 In this mind-bending stress overload world of endless deadlines and back-breaking schedules, we numb ourselves to our true inner conscience and get lost in the oblivion of midless chatter of the modern world.<br><br>Worried either about the byone past or the unknown future, we forget to cherish the beauty of the loving present.<br><br><a href="https://www.artofliving.org/in-en" target="_blank" rel="noreferrer noopener">Art of Living</a> by Gurudev Sri Sri Ravi Shankar is a network of elevated souls that help people like you and me break this monotony of life and I decided to attend its 4-day “<a href="https://www.artofliving.org/happiness-program" target="_blank" rel="noreferrer noopener">Happiness Program</a>” to experience all it had to offer.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Author with fellow practicioners and teachers @ AOL, Bellandur
+
+![Embedded image](/images/writings/lessons-from-art-of-living-happiness-program/medium-01.png)
+
 
 Besides experiencing waves of pure ecstasy and a crystal-clear mental focus in my body and mind by practicing <em>Sudarshan Kriya,</em> here are the top 5 timeless nuggets of knowledge that I want to share.
 
@@ -19,11 +20,13 @@ According to Gurudev Sri Sri Ravi Shankar, the 5 sutras of Art of Living are con
 
 <br>Opposites, whether it is good or bad, light or darkness, or even day and night, are often seen as two separate entities that stand alone.<br><br>However, they are not. They are interdependent, and one has no meaning without the other.<br><br>Without darkness, we cannot appreciate the beauty of light, and without bad, we cannot understand the significance of good. They may seem opposite, but they are complimentary.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Without experiencing the pain of brutally crushing our body in the gym, we will never admire aesthetically beautiful physique that we built.
+
+![Embedded image](/images/writings/lessons-from-art-of-living-happiness-program/medium-02.jpg)
+
+
 
 > **Image unavailable (failed to import during WP migration)**
-> Caption: Without heart wrenching refusal from your crush, you will never value the date you go on to with your next cold approach.
+
 
 If I always had the best of physiques and hottest of romantic partners, they would lose their significance in my life.<br><br>Life is a balance of good and bad, and by embracing this mindset, we can better cope with the challenges and opportunities that life presents.<br><br>When we understand that everything has a purpose, we can appreciate the beauty in every situation, whether good or bad. This leads to a more mindful and calm way of living, helping us to find meaning in every experience.
 

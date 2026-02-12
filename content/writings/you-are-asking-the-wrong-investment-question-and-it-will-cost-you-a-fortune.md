@@ -24,9 +24,10 @@ As I delve into exchanges with individuals newly venturing into the investment w
 
 It's no surprise that many are drawn to the <em>simplicity</em> of the compounding formula:
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Source: Byju's
-> Alt text: A = P(1 + \frac{r}{n})^{nt}
+
+![School Girl with Book in front of natural rustic red brick background holding book up to her face.](/images/writings/you-are-asking-the-wrong-investment-question-and-it-will-cost-you-a-fortune/medium-01.jpeg)
+
+*Photo by Siora Photography on Unsplash*
 
 They swiftly realize that in order to maximize the ultimate value, A, their focus should be on r, the <strong>rate of return</strong>.<br><br>But here's the twist: are they correctly identifying "maximization of A" as their <em>ultimate financial objective</em>?
 
@@ -76,8 +77,10 @@ This question opens up a world of possibilities, allowing us to explore a range 
 
 <br>You get the gist.<br><br>Each goal brings its own set of <em>intricacies</em>, <em>time horizons</em>, and <em>sensitivities</em>.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Screenshot from author’s money mastery program
+
+![A = P(1 + \frac{r}{n})^{nt}](/images/writings/you-are-asking-the-wrong-investment-question-and-it-will-cost-you-a-fortune/medium-02.jpg)
+
+*Source: Byju’s*
 
 Acknowledging this <strong>complexity</strong>, it becomes evident that the notion of achieving all these aspirations by merely maximizing returns is <em>naive at best</em>.<br><br>Financial planning requires a <strong>nuanced approach</strong> that considers your <em>specific goals</em>, <em>risk tolerance</em>, <em>timeframes</em>, and <em>personal circumstances</em>.
 

@@ -52,6 +52,8 @@ You must confront and acknowledge the truth that all your actions today, will al
 
 <br>Shadowing with unyielding persistence this blueprint for badassery can set you on the right path - but just like physical toughness, mental toughness comes with repeating acts of discomfort and resistance to build that strength.<br><br>Just like lifting heavy weight force your physical muscles to grow, you can start with these small acts as a practice of mental toughness to build ironclad resilience that can weather any storm -<br><br>&gt; Take cold showers<br>&gt; Wake up early <br>&gt; Try new physical activities - combat sports, rock climbing<br>&gt; Face fears - asking gorgeous strangers out<br>&gt; Practice self-discipline - <a href="/writings/one-habit-thirty-days-the-experiment-that-transformed-my-physical-mental-and-financial-health/" target="_blank" rel="noreferrer noopener">NoFap</a><br><br><br>Everyone would have read this quote.
 
-> **Image unavailable (failed to import during WP migration)**
+
+![Embedded image](/images/writings/from-ordinary-to-extraordinary-how-to-forge-mental-toughness-like-goggins/medium-01.png)
+
 
 <br>But I feel it is incomplete.<br><br>It should rather be -<br><br>""It is a shame for a man to grow old without seeing the beauty and strength of which his body <strong><mark>and mind</mark></strong> is capable""<br><br>For if you have tamed the wild beast of your mind, you have conquered the world within and unlocked the gateway to limitless possibilities.

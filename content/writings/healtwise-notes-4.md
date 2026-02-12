@@ -74,8 +74,8 @@ While keeping a safe distance from absolute waste supplements like-
 <li>Any other fancy-sounding shit</li>
 </ul>
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: We hate most supplements!
+
+![Embedded image](/images/writings/healtwise-notes-4/medium-01.png)
 
 Although our guidance is on point, exceptions exist.
 
@@ -99,8 +99,8 @@ It is packaged well in an easy-to-consume format for anybody who wants to explor
 
 However, my current favourite book has surpassed even that esteemed title.
 
-> **Image unavailable (failed to import during WP migration)**
 
+![Embedded image](/images/writings/healtwise-notes-4/medium-02.jpg)
 "The Way of the Superior Man" by David Deida is a profound and transformative work that I believe should be required reading for all who seek to live a fulfilling and purposeful life.
 
 Leaving the contents of this masterpiece aside, which in itself is worth immense praise, it is Deida's writing style that stands out amidst the crowd.

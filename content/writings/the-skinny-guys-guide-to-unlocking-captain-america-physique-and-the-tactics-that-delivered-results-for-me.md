@@ -18,14 +18,17 @@ Translating loosely to, "What happened to you? You've become so skinny."<br><br>
 
 The upheaval caused by COVID turned our lives topsy-turvy, leaving no stone unturned.<br><br>While I had always prided myself on being <em>athletically inclined</em>, having even represented my state in <strong>badminton nationals</strong>, the pandemic imposed severe limitations on my <em>exercise routines</em> and restricted my <em>meals</em> to a meagre maximum of twice a day.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: The author playing badminton nationals (in yellow)
-> Alt text: Author playing badminton nationals
+
+![Author’s transformation from age 15 to 21.](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-01.jpeg)
+
+*Age 15 vs 21 (Photo collage by the author)*
 
 It doesn't require a team of rocket scientists to grasp that a <strong>lack of exercise</strong> coupled with <strong>reduced caloric intake</strong> can render one weak and feeble.<br><br>To make matters worse, I found myself entangled in a web of <a href="/writings/dating-mistakes-to-avoid/#:~:text=Story%20Time!,by%20yours%20truly." target="_blank" rel="noreferrer noopener">dating woes</a>, battling the clutches of <a href="/writings/the-silent-epidemic-why-mental-health-is-the-biggest-crisis-facing-our-generation/" target="_blank" rel="noreferrer noopener">depression</a>.<br><br>This combination of physical and emotional setbacks threatened to transform me into the spitting image of <strong>Christian Bale</strong> from "The Machinist."
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Christing Bale in The Machinist
+
+![The author playing a badminton match. The author in yellow is serving to the opponent in blue.](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-02.jpg)
+
+*The author playing badminton nationals (in yellow)*
 
 Without a doubt, I felt not only physically frail but also <strong>unattractive</strong>. With barely a <em>shred of visible muscle</em>, my body lacked any appealing features.<br><br>I had long lived under the <em>illusion</em> that my leanness, accompanied by those <strong>elusive six-pack abs</strong>, equated to good health.<br><br>It was only later, in a moment of <em>epiphany</em>, that I realized I wasn't lean but merely skinny.
 
@@ -39,8 +42,10 @@ Those visible abs were <strong>NOT</strong> a testament to a <em>muscular abdome
 
 Much like the awe-inspiring transformation of <em>Steve Rogers</em>, the skinny Brooklyn kid turned into the superhuman strength and chiselled physique of <strong>Captain America</strong>, I too have discovered the secrets akin to the "Super-Soldier Serum" that propelled my own journey towards a remarkable change.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: The ultimate body transformation by Captain America
+
+![Extremely emacipated Christing Bale in The Machinist](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-03.jpg)
+
+*Christing Bale in The Machinist; Source - IMDB*
 
 ## [1] Eat until you puke
 
@@ -70,8 +75,10 @@ Calorie in &gt; Calorie out: You gain weight (enter the caloric surplus)<br>Calo
 
 <br>But by restricting myself to a mere two meals per day, I unwittingly plunged into a destructive cycle.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Destructive Cycle of Poor Diet; Created by Author using Canva
+
+![Author’s transformation from age 15 to 21.](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-01.jpeg)
+
+*Age 15 vs 21 (Photo collage by the author)*
 
 I was inadvertently harming myself, experiencing dwindling energy levels and succumbing to lethargy. This decline in physical activity further suppressed my appetite, leading to an even more diminished food intake.
 
@@ -87,8 +94,10 @@ And this remains the <strong>hardest part</strong> of gyming as well.<br><br>It 
 
 Measuring my calories helped me know how much I was lacking behind.<br><br>This made sure that If I was targeting 3,000 calories a day and was still short by a couple hundred by the end, I needed to get that milk packet and a <a href="/writings/crackin-the-case-to-drink-or-to-eat-your-eggs/" target="_blank" rel="noreferrer noopener">few eggs</a> and drink them before I could get some ZZZZ.<br><br>Let's clear up any misconceptions about my calorie-tracking obsession though.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Link
+
+![The author playing a badminton match. The author in yellow is serving to the opponent in blue.](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-02.jpg)
+
+*The author playing badminton nationals (in yellow)*
 
 Unlike the unhealthy mindset of letting numbers on an app <em>dictate my mood</em>, which many anti-calorie trackers warn against, I used it as a <strong>tool</strong> to provide much-needed guidance and direction on my nutrition journey.<br><br>And I went from 143 lbs to 165 lbs in no time.<br><br>Happy me!<br><br>Here are a few foods that became a staple in my journey:
 
@@ -112,14 +121,15 @@ Unlike the unhealthy mindset of letting numbers on an app <em>dictate my mood</e
 
 <br>In my quest for a <em>healthier</em> and more <em>muscular</em> physique, I mistakenly opted for <strong>running</strong> as my primary form of exercise.<br><br>Little did I know that I was <em>undermining</em> my own progress by neglecting the power of resistance training.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Sprinters vs Runner
+
+![Extremely emacipated Christing Bale in The Machinist](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-03.jpg)
+
+*Christing Bale in The Machinist; Source - IMDB*
 
 Consider the difference between <strong>sprinters</strong> and <strong>long-distance runners</strong>. The former, with their explosive power and well-defined muscles, embody the results I was seeking.<br><br>It became clear that my preference for galloping 5 kilometers every day across <a href="https://greatruns.com/new-delhi-bonta-park/" target="_blank" rel="noreferrer noopener">my favourite park</a> back in Delhi Campus, accompanied by minimal bodyweight exercises, was <strong>NOT aligning</strong> with my goals.<br><br>Why was resistance training so important for me, you ask?<br><br>Unlike <strong>running</strong>, which primarily improves <em>cardiovascular endurance</em>, <strong>resistance training</strong> stimulates <em>muscle growth</em> and <em>development</em>. It enables progressive overload, where the muscles are consistently challenged with increased resistance, leading to <em>hypertrophy</em> and <em>strength gains</em>.<br><br>Even when I started prioritizing <em>resistance training</em>, I stuck with <strong>bodyweight exercises</strong> and couldn’t have been more wrong.<br><br>While exercises like push-ups, pull-ups, and squats are excellent compound movements, they have limitations in terms of <strong>progressive overload</strong> and targeting <strong>specific muscle groups</strong>.<br><br>There's only so much you can do in terms of repetitions within a set. To build muscle effectively, <strong>progressive overloading</strong> is crucial.<br><br>And it requires providing stimulation that your muscles haven't grown accustomed to.<br><br>Despite being proficient in push-ups, pull-ups, and squats due to my background as a skater, gymnast, and badminton player, I could perform <em>50 push-ups</em> in a single go, yet still not achieve significant muscular hypertrophy.<br><br>It was only when I finally made the decision to join a gym (last month) that I witnessed astounding results.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Photo by Anastase Maragos on Unsplash
-> Alt text: Topless man in black shorts doing barbell bicep curls
+
+![The ultimate body transformation by Captain America](/images/writings/the-skinny-guys-guide-to-unlocking-captain-america-physique-and-the-tactics-that-delivered-results-for-me/medium-04.jpeg)
 
 As a beginner, my muscles responded rapidly to the new regimen. I could visibly observe my chest, back, and shoulder muscles growing within a matter of weeks, accompanied by prominent veins—a <em>testament</em> to the effectiveness of <strong>proper stimulation</strong> and <strong>progressive overload</strong>.<br><br>Running still has its place in my routine as a warm-up activity, but it no longer takes center stage in my workouts.<br><br>I learned two valuable lessons from this:
 

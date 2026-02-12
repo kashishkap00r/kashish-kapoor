@@ -14,8 +14,9 @@ CAN’T fight is fine, but WON’T fight is unacceptable
 
 That's why I decided to break free from the comfort trap and learn how to fight.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Author with his sparring partners @ Kia Kaha, Sarjapur
+
+![Embedded image](/images/writings/beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation/medium-01.png)
+
 
 It's not just about throwing punches and kicks; and definitely not just about the external battles, but also the internal ones.<br><br>Here are 4 ways it helped me -
 
@@ -55,12 +56,13 @@ While bodybuilders may focus solely on increasing muscle mass, combat sports tak
 
 <br>Who says bigger is always better?
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Skinny fighters can demolish opponents twice their size, thanks to their superior strength-to-mass ratio
-> Alt text: rocky-1
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: Can a bodybuilder touch their toes without struggling? Doubtful. But a fighter with flying back kicks as their secret weapon? Absolutely!
+![Embedded image](/images/writings/beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation/medium-02.jpg)
+
+
+
+![Embedded image](/images/writings/beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation/medium-03.jpeg)
+
 
 ###### [4] Natural Testosterone Turbocharger
 
@@ -72,5 +74,6 @@ While bodybuilders may focus solely on increasing muscle mass, combat sports tak
 
 <br>Fighting isn't always about fists flying and blood pumping.<br><br>It's about standing up against injustice, defending your values, and fighting for what you believe in, just like Lord Rama and the mighty Pandavas did!<br><br>It's a courageous act that requires strength, resilience, and determination.<br><br>As the old saying goes, ""If you want peace, be prepared for war.”<br><br>So, gear up to fight for the greater good, be it in the literal or figurative sense, and never shy away from a righteous battle.<br><br>If you still aren't convinced, I would let <a href="/writings/the-movie-that-changed-me-in-2022/">Tyler Durden</a> do the job.
 
-> **Image unavailable (failed to import during WP migration)**
-> Alt text: Tyler Durden Quote
+
+![Embedded image](/images/writings/beyond-kicks-and-punches-how-martial-arts-training-can-ignite-a-remarkable-transformation/medium-04.png)
+

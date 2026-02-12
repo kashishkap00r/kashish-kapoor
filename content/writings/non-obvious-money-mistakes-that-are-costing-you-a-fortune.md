@@ -30,9 +30,9 @@ While the <strong>intentions</strong> are right, <strong>execution</strong> is w
 
 As soon as first paycheque hits your bank account, you are excited to start investing in the <em>swankiest of investment schemes</em> out there.<br><br>Everybody wants to play the equity game and join the ranks of the financially savvy.<br><br>Afterall equity is a <em>profit-printing powerhouse</em> in the <strong>long run</strong> for wealth creation<br><br>That is what every finance content creator tells you. So do I.<br><br><strong>BUT</strong> the wealth creation step comes much later in the stages of <a href="https://kashishkapoor.com/financial-planning/">financial planning</a>.<br><br>Before you start building your <em>wealth empire</em>, you need to lay a <em>solid foundation</em>. And that foundation is your <strong>emergency fund</strong>.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: The Pyramid of Wealth - Strong the foundation, the Taller the Pyramid
-> Alt text: The Pyramid of Wealth - Strong the foundation, Taller the Pyramid
+
+![Embedded image](/images/writings/non-obvious-money-mistakes-that-are-costing-you-a-fortune/medium-01.jpeg)
+
 
 Think of it as a <strong>sturdy base</strong> for your pyramid of wealth. Without it, your structure is going to come crashing down at the <em>slightest tremor</em>.<br><br>Sure, equity is great for long-term growth, but what happens when life throws you a <em>curveball</em>? You don't want to be forced to dip into your investment fund to cover emergency expenses.<br><br>And let's be real, just saving up for emergencies <strong>isn't enough</strong>.<br><br>If you're keeping all that cash in a low-interest bank account, not only are you losing money to inflation, but you're also way more likely to spend it on things you don't need.
 

@@ -10,7 +10,9 @@ Fitness is not a hobby, it's a lifestyle<br><br>It's a commitment to your health
 
 To start with the, we have got to understand the 3 basic foundation pillars of fitness:<br>
 
-> **Image unavailable (failed to import during WP migration)**
+
+![Embedded image](/images/writings/fitting-fitness-in-sneaky-ways-to-stay-active-throughout-the-day/medium-01.png)
+
 
 ##### <br>Nutrition:
 

@@ -16,8 +16,8 @@ I wrote at length about my journey from skinny to muscular&nbsp;<a href="/writin
 
 The number on the BMI scale gave me a wake-up call that something needed to change, which led to a snowball effect on my nutrition and exercise habits.
 
-> **Image unavailable (failed to import during WP migration)**
 
+![Embedded image](/images/writings/healthwise-notes-2/medium-01.png)
 BMI helped me, but the same BMI is giving me shocking a conclusion.
 
 One day I randomly had the most obscure thought in my shower (duh!) of judging the physique of the most aesthetic man on the planet, CBum using BMI.
@@ -86,8 +86,8 @@ Thus, taking loans becomes a necessity and understanding how credit scores work 
 
 While we all understand that a credit score is a report card for your financial life, not everybody knows what goes behind building this score.
 
-> **Image unavailable (failed to import during WP migration)**
 
+![Embedded image](/images/writings/healthwise-notes-2/medium-02.jpg)
 The diagram above simplifies the components contributing to your credit score.
 
 Here are key considerations:

@@ -18,8 +18,8 @@ My singular focus on badminton, Model United Nations (MUNs), and academics sculp
 
 By eschewing distractions like girls and phones, I lived a life I am genuinely proud of.
 
-> **Image unavailable (failed to import during WP migration)**
-> Caption: My badminton coach and me
+
+![Embedded image](/images/writings/evolution-of-my-approach-towards-dating/medium-01.png)
 
 While maintaining this distance from the dating realm, I must admit it wasn't necessarily the right approach for me.
 
