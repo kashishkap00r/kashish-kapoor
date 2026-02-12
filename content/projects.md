@@ -17,6 +17,6 @@ A lightweight finance/news signal dashboard for my personal research workflow.
 
 ## CompanyRadar
 
-A company-first intelligence layer built from The Chatter archive, organized as timeline-style company pages.
+A place where work published by our team at Markets by Zerodha is organized by company, so you can discover it in one place.
 
 [Read more about CompanyRadar →](/company-radar/)
