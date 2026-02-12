@@ -3,7 +3,7 @@ title = "FinanceRadar"
 description = "A hobby project I built to reduce news noise in my daily research workflow."
 +++
 
-FinanceRadar is a small hobby project I built for myself.
+[FinanceRadar](https://financeradar.kashishkapoor.com) is a small hobby project I built for myself.
 
 There is no grand end goal here.  
 I just had a practical problem: I was wasting too much time jumping across sources, seeing the same story repeated, and still missing what actually mattered.
@@ -63,13 +63,6 @@ The project runs as a static site with automated refresh jobs:
 - output is published to `financeradar.kashishkapoor.com`
 
 So maintenance stays low, and the workflow stays reliable.
-
----
-
-## Why I am sharing this
-
-Mostly because this is how I think:  
-if a workflow is noisy, I would rather build a simple system than keep complaining about it.
 
 If you are curious, you can check it here:
 

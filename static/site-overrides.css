@@ -3,3 +3,46 @@
   --header-font: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: "Jetbrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+/* Keep navbar icons visible on first paint without waiting for JS/image loads. */
+.search-button {
+  color: var(--text-0);
+}
+
+.search-button .search-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  fill: #000;
+}
+
+#dark-mode-toggle svg {
+  width: 15px;
+  height: 15px;
+  border: unset;
+}
+
+/* Safe fallback before classes are applied: show moon icon. */
+#dark-mode-toggle #sun-icon {
+  display: none;
+}
+
+#dark-mode-toggle #moon-icon {
+  display: inline-block;
+}
+
+html.dark #dark-mode-toggle #sun-icon {
+  display: inline-block;
+}
+
+html.dark #dark-mode-toggle #moon-icon {
+  display: none;
+}
+
+html.light #dark-mode-toggle #sun-icon {
+  display: none;
+}
+
+html.light #dark-mode-toggle #moon-icon {
+  display: inline-block;
+}

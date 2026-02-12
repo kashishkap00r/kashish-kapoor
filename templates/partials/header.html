@@ -5,6 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="base" content="{{ config.base_url }}">
+    {% set theme = config.extra.theme | default(value="toggle") %}
+
+    {% if theme == "toggle" %}
+    <style>
+        html {
+            visibility: hidden;
+        }
+
+        html[data-theme-initialized="true"] {
+            visibility: visible;
+        }
+    </style>
+    <script>
+        (function () {
+            var mode = "light";
+            try {
+                mode = localStorage.getItem("theme-storage") || "";
+            } catch (e) {
+                mode = "";
+            }
+
+            if (mode !== "dark" && mode !== "light") {
+                var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+                mode = prefersDark ? "dark" : "light";
+            }
+
+            var root = document.documentElement;
+            root.className = mode;
+            root.setAttribute("data-theme-initialized", "true");
+            window.__initialTheme = mode;
+        })();
+    </script>
+    {% endif %}
 
     {% if page.extra.meta %}
          <!-- the meta data config goes here  -->
@@ -136,32 +169,6 @@
 
     {# RSS #}
     <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
-
-
-    {% set theme = config.extra.theme | default(value="toggle") %}
-    {% if theme == "toggle" %}
-        <script>
-            (function () {
-                var mode = null;
-                try {
-                    mode = localStorage.getItem("theme-storage");
-                } catch (e) {
-                    mode = null;
-                }
-
-                if (mode !== "dark" && mode !== "light") {
-                    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-                    mode = prefersDark ? "dark" : "light";
-                }
-
-                document.documentElement.classList.remove("dark", "light");
-                document.documentElement.classList.add(mode);
-                document.documentElement.setAttribute("data-theme-initialized", "true");
-                window.__initialTheme = mode;
-            })();
-        </script>
-    {% endif %}
-
     {% if theme == "dark" %}
         <link rel="stylesheet" type="text/css" href="{{ get_url(path='theme/dark.css') }}" />
     {% elif theme == "light" %}
@@ -196,8 +203,6 @@
                 setTheme("light");
             }
         </script>
-    {% else %}
-        <script>updateItemToggleTheme();</script>
     {% endif %}
 
     <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css") }} />
