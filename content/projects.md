@@ -3,7 +3,7 @@ title = "Projects"
 description = "Small products I build to solve real workflow problems."
 +++
 
-I like building tools that help me do my job.
+I like building tools that make my life easier, at job or otherwise. Also, becayse it's fun and Zerodha takes care of my Claude Code and Codex bill 😄.
 
 ---
 
