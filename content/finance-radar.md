@@ -1,70 +1,76 @@
 +++
 title = "FinanceRadar"
-description = "A lightweight tool I built to clean news noise and speed up financial research."
+description = "A hobby project I built to reduce news noise in my daily research workflow."
 +++
 
-[FinanceRadar](http://financeradar.kashishkapoor.com) is a small internal tool I built for myself.
+FinanceRadar is a small hobby project I built for myself.
 
-I wanted a way to track financial and business news for my job @ Zerodha without:
-- doomscrolling
-- duplicate headlines
-- low-signal content
+There is no grand end goal here.  
+I just had a practical problem: I was wasting too much time jumping across sources, seeing the same story repeated, and still missing what actually mattered.
 
-So I vibe-coded a system that pulls from 50+ credible sources, cleans the feed, and throws out what should actually matter.
+So I built a setup that gives me a cleaner research feed.
 
 ---
 
-## What it does (today)
+## The problem I was trying to solve
 
-FinanceRadar is now **V2**.
+When you track business and market news seriously, the bottleneck is rarely access.  
+It is signal.
 
-Right now, it:
-- aggregates news from curated, high-quality sources
-- removes repetition and obvious noise (read: stock price movement)
-- presents everything in a clean, fast, scrollable view
+Too much noise, too many repeats, too many low-value updates, and too much context-switching.
 
-It’s not a product.  
-It’s a **workflow tool** — built to make idea generation for my writings (slightly) faster and (a lot) calmer.
-
----
-
-## What’s coming next
-
-In **V3**, I plan to layer in AI-driven filtering and prioritisation.
-
-The idea is not “AI summaries for everything”, but:
-- better clustering of similar stories
-- more contextual ranking
-- clearer signals on *what’s actually worth deeper work*
-
-Still early, still experimental — but directionally focused on improving signal, not volume.
+I wanted one place that helps me:
+- scan faster
+- avoid duplicate headlines
+- spend more time on analysis than collection
 
 ---
 
-## V1 → V2 (what changed)
+## What FinanceRadar does now
 
-**V1** was built on:
-- **[Miniflux](https://miniflux.app/)** (open-source RSS reader)
-- hosted on a **DigitalOcean VPS**
-- with custom logic layered on top to clean and present the feed
+Today, it is a lightweight workflow tool that:
 
-It worked, but it cost me **~₹1,000/month** to keep a VPS running.
+- pulls from a broad set of finance/business sources on an hourly cycle
+- filters obvious low-signal items and removes duplicates
+- groups things in a way that makes scanning easier
+- adds a daily AI-ranked shortlist of stories worth paying attention to
+- pulls public brokerage-report updates from selected Telegram channels
 
-**V2** is completely different:
-- a lightweight Python script generates a static `index.html`
-- **GitHub Actions** runs it hourly
-- **Cloudflare Pages** hosts it for free on my domain
-
-So the same workflow is now **zero-cost**, easier to maintain, and faster to load.
+It is still intentionally simple.  
+No dashboards for the sake of dashboards. Just a cleaner pipeline.
 
 ---
 
-## Try it
+## How I use it
 
-You can explore the live dashboard here:
+My flow is straightforward:
+
+1. Open FinanceRadar and do a quick top-level scan
+2. Check the AI shortlist for prioritization
+3. Open only the stories that look worth deeper reading
+4. Save items I want to come back to while writing
+
+That is it.  
+The tool exists to reduce friction in this loop.
+
+---
+
+## Current setup (behind the scenes)
+
+The project runs as a static site with automated refresh jobs:
+- feed aggregation refreshes hourly
+- AI ranking runs daily
+- output is published to `financeradar.kashishkapoor.com`
+
+So maintenance stays low, and the workflow stays reliable.
+
+---
+
+## Why I am sharing this
+
+Mostly because this is how I think:  
+if a workflow is noisy, I would rather build a simple system than keep complaining about it.
+
+If you are curious, you can check it here:
 
 [Open FinanceRadar →](https://financeradar.kashishkapoor.com)
-
----
-
-*This is an evolving tool. I keep it deliberately simple.*
