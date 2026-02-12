@@ -139,6 +139,29 @@
 
 
     {% set theme = config.extra.theme | default(value="toggle") %}
+    {% if theme == "toggle" %}
+        <script>
+            (function () {
+                var mode = null;
+                try {
+                    mode = localStorage.getItem("theme-storage");
+                } catch (e) {
+                    mode = null;
+                }
+
+                if (mode !== "dark" && mode !== "light") {
+                    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+                    mode = prefersDark ? "dark" : "light";
+                }
+
+                document.documentElement.classList.remove("dark", "light");
+                document.documentElement.classList.add(mode);
+                document.documentElement.setAttribute("data-theme-initialized", "true");
+                window.__initialTheme = mode;
+            })();
+        </script>
+    {% endif %}
+
     {% if theme == "dark" %}
         <link rel="stylesheet" type="text/css" href="{{ get_url(path='theme/dark.css') }}" />
     {% elif theme == "light" %}
@@ -147,8 +170,16 @@
         <link rel="stylesheet" type="text/css" href={{ get_url(path="theme/light.css") }} />
         <link rel="stylesheet" type="text/css" href="{{ get_url(path='theme/dark.css') }}" media="(prefers-color-scheme: dark)" />
     {% elif theme == "toggle" %}
-        <link rel="stylesheet" type="text/css" href={{ get_url(path="theme/light.css") }} />
+        <link id="lightModeStyle" rel="stylesheet" type="text/css" href={{ get_url(path="theme/light.css") }} />
         <link id="darkModeStyle" rel="stylesheet" type="text/css" href="{{ get_url(path='theme/dark.css') }}" />
+        <script>
+            (function () {
+                var darkModeStyle = document.getElementById("darkModeStyle");
+                if (darkModeStyle && window.__initialTheme === "light") {
+                    darkModeStyle.disabled = true;
+                }
+            })();
+        </script>
     {% endif %}
 
     <!-- Set the correct theme in the script -->
@@ -166,7 +197,7 @@
             }
         </script>
     {% else %}
-        <script>setTheme(getSavedTheme());</script>
+        <script>updateItemToggleTheme();</script>
     {% endif %}
 
     <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css") }} />
