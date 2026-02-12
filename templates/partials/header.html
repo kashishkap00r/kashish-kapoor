@@ -32,7 +32,8 @@
             }
 
             var root = document.documentElement;
-            root.className = mode;
+            root.classList.remove("dark", "light");
+            root.classList.add(mode);
             root.setAttribute("data-theme-initialized", "true");
             window.__initialTheme = mode;
         })();

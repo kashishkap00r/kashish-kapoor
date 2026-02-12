@@ -1,4 +1,4 @@
-base_url = "/"
+base_url = "https://kashishkapoor.com"
 title = "Kashish"
 description = "Personal blog"
 theme = "apollo"
