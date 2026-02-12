@@ -1,11 +1,9 @@
 +++
 title = "CompanyRadar"
-description = "A company-centric research tool built from The Chatter archive."
+description = "A company-centric research tool built from Markets by Zerodha archive."
 +++
 
-[CompanyRadar](https://companyradar.kashishkapoor.com) is a side project I built to make company-level reading from long-form market content much easier.
-
-The core idea is simple: instead of reading edition by edition, I wanted to read company by company.
+[CompanyRadar](https://companyradar.kashishkapoor.com) is a side project I built to make company-level reading from our long-form market content much easier.
 
 ---
 
@@ -18,7 +16,7 @@ CompanyRadar organizes this work into company-centric pages by:
 - scraping historical editions
 - extracting company mentions and quote blocks
 - mapping quotes to companies
-- building a chronological timeline for each company (oldest to newest)
+- building a chronological timeline for each company (newest to oldest)
 
 ---
 
