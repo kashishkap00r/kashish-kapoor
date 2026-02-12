@@ -4,253 +4,96 @@ date: 2023-04-17T11:08:40
 slug: "one-habit-thirty-days-the-experiment-that-transformed-my-physical-mental-and-financial-health"
 draft: false
 ---
-
-<!-- wp:paragraph -->
 <p>We all have that one soul-sucking addiction that we just can't seem to shake, no matter how hard we try.<br><br>It could be consuming life-destroying substances, booze binging, or mindlessly scrolling through social media for hours on end.<br><br>You've tried every trick in the book to break free from its grasp - from motivational speeches to guilt trips - but nothing seems to work.<br><br>Even though you are cognizant that your victory over this enslaving habit can be life-changing, it is like gum on your shoe, refusing to let go even after you've tried scraping them off with every tool in the box.<br><br>I too was suffering from the agonizing torment of my weakness until I defeated my demons.<br><br>Here is my story -</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+---
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
-<!-- /wp:separator -->
+<p>Just like any other habit, it started with me repetitively engaging in it thinking, I could stop "if" I wanted to, but little did I know I was sliding down the slippery slope of a cesspool of disgust with nothing to pull me back.<br><br>There was no "if" in this scenario.<br><br>Within no time, I was trapped in a cycle of self-indulgence, wasting my time and semen staring at pixels, filling me up with guilt and shame every time I relapsed.<br><br>I had become a Porn-addict.<br><br>Believed to be <a href="https://www.denver7.com/news/local-news/pornography-addiction-grips-young-americans-compared-to-crack-cocaine" target="_blank" rel="noreferrer noopener">as addictive as cocaine</a>, I still couldn't come to terms with the fact that something like this was even possible.<br><br>With unlimited access to uncensored material, a few clicks away free of cost makes the whole system rigged towards making you fall into this pit.</p>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+<figure class="wp-block-pullquote" style="font-size:30px"><blockquote><p>A 5-year old today can see more naked women with click of few buttons than the richest of kings ever could combined in entire history</p></blockquote></figure>
 
-<!-- wp:paragraph -->
-<p>Just like any other habit, it started with me repetitively engaging in it thinking, I could stop ""if"" I wanted to, but little did I know I was sliding down the slippery slope of a cesspool of disgust with nothing to pull me back.<br><br>There was no ""if"" in this scenario.<br><br>Within no time, I was trapped in a cycle of self-indulgence, wasting my time and semen staring at pixels, filling me up with guilt and shame every time I relapsed.<br><br>I had become a Porn-addict.<br><br>Believed to be <a href=""https://www.denver7.com/news/local-news/pornography-addiction-grips-young-americans-compared-to-crack-cocaine"" target=""_blank"" rel=""noreferrer noopener"">as addictive as cocaine</a>, I still couldn't come to terms with the fact that something like this was even possible.<br><br>With unlimited access to uncensored material, a few clicks away free of cost makes the whole system rigged towards making you fall into this pit.</p>
-<!-- /wp:paragraph -->
+<p>It is only after I started reading up on it and found the <a href="https://www.reddit.com/r/NoFap/" target="_blank" rel="noreferrer noopener">NoFap community</a>, I realized that men across the world are a slave to this compulsion.<br><br><em><span style="color: #0e100f;background-color: #F3F2F2" class="stk-highlight">PS: I will be using <a href="https://www.antidopamine.com/stop-porn/what-is-pmo/" target="_blank" rel="noreferrer noopener">PMO</a> henceforth in the blog instead of Porn, Masturbation and Orgasm.</span></em><br><br>As much as the Western media goes on to propagate PMO as a 'healthy and safe sexual activity', I have not once come across any individual (online or IRL) who would thank PMO for their well-being.<br><br>After having experienced myself, and read through countless testimonies of its victims, PMO destroys lives by showing the following symptoms:</p>
 
-<!-- wp:pullquote {""style"":{""typography"":{""fontSize"":""30px""}}} -->
-<figure class=""wp-block-pullquote"" style=""font-size:30px""><blockquote><p>A 5-year old today can see more naked women with click of few buttons than the richest of kings ever could combined in entire history</p></blockquote></figure>
-<!-- /wp:pullquote -->
-
-<!-- wp:paragraph -->
-<p>It is only after I started reading up on it and found the <a href=""https://www.reddit.com/r/NoFap/"" target=""_blank"" rel=""noreferrer noopener"">NoFap community</a>, I realized that men across the world are a slave to this compulsion.<br><br><em><span style=""color: #0e100f;background-color: #F3F2F2"" class=""stk-highlight"">PS: I will be using <a href=""https://www.antidopamine.com/stop-porn/what-is-pmo/"" target=""_blank"" rel=""noreferrer noopener"">PMO</a> henceforth in the blog instead of Porn, Masturbation and Orgasm.</span></em><br><br>As much as the Western media goes on to propagate PMO as a 'healthy and safe sexual activity', I have not once come across any individual (online or IRL) who would thank PMO for their well-being.<br><br>After having experienced myself, and read through countless testimonies of its victims, PMO destroys lives by showing the following symptoms:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {""ordered"":true} -->
-<ol><!-- wp:list-item -->
+<ol>
 <li>Waves of Lethargy</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Confidence Crisis</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Lacking Motivation</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Erectile Dysfunction &amp; Premature Ejaculation</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
+</ol>
 
-<!-- wp:paragraph -->
-<p><br>Don't believe me? Read this one of many stories you can find on r/NoFap of a 42 yr old <a href=""https://www.reddit.com/r/NoFap/comments/o9dzk2/i_was_18_when_i_said_i_need_to_stop_im_now_42/"" target=""_blank"" rel=""noreferrer noopener"">repenting his actions</a>.</p>
-<!-- /wp:paragraph -->
+<p><br>Don't believe me? Read this one of many stories you can find on r/NoFap of a 42 yr old <a href="https://www.reddit.com/r/NoFap/comments/o9dzk2/i_was_18_when_i_said_i_need_to_stop_im_now_42/" target="_blank" rel="noreferrer noopener">repenting his actions</a>.</p>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+---
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
-<!-- /wp:separator -->
+<h6 class="wp-block-heading">What was I missing on?</h6>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {""level"":6} -->
-<h6 class=""wp-block-heading"">What was I missing on?</h6>
-<!-- /wp:heading -->
-
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph -->
 <p>It is not just the downsides, but also all the potential benefits that get unlocked once you embrace NoFap by going on a voluntary semen retention (SR) streak.<br><br>While porn is messing with all the neurological connections in your brain to make you a beta cuck, by flushing the seed of life down the drain you are robbing yourself of your greatest gift as a man.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:quote -->
-<blockquote class=""wp-block-quote""><!-- wp:paragraph -->
+<blockquote class="wp-block-quote">
 <p>Forty meals make a drop of blood, 40 drops of blood make a drop of bone marrow, 40 drops of bone marrow make a drop of semen, the elixir of life.</p>
-<!-- /wp:paragraph --><cite><a href=""https://ocoy.org/monastic-life/practice-of-brahmacharya/chapter-six-value-semen/"">Veda, 1500 BC</a></cite></blockquote>
-<!-- /wp:quote -->
+<cite><a href="https://ocoy.org/monastic-life/practice-of-brahmacharya/chapter-six-value-semen/">Veda, 1500 BC</a></cite></blockquote>
 
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph -->
 <p><em>Virya</em> is the essence of essences and the last <em>dhatu</em> formed out of the blood, making it the most precious fluid generated by the male body.<br><br>If channelized correctly through appropriate asanas one can ejaculate the semen up the spine to nourish the physical body, the heart and the intellect.<br><br>Even science-backed claims for SR suggest the following bodily changes:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
+<ul>
 <li>Increased testosterone level</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Increased stamina</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Sudden decrease in anxiety, depression, anger, stress, greed, fear and shyness</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Fast muscle gain</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Increase in concentration, memory power and problem-solving capability</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>High body immunity (no disease)</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Calmer, clear and more focused mind</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Glowing healthy skin and hair</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Deeper manly voice</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Improved eye-vision and eye colour</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Strong bones, muscles and senses</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Increase in sperm quality &amp; quantity</li>
-<!-- /wp:list-item -->
 
-<!-- wp:list-item -->
 <li>Less but quality sleep</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
+</ul>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+---
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
-<!-- /wp:separator -->
+<h6 class="wp-block-heading">How did I take a U-Turn?</h6>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+<p>Despite having this informational jackpot at my fingertips, my habit seemed to have a mind of its own, stubbornly refusing to budge.<br><br>I threw everything but the kitchen sink at my habit, from porn blockers that were supposed to be Fort Knox-level secure, to sitting in painful meditation sessions that left me feeling more like a contortionist than a Zen master.<br><br>But it seemed like even the gentlest breeze of provocation would knock me off my throne of willpower, sending me tumbling into the abyss of relapse.<br><br>I had done everything but one - talk about it to people around me.<br><br>Locked in the prison of shame and guilt, I had kept my struggles hidden from even my closest friends and family, feeling like a lone ranger battling my addiction.<br><br>But all of this changed on 18th March, 2023 when I met one of my unexpected well-wishers - Neera [<a href="https://www.linkedin.com/in/neeramitrareddy1207/" target="_blank" rel="noreferrer noopener">1</a>][<a href="https://neeramitra-reddy.medium.com/" target="_blank" rel="noreferrer noopener">2</a>]. He was just another one of my internet friends who I looked up to, whom I didn’t think I would confide in the first place.<br><br>As we started talking, I found myself opening up to Neera, a person I never thought would be my confidante. It was like a dam had burst, and I poured out my struggles with a raw honesty I didn't know I had in me.<br><br>I felt a surge of insane courage coursing through my veins. The once formidable beast of addiction now seemed conquerable.<br><br>By both of us sharing our journeys and vulnerabilities and how our audience looks up to us, I couldn’t help but feel empowered at the moment I was in.</p>
 
-<!-- wp:heading {""level"":6} -->
-<h6 class=""wp-block-heading"">How did I take a U-Turn?</h6>
-<!-- /wp:heading -->
+<figure class="wp-block-pullquote" style="font-size:30px"><blockquote><p>The truth is that we cannot heal in isolation. It is through the act of sharing our struggles that we invite the possibility of transformation and growth into our lives.</p></blockquote></figure>
 
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph -->
-<p>Despite having this informational jackpot at my fingertips, my habit seemed to have a mind of its own, stubbornly refusing to budge.<br><br>I threw everything but the kitchen sink at my habit, from porn blockers that were supposed to be Fort Knox-level secure, to sitting in painful meditation sessions that left me feeling more like a contortionist than a Zen master.<br><br>But it seemed like even the gentlest breeze of provocation would knock me off my throne of willpower, sending me tumbling into the abyss of relapse.<br><br>I had done everything but one - talk about it to people around me.<br><br>Locked in the prison of shame and guilt, I had kept my struggles hidden from even my closest friends and family, feeling like a lone ranger battling my addiction.<br><br>But all of this changed on 18th March, 2023 when I met one of my unexpected well-wishers - Neera [<a href=""https://www.linkedin.com/in/neeramitrareddy1207/"" target=""_blank"" rel=""noreferrer noopener"">1</a>][<a href=""https://neeramitra-reddy.medium.com/"" target=""_blank"" rel=""noreferrer noopener"">2</a>]. He was just another one of my internet friends who I looked up to, whom I didn’t think I would confide in the first place.<br><br>As we started talking, I found myself opening up to Neera, a person I never thought would be my confidante. It was like a dam had burst, and I poured out my struggles with a raw honesty I didn't know I had in me.<br><br>I felt a surge of insane courage coursing through my veins. The once formidable beast of addiction now seemed conquerable.<br><br>By both of us sharing our journeys and vulnerabilities and how our audience looks up to us, I couldn’t help but feel empowered at the moment I was in.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:pullquote {""style"":{""typography"":{""fontSize"":""30px""}}} -->
-<figure class=""wp-block-pullquote"" style=""font-size:30px""><blockquote><p>The truth is that we cannot heal in isolation. It is through the act of sharing our struggles that we invite the possibility of transformation and growth into our lives.</p></blockquote></figure>
-<!-- /wp:pullquote -->
-
-<!-- wp:paragraph -->
 <p>He also motivated me to come back on track with all the side hustles I had given up lately under the garbe of an excuse called “job”.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+---
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
-<!-- /wp:separator -->
+<p>I haven’t looked back since that fateful day and have completed 31 days of SR as I write this.<br><br>While the mindset shift after opening up helped, something actionable that I would want my audience to take away would be - keep yourself busy at all times.<br><br>I realized that my relapses were often triggered by having too much free time on my hands.<br><br>So, I took a page out of Neera's book and packed my schedule with every productive activity known to humanity. I became a productivity powerhouse, tackling <a href="/writings/" target="_blank" rel="noreferrer noopener">physical</a>, <a href="/writings/" target="_blank" rel="noreferrer noopener">financial</a>, and <a href="/writings/" target="_blank" rel="noreferrer noopener">mental</a> health goals with gusto.</p>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+<p class="has-text-align-center"><strong>Here is what I managed to achieve in last 30 days</strong></p>
 
-<!-- wp:paragraph -->
-<p>I haven’t looked back since that fateful day and have completed 31 days of SR as I write this.<br><br>While the mindset shift after opening up helped, something actionable that I would want my audience to take away would be - keep yourself busy at all times.<br><br>I realized that my relapses were often triggered by having too much free time on my hands.<br><br>So, I took a page out of Neera's book and packed my schedule with every productive activity known to humanity. I became a productivity powerhouse, tackling <a href=""https://kashishkapoor.com/blog/category/physical-health/"" target=""_blank"" rel=""noreferrer noopener"">physical</a>, <a href=""https://kashishkapoor.com/blog/category/financial-health/"" target=""_blank"" rel=""noreferrer noopener"">financial</a>, and <a href=""https://kashishkapoor.com/blog/category/mental-health/"" target=""_blank"" rel=""noreferrer noopener"">mental</a> health goals with gusto.</p>
-<!-- /wp:paragraph -->
+<p class="has-tiny-font-size"><span style="color: #0b7dc6;" class="stk-highlight"><strong>Financially</strong><br></span>&gt; Revamped my <a href="https://kashishkapoor.com/" target="_blank" rel="noreferrer noopener">personal website</a> using Chat GPT<br>&gt; Resumed writing consistently on <a href="https://www.linkedin.com/in/kashishkap00r/" target="_blank" rel="noreferrer noopener">Linkedin</a><br>&gt; Started hosting l<a href="/writings/" target="_blank" rel="noreferrer noopener">ong-form blogs</a> on my website<br>&gt; Rebooted my <a href="https://kashishkapoor.com/financial-planning/" target="_blank" rel="noreferrer noopener">side hustle</a> of helping young adults make financial plans<br></p>
 
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+<p class="has-text-align-right has-tiny-font-size"><span style="color: #0b7dc6;" class="stk-highlight"><strong>Mentally </strong></span><br>&gt; Completed the <a href="/writings/lessons-from-art-of-living-happiness-program/" target="_blank" rel="noreferrer noopener">4-day Happiness Program</a> by Art of Living <br>&gt; Restarted my habit of reading<br>&gt; Resumed mindful meditations <br>&gt; Did more cold approaches<br>&gt; Completed a trip outside Bangalore with friends</p>
 
-<!-- wp:paragraph {""align"":""center""} -->
-<p class=""has-text-align-center""><strong>Here is what I managed to achieve in last 30 days</strong></p>
-<!-- /wp:paragraph -->
+<p class="has-tiny-font-size"><strong><span style="color: #0b7dc6;" class="stk-highlight">Physically</span></strong><br>&gt; Spent 6 days a week doing MMA along with Rock Climbing every other Sunday <br>&gt; Sparred with my coach in wrestling and took him down<br>&gt; Improved stamina and cardiovascular strength</p>
 
-<!-- wp:paragraph {""fontSize"":""tiny""} -->
-<p class=""has-tiny-font-size""><span style=""color: #0b7dc6;"" class=""stk-highlight""><strong>Financially</strong><br></span>&gt; Revamped my <a href=""https://kashishkapoor.com/"" target=""_blank"" rel=""noreferrer noopener"">personal website</a> using Chat GPT<br>&gt; Resumed writing consistently on <a href=""https://www.linkedin.com/in/kashishkap00r/"" target=""_blank"" rel=""noreferrer noopener"">Linkedin</a><br>&gt; Started hosting l<a href=""https://kashishkapoor.com/blog/"" target=""_blank"" rel=""noreferrer noopener"">ong-form blogs</a> on my website<br>&gt; Rebooted my <a href=""https://kashishkapoor.com/financial-planning/"" target=""_blank"" rel=""noreferrer noopener"">side hustle</a> of helping young adults make financial plans<br></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {""align"":""right"",""fontSize"":""tiny""} -->
-<p class=""has-text-align-right has-tiny-font-size""><span style=""color: #0b7dc6;"" class=""stk-highlight""><strong>Mentally </strong></span><br>&gt; Completed the <a href=""https://kashishkapoor.com/blog/lessons-from-art-of-living-happiness-program/"" target=""_blank"" rel=""noreferrer noopener"">4-day Happiness Program</a> by Art of Living <br>&gt; Restarted my habit of reading<br>&gt; Resumed mindful meditations <br>&gt; Did more cold approaches<br>&gt; Completed a trip outside Bangalore with friends</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {""fontSize"":""tiny""} -->
-<p class=""has-tiny-font-size""><strong><span style=""color: #0b7dc6;"" class=""stk-highlight"">Physically</span></strong><br>&gt; Spent 6 days a week doing MMA along with Rock Climbing every other Sunday <br>&gt; Sparred with my coach in wrestling and took him down<br>&gt; Improved stamina and cardiovascular strength</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph -->
 <p>Not succumbing to the seductive clutches of PMO was like a jab-cross combo to all the negativity in my life. It was a game-changer that not only helped me break free from a harmful habit but also filled my days with a frenzy of productive pursuits.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>Best 30 days of my life.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
+---
 
-<!-- wp:separator {""className"":""is-style-dots""} -->
-<hr class=""wp-block-separator has-alpha-channel-opacity is-style-dots""/>
-<!-- /wp:separator -->
+<h6 class="wp-block-heading">Final Words</h6>
 
-<!-- wp:spacer {""height"":""50px""} -->
-<div style=""height:50px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {""level"":6} -->
-<h6 class=""wp-block-heading"">Final Words</h6>
-<!-- /wp:heading -->
-
-<!-- wp:spacer {""height"":""25px""} -->
-<div style=""height:25px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph -->
 <p>As much as I thank my friend and am grateful for igniting the spark to take things into my own hand, I don't want to take away credit from my own willpower which helped me reach the stage where I am.<br><br>The first fortnight was a breeze, like cruising on autopilot, but then the temptations came knocking at the end of the second week, testing my resolve. But my willpower stood firm, a mighty shield against the onslaught, and saved me from succumbing to old habits.<br><br>I write this with the sole intention to make myself more accountable for my actions and use this medium to open up about my habits to the public.<br><br>Magnifying the effects of what started this snowball effect in the first place - opening up.<br><br>Now there is no shame, only progress.<br><br>There is no going back.<br><br>And if any of my young brothers find themselves stuck at a place I was, my LinkedIn DMs and Email is always open to lend a non-judgemental ear to your experiences.<br><br>If I came back from where I was, the least I owe to others is help them do the same with their life.<br><br>Stay Strong Kings!</p>
-<!-- /wp:paragraph -->

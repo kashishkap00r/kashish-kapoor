@@ -161,7 +161,6 @@ sustain the pain we've been choosen.
 
 ------------------------------------------------------------------------
 
-
 <figure class="wp-block-image">
 <img
 src="https://lh3.googleusercontent.com/YuwSlff-5UYeRZ_FlIHOW7ZHrnK-evtlxU99JzIvpcdQKmAF9nG1EwcIn6Z7hVBPX37kLjGkGmnqj_EWqJqhW5e7tkmcLrHg7Estw-3NVwpkgTBjdsKS4ZiMXHutXe6_EKDNV4-bdEDaKkAmX2z-lJ_ygm76hkX7EtzAO1gxSJOoYz7lq90om1yE1YI4rA" />
@@ -227,10 +226,8 @@ src="https://lh6.googleusercontent.com/Lfv1PxfyNrFlnEq7e-XVckyQ2yE4KAQ6u09Hs06EU
 We\'re the middle children of the history, no purpose or place, we have
 no Great war, no Great depression.
 
-
 > Tough times create strong men, strong men create easy times. Easy
 times create weak men, weak men create tough times
-
 
 Our forefathers were one tough motherfuckers to have created such
 blissful times for us. They fought for our independence so that we could
