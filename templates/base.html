@@ -5,7 +5,7 @@
 
 {% include "partials/header.html" %}
 
-<body>
+<body class="{% if page is defined and page.slug is defined %}page-{{ page.slug }}{% elif section is defined and section.path is defined %}section-{{ section.path | trim_start_matches(pat='/') | trim_end_matches(pat='/') | replace(from='/', to='-') }}{% else %}page-generic{% endif %}">
     <div class="content">
         {% include "partials/nav.html" %}
 
