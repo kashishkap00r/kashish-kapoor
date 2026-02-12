@@ -32,5 +32,7 @@ DM me on [LinkedIn](https://www.linkedin.com/in/kashishkap00r/)
 ## Side projects
 
 **[Financial Planning](/financial-planning/)**: a comprehensive 1:1 money help to early/mid-career professionals.
+
 **[FinanceRadar](/finance-radar/)**: a lightweight news dashboard I use for my own research workflow.
+
 **[CompanyRadar](/company-radar/)**: a place where our Markets by Zerodha work is organized by company so you can discover it in one place.
