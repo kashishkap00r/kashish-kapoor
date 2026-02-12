@@ -5,7 +5,18 @@
 
 {% include "partials/header.html" %}
 
-<body class="{% if page is defined and page.slug is defined %}page-{{ page.slug }}{% elif section is defined and section.path is defined %}section-{{ section.path | trim_start_matches(pat='/') | trim_end_matches(pat='/') | replace(from='/', to='-') }}{% else %}page-generic{% endif %}">
+{% set body_class = "page-generic" %}
+{% if page is defined and page.slug is defined %}
+    {% set body_class = "page-" ~ page.slug %}
+{% elif section is defined and section.path is defined %}
+    {% set section_slug = section.path | trim_start_matches(pat='/') | trim_end_matches(pat='/') | replace(from='/', to='-') %}
+    {% if section_slug == "" %}
+        {% set body_class = "section-home" %}
+    {% else %}
+        {% set body_class = "section-" ~ section_slug %}
+    {% endif %}
+{% endif %}
+<body class="{{ body_class }}">
     <div class="content">
         {% include "partials/nav.html" %}
 

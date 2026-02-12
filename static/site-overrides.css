@@ -211,3 +211,137 @@ html.light #dark-mode-toggle #moon-icon {
     padding: 0.9rem 0.85rem;
   }
 }
+
+.section-home .body {
+  margin-top: 0.4rem;
+}
+
+.section-home .home-shell {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.section-home .home-hero {
+  border: 1px solid var(--bg-2);
+  border-radius: 16px;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at 85% 0%, color-mix(in srgb, var(--primary-color) 16%, transparent), transparent 55%),
+    linear-gradient(150deg, color-mix(in srgb, var(--bg-1) 96%, var(--primary-color) 4%), var(--bg-1));
+}
+
+.section-home .home-hero p {
+  margin: 0 0 0.45rem;
+  line-height: 1.46;
+}
+
+.section-home .home-hero p:last-child {
+  margin-bottom: 0;
+}
+
+.section-home .home-inline-cta {
+  display: inline-block;
+  border: 1px solid var(--text-0);
+  border-bottom-width: 1px;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  font-weight: 600;
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.section-home .home-inline-cta:hover {
+  transform: translateY(-1px);
+}
+
+.section-home .home-card {
+  border: 1px solid var(--bg-2);
+  border-radius: 14px;
+  padding: 0.9rem 0.95rem;
+  background: var(--bg-1);
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.section-home .home-card:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--primary-color) 35%, var(--bg-2));
+}
+
+.section-home .home-card h2 {
+  margin: 0 0 0.42rem;
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+
+.section-home .home-card p {
+  margin: 0.3rem 0;
+  line-height: 1.46;
+}
+
+.section-home .home-card ul {
+  margin: 0.35rem 0 0.2rem;
+  padding-left: 1.05rem;
+}
+
+.section-home .home-card li {
+  margin: 0.22rem 0;
+  line-height: 1.45;
+}
+
+.section-home .home-muted {
+  color: var(--text-1);
+  font-size: 0.86rem;
+}
+
+.section-home .home-reveal {
+  animation: home-fade-up 260ms ease both;
+}
+
+.section-home .home-reveal:nth-child(2) {
+  animation-delay: 40ms;
+}
+
+.section-home .home-reveal:nth-child(3) {
+  animation-delay: 70ms;
+}
+
+.section-home .home-reveal:nth-child(4) {
+  animation-delay: 100ms;
+}
+
+.section-home .home-reveal:nth-child(5) {
+  animation-delay: 130ms;
+}
+
+@keyframes home-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-home .home-reveal {
+    animation: none;
+  }
+
+  .section-home .home-card,
+  .section-home .home-inline-cta {
+    transition: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-home .home-shell {
+    gap: 0.62rem;
+  }
+
+  .section-home .home-hero,
+  .section-home .home-card {
+    padding: 0.82rem 0.84rem;
+    border-radius: 12px;
+  }
+}
