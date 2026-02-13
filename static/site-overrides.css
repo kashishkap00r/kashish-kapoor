@@ -14,6 +14,7 @@
   height: 16px;
   display: block;
   fill: currentColor;
+  filter: none;
 }
 
 #dark-mode-toggle svg {
@@ -22,35 +23,36 @@
   border: unset;
 }
 
-#dark-mode-toggle {
-  appearance: none;
-  -webkit-appearance: none;
-  border: 0;
+/* Force clear icon contrast by mode for both theme toggle and search button. */
+html.dark #dark-mode-toggle,
+html.dark .search-button {
+  color: #fff;
+}
+
+html.light #dark-mode-toggle,
+html.light .search-button {
+  color: rgb(33, 33, 33);
+}
+
+/* Mobile browsers can keep :hover/:focus on tap; keep colors stable there too. */
+html.dark #dark-mode-toggle:hover,
+html.dark #dark-mode-toggle:active,
+html.dark #dark-mode-toggle:focus,
+html.dark .search-button:hover,
+html.dark .search-button:active,
+html.dark .search-button:focus {
+  color: #fff;
   background: transparent;
-  color: var(--text-0);
-  padding: 2px;
-  margin: 0;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#dark-mode-toggle:hover,
-#dark-mode-toggle:active,
-#dark-mode-toggle:focus {
-  color: var(--text-0);
+html.light #dark-mode-toggle:hover,
+html.light #dark-mode-toggle:active,
+html.light #dark-mode-toggle:focus,
+html.light .search-button:hover,
+html.light .search-button:active,
+html.light .search-button:focus {
+  color: rgb(33, 33, 33);
   background: transparent;
-}
-
-#dark-mode-toggle:focus {
-  outline: none;
-}
-
-#dark-mode-toggle:focus-visible {
-  outline: 2px solid var(--primary-color);
-  outline-offset: 2px;
-  border-radius: 4px;
 }
 
 /* Safe fallback before classes are applied: show moon icon. */
