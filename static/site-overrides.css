@@ -22,6 +22,37 @@
   border: unset;
 }
 
+#dark-mode-toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--text-0);
+  padding: 2px;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dark-mode-toggle:hover,
+#dark-mode-toggle:active,
+#dark-mode-toggle:focus {
+  color: var(--text-0);
+  background: transparent;
+}
+
+#dark-mode-toggle:focus {
+  outline: none;
+}
+
+#dark-mode-toggle:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 /* Safe fallback before classes are applied: show moon icon. */
 #dark-mode-toggle #sun-icon {
   display: none;
