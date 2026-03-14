@@ -1,0 +1,18 @@
+---
+import Prose from '../../layouts/Prose.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writings', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<Prose title={post.data.title} date={post.data.date}>
+  <Content />
+</Prose>

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.env
+*.png
+*.jpg
+!public/**
+option-*.png
+option-*.jpg
+ascii-portrait.txt
