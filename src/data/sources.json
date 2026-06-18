@@ -1,0 +1,11 @@
+{
+  "videos": [],
+  "writings": {
+    "ownerFirstName": "Kashish",
+    "publications": [
+      { "name": "The Daily Brief", "base": "https://thedailybrief.zerodha.com" }
+    ],
+    "manualInclude": [],
+    "exclude": []
+  }
+}

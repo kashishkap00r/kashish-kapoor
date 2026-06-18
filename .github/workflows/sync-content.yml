@@ -1,0 +1,58 @@
+name: Sync work content
+
+# Refreshes the /work page data (videos + writing) and deploys.
+# Runs weekly, or on demand. Builds + deploys in the same job so it doesn't
+# depend on a GITHUB_TOKEN push retriggering the deploy workflow.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write          # least privilege: only needs to commit refreshed JSON
+
+concurrency:
+  group: sync-content
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync content (videos + writing)
+        run: npm run sync
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "content-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/videos.json src/data/writings.json src/data/writings-cache.json
+          if git diff --staged --quiet; then
+            echo "No content changes."
+          else
+            git commit -m "chore: sync work content"
+            git push
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: b2dfdac02cef3faa89aec67a542c52cd
+          command: pages deploy dist --project-name=kashish-kapoor --branch=main

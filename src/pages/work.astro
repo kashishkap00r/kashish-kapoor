@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+import videos from '../data/videos.json';
+import writings from '../data/writings.json';
+
+// Projects live inline — small, hand-curated list. Easy to extend.
+const projects = [
+  {
+    title: 'FinanceRadar',
+    blurb: 'A lightweight finance/news signal dashboard for my personal research workflow.',
+    url: '/finance-radar/',
+  },
+];
+
+function fmtDate(value) {
+  const d = new Date(value);
+  if (isNaN(d.valueOf())) return '';
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+<Base title="Work" description="Videos, writing, and the tools I build.">
+  <div class="prose-container">
+    <h1 class="section-title">Work</h1>
+
+    <!-- ─── Videos ─── -->
+    <section id="videos" class="work-section">
+      <h2>Videos</h2>
+      {videos.length === 0 ? (
+        <p class="work-empty">Videos coming soon.</p>
+      ) : (
+        <div class="video-grid">
+          {videos.map(v => (
+            <a class="video-card" href={v.url} target="_blank" rel="noopener">
+              <img src={v.thumbnail} alt={v.title} loading="lazy" width="480" height="270" />
+              <span class="video-title">{v.title}</span>
+            </a>
+          ))}
+        </div>
+      )}
+    </section>
+
+    <!-- ─── Writing ─── -->
+    <section id="writing" class="work-section">
+      <h2>Writing</h2>
+      {writings.length === 0 ? (
+        <p class="work-empty">Pulling in pieces — check back soon.</p>
+      ) : (
+        <ul class="post-list">
+          {writings.map(w => (
+            <li class="post-item">
+              {w.date && <time datetime={w.date}>{fmtDate(w.date)}</time>}
+              <a href={w.url} target="_blank" rel="noopener">{w.title}</a>
+              {w.subtitle && <span class="post-subtitle">{w.subtitle}</span>}
+              {w.publication && <span class="post-meta">{w.publication}</span>}
+            </li>
+          ))}
+        </ul>
+      )}
+      <p class="work-more">Older personal essays live in <a href="/writings/">/writings</a>.</p>
+    </section>
+
+    <!-- ─── Projects ─── -->
+    <section id="projects" class="work-section">
+      <h2>Projects</h2>
+      <ul class="post-list">
+        {projects.map(p => (
+          <li class="post-item">
+            <a href={p.url}>{p.title}</a>
+            <span class="post-subtitle">{p.blurb}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Base>

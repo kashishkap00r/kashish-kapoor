@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "sync:videos": "node scripts/sync-videos.mjs",
+    "sync:writings": "node scripts/sync-writings.mjs",
+    "sync": "npm run sync:videos && npm run sync:writings"
   },
   "dependencies": {
     "astro": "^4.0.0",
