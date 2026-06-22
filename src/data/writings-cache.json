@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-06-17T01:44:35.317Z",
+    "lastScannedDate": "2026-06-22T01:36:51.610Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6261,6 +6261,46 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-06-17T11:14:56.615Z"
+      },
+      "https://thedailybrief.zerodha.com/p/theres-nothing-straight-about-hormuz": {
+        "title": "There’s nothing straight about Hormuz",
+        "subtitle": "And a promise of liquidity for small businesses",
+        "post_date": "2026-06-22T01:36:51.610Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!1slJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F329181a3-6c53-4aa7-825e-3e84342de2f4_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/theres-nothing-straight-about-hormuz",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-06-22T12:21:13.816Z"
+      },
+      "https://thedailybrief.zerodha.com/p/zohra-khan-on-the-business-of-indian": {
+        "title": "Zohra Khan on the business of Indian EV infra",
+        "subtitle": "What does it take to charge India's EVs at scale?",
+        "post_date": "2026-06-20T04:30:34.132Z",
+        "cover_image": "https://substackcdn.com/image/youtube/w_728,c_limit/RPRyUha-xbw",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/zohra-khan-on-the-business-of-indian",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-06-22T12:21:14.097Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-company-behind-every-trade-in": {
+        "title": "Everything you need to know about the NSE IPO",
+        "subtitle": "And did Hormuz open early enough for India’s farms? ",
+        "post_date": "2026-06-19T01:35:12.218Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!dBzs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2afb9735-fb61-422f-aa53-fc7b4566abc9_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-company-behind-every-trade-in",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-06-22T12:21:14.368Z"
+      },
+      "https://thedailybrief.zerodha.com/p/japan-discovers-the-price-of-money": {
+        "title": "Japan discovers the price of money",
+        "subtitle": "And a story on how sovereign debt got more twisted ",
+        "post_date": "2026-06-18T01:48:14.016Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!6W9m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb751b698-63e0-4edb-a24f-010383abe712_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/japan-discovers-the-price-of-money",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-06-22T12:21:14.661Z"
       }
     }
   }
