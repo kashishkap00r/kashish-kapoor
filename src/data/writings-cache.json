@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-06-22T01:36:51.610Z",
+    "lastScannedDate": "2026-06-29T01:48:32.015Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6301,6 +6301,46 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-06-22T12:21:14.661Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indias-data-centres-look-to-the-salty": {
+        "title": "India’s data centres look to the salty seas",
+        "subtitle": "And a story on how the ₹10 battery has a ₹50 crore problem",
+        "post_date": "2026-06-29T01:48:32.015Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!aJ_R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F310caa6b-8845-4d7f-9b90-dcd09d96e9f4_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indias-data-centres-look-to-the-salty",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-06-29T11:18:24.495Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-might-change-how-it-sells-its": {
+        "title": "India might change how it sells its airports",
+        "subtitle": "And where India’s fight against stubble-burning is misguided",
+        "post_date": "2026-06-25T01:44:07.764Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!7jzj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7578bd86-8311-4bee-bbd3-a88f28864161_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-might-change-how-it-sells-its",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-06-29T11:18:24.794Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indias-batteries-are-getting-longer": {
+        "title": "India's batteries are getting longer, not just bigger",
+        "subtitle": "And the unravelling of America’s pension funds.",
+        "post_date": "2026-06-24T01:38:19.146Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!1w6b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24aabfda-a5d1-4026-a7e5-313797db979d_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indias-batteries-are-getting-longer",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-06-29T11:18:25.090Z"
+      },
+      "https://thedailybrief.zerodha.com/p/a-dhan-dhana-dhan-ipo-for-jio": {
+        "title": "A Dhan Dhana Dhan IPO for Jio",
+        "subtitle": "Plus: is India ready for the Super El Nino?",
+        "post_date": "2026-06-23T01:50:17.543Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!XaJM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36b4a780-b510-4cb3-a014-40370350f210_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/a-dhan-dhana-dhan-ipo-for-jio",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-06-29T11:18:25.390Z"
       }
     }
   }
