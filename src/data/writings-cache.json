@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-06-29T01:48:32.015Z",
+    "lastScannedDate": "2026-07-06T01:55:44.010Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6341,6 +6341,56 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-06-29T11:18:25.390Z"
+      },
+      "https://thedailybrief.zerodha.com/p/amazon-goes-for-the-quick-commerce": {
+        "title": "Amazon goes for the quick commerce pie",
+        "subtitle": "Plus: a cursory look at all the recent regulatory changes to Indian banking and finance",
+        "post_date": "2026-07-06T01:55:44.010Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!8ihg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd903cb70-982f-49e7-9f8e-7bc5933ecc07_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/amazon-goes-for-the-quick-commerce",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-06T10:54:32.034Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-long-con-behind-a-fake-zerodha": {
+        "title": "The fake Zerodha SMS scam | Why India's smallest businesses still struggle for credit",
+        "subtitle": "Inside SEBI's pump-and-dump investigation, and what new research says about the credit gap facing India's unincorporated enterprises.",
+        "post_date": "2026-07-03T01:58:32.360Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!04JO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20af6372-6cd2-45c0-8cfc-383a7920b3bc_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-long-con-behind-a-fake-zerodha",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-06T10:54:32.293Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indian-midcap-it-bulks-up-for-a-heavyweight": {
+        "title": "Persistent Systems makes its biggest acquisition ever",
+        "subtitle": "Plus: how does the world’s energy report card score?",
+        "post_date": "2026-07-02T01:48:14.347Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!6r0z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F499bf668-27dd-48b6-bf6c-8d30a699c575_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indian-midcap-it-bulks-up-for-a-heavyweight",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-06T10:54:32.547Z"
+      },
+      "https://thedailybrief.zerodha.com/p/connecting-rural-india-to-the-internet": {
+        "title": "Connecting rural India to the internet",
+        "subtitle": "And can we fix electricity’s demand problem?",
+        "post_date": "2026-07-01T01:48:47.124Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!trpF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64ec5a5e-eeb5-4f64-aeda-9c26b34b1f60_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/connecting-rural-india-to-the-internet",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-06T10:54:32.796Z"
+      },
+      "https://thedailybrief.zerodha.com/p/a-deep-dive-into-the-textile-industry": {
+        "title": "A deep dive into the textile industry",
+        "subtitle": "And how will we find jobs for the next 100 crore workers?",
+        "post_date": "2026-06-30T01:46:22.928Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!82V-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fccd932e6-5f48-41d3-a490-551ec9ea7b28_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/a-deep-dive-into-the-textile-industry",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-06T10:54:33.049Z"
       }
     }
   }
