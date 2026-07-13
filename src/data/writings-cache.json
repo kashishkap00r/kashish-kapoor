@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-07-06T01:55:44.010Z",
+    "lastScannedDate": "2026-07-13T01:34:48.553Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6391,6 +6391,66 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-07-06T10:54:33.049Z"
+      },
+      "https://thedailybrief.zerodha.com/p/cultfit-ipo-gym-fitness-ai-google-search": {
+        "title": "Cult.fit’s IPO promises to lift heavier weights, but can it?",
+        "subtitle": "Plus: How AI is eating the web that feeds it",
+        "post_date": "2026-07-13T01:34:48.553Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!j-m2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92214297-f0c9-4244-a493-8a7f9cce4335_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/cultfit-ipo-gym-fitness-ai-google-search",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-13T09:42:06.324Z"
+      },
+      "https://thedailybrief.zerodha.com/p/fdi-un-investment-outlook-formalisation-india-economy-msme": {
+        "title": "The world’s investment outlook gets bigger and gloomier",
+        "subtitle": "When informal businesses become legible",
+        "post_date": "2026-07-10T02:04:29.942Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!0Gfo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d3730c9-e0f9-40de-8a92-b20c74e411b0_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/fdi-un-investment-outlook-formalisation-india-economy-msme",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-07-13T09:42:06.597Z"
+      },
+      "https://thedailybrief.zerodha.com/p/-ev-chargers-micromax-miphi-memory-ai-data-centre": {
+        "title": "The coordination puzzle staring at India’s EV ambitions",
+        "subtitle": "Plus: The second coming of Micromax",
+        "post_date": "2026-07-09T01:57:46.116Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!LZsj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1477fe66-0332-4688-8aa3-985c84be9790_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/-ev-chargers-micromax-miphi-memory-ai-data-centre",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-07-13T09:42:06.883Z"
+      },
+      "https://thedailybrief.zerodha.com/p/brexit-britain-eu-bankofbaroda-abudhabi-banks": {
+        "title": "Brexit and the price of friction",
+        "subtitle": "Plus: What does Bank of Baroda’s expensive ₹5,700 crore affair in Abu Dhabi say about Indian banks?",
+        "post_date": "2026-07-08T02:06:49.581Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!_zyC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c068468-ad2a-409d-9fae-b28bb86f73e6_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/brexit-britain-eu-bankofbaroda-abudhabi-banks",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-13T09:42:07.169Z"
+      },
+      "https://thedailybrief.zerodha.com/p/introducing-subtext-by-zerodha": {
+        "title": "Introducing: Subtext by Zerodha",
+        "subtitle": "A new podcast series by the Markets by Zerodha team.",
+        "post_date": "2026-07-07T11:48:53.067Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!qGAr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3adcf1fa-21d5-4494-9d84-c2c56180083a_3900x2900.jpeg",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/introducing-subtext-by-zerodha",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-07-13T09:42:07.449Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-bullet-train-aircraft-leasing-gift-city": {
+        "title": "India’s bullet train: kickstarts and standstills",
+        "subtitle": "Plus: India tries to dent the world’s aircraft leasing market",
+        "post_date": "2026-07-07T01:37:53.128Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!rwCB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a7d355-1438-423e-91be-7e1f52e37cb3_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-bullet-train-aircraft-leasing-gift-city",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-13T09:42:07.736Z"
       }
     }
   }
