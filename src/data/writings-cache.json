@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-07-13T01:34:48.553Z",
+    "lastScannedDate": "2026-07-20T01:38:14.804Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6451,6 +6451,56 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-07-13T09:42:07.736Z"
+      },
+      "https://thedailybrief.zerodha.com/p/xbox-microsoft-ai-bubble-hyperscalers": {
+        "title": "A knockout at the XBOX-ing ring of death",
+        "subtitle": "Plus: the anatomy of the AI bubble",
+        "post_date": "2026-07-20T01:38:14.804Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!BCUi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1caad35-c0d8-4e2e-93e0-afddf5d309da_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/xbox-microsoft-ai-bubble-hyperscalers",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-20T09:30:01.238Z"
+      },
+      "https://thedailybrief.zerodha.com/p/airtel-telecom-ken-rbi-rupee-nri-fcnr-deposits": {
+        "title": "The three bodies that couldn’t kill Airtel",
+        "subtitle": "Plus: How NRIs are being called to defend the rupee",
+        "post_date": "2026-07-17T02:15:30.468Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!SnNn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9625d81d-ede7-49b4-9ee2-33aa5745fe5b_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/airtel-telecom-ken-rbi-rupee-nri-fcnr-deposits",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-20T09:30:01.453Z"
+      },
+      "https://thedailybrief.zerodha.com/p/birla-renewable-energy-shell-iron-ore-mining-supremecourt-royalties": {
+        "title": "Birla buys a renewable firm from Shell for $1.8 billion",
+        "subtitle": "Plus: What does iron ore really cost?",
+        "post_date": "2026-07-16T01:51:25.747Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!VxeC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f899505-c739-4e19-a437-760ccb1362e1_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/birla-renewable-energy-shell-iron-ore-mining-supremecourt-royalties",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-20T09:30:01.666Z"
+      },
+      "https://thedailybrief.zerodha.com/p/ev-software-battery-priority-lending-infrastructure": {
+        "title": "Full charge, no power: the software behind EVs",
+        "subtitle": "Plus: Where are the priorities in India’s priority sector lending norms?",
+        "post_date": "2026-07-15T01:53:49.381Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!MpRp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fceb9f77f-cc22-4369-adba-602542644c20_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/ev-software-battery-priority-lending-infrastructure",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-20T09:30:01.890Z"
+      },
+      "https://thedailybrief.zerodha.com/p/sbi-funds-ipo-amc-mutualfunds-land-acquisition-india": {
+        "title": "SBI Funds is going public",
+        "subtitle": "Plus: Why it’s so hard to gather land in India",
+        "post_date": "2026-07-14T01:43:13.823Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!oSY9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34ca3e45-8501-41bc-b3c2-3c82f719c2cc_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/sbi-funds-ipo-amc-mutualfunds-land-acquisition-india",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-20T09:30:02.111Z"
       }
     }
   }
