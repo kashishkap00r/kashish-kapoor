@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-07-20T01:38:14.804Z",
+    "lastScannedDate": "2026-07-27T01:31:52.274Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6501,6 +6501,56 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-07-20T09:30:02.111Z"
+      },
+      "https://thedailybrief.zerodha.com/p/bullet-train-mumbai-undersea-chemical-sector-quality-control-india": {
+        "title": "What does it take to dig underground tunnels?",
+        "subtitle": "Plus: Chemical sector’s trade problem",
+        "post_date": "2026-07-27T01:31:52.274Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!pBxh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Febc82d23-ef52-4e85-87d8-fb4645832ddf_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/bullet-train-mumbai-undersea-chemical-sector-quality-control-india",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-07-27T10:04:46.412Z"
+      },
+      "https://thedailybrief.zerodha.com/p/reliance-results-jio-ipo-trai-truecaller-spam-calls": {
+        "title": "Reliance opens the year on the front foot",
+        "subtitle": "Plus: who decides if you should answer the call?",
+        "post_date": "2026-07-24T01:38:10.230Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!MU80!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8e58393-d261-42bc-be3f-a0259b51cb6b_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/reliance-results-jio-ipo-trai-truecaller-spam-calls",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-07-27T10:04:46.699Z"
+      },
+      "https://thedailybrief.zerodha.com/p/fmcg-industry-moat-genz-quick-commerce-india-global-trade-critical-minerals": {
+        "title": "Is the moat of the FMCG industry changing?",
+        "subtitle": "Plus: A temperature check on India’s trade moves",
+        "post_date": "2026-07-23T01:46:38.244Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!fhJj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9990d824-19cc-40ba-acf3-8375d11c31dc_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/fmcg-industry-moat-genz-quick-commerce-india-global-trade-critical-minerals",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-07-27T10:04:46.971Z"
+      },
+      "https://thedailybrief.zerodha.com/p/critical-minerals-china-dominance-india-mobile-internet-fibre-broadband": {
+        "title": "No More Critical Minerals for the World? ",
+        "subtitle": "Plus: The hidden gap in India’s mobile internet ecosystem",
+        "post_date": "2026-07-22T02:12:51.203Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!ESOJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e4830b3-d6c8-4292-ab27-46eb167f6b03_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/critical-minerals-china-dominance-india-mobile-internet-fibre-broadband",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-27T10:04:47.259Z"
+      },
+      "https://thedailybrief.zerodha.com/p/oyo-ipo-india-ship-breaking-global-recycling": {
+        "title": "Is the third time the charm for Oyo?",
+        "subtitle": "Plus: The economics of ship-breaking in India",
+        "post_date": "2026-07-21T01:41:51.742Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!g3W6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d976051-f122-4f74-8b53-47d0cba6f82d_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/oyo-ipo-india-ship-breaking-global-recycling",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-07-27T10:04:47.544Z"
       }
     }
   }
