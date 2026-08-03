@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-07-27T01:31:52.274Z",
+    "lastScannedDate": "2026-08-03T01:35:57.584Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6551,6 +6551,56 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-07-27T10:04:47.544Z"
+      },
+      "https://thedailybrief.zerodha.com/p/what-does-it-mean-to-close-a-mine": {
+        "title": "What does it mean to close a mine?",
+        "subtitle": "Plus: How carbon capture (CCUS) works?",
+        "post_date": "2026-08-03T01:35:57.584Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!5Hwx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b2a3301-3f67-4356-9ed8-1858aad5e6b6_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/what-does-it-mean-to-close-a-mine",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-03T10:00:37.516Z"
+      },
+      "https://thedailybrief.zerodha.com/p/manipal-hospitals-ipo-manufacturing-services-makeinindia-maruti-suzuki": {
+        "title": "Inside Manipal Health IPO",
+        "subtitle": "Plus: Why does “manufacturing” now look like “services”?",
+        "post_date": "2026-07-31T01:43:32.038Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!PLJB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc11c4213-aa15-434d-ba79-868f55ed4046_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/manipal-hospitals-ipo-manufacturing-services-makeinindia-maruti-suzuki",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-03T10:00:37.788Z"
+      },
+      "https://thedailybrief.zerodha.com/p/airlines-airindia-spicejet-akasa-sebi-frontrunning-lic": {
+        "title": "India’s airlines try to fix their radar",
+        "subtitle": "Plus: A front-running case and some funny phone calls",
+        "post_date": "2026-07-30T01:32:24.339Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!hz-O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77735e95-f893-46b0-9083-c8bcb577aa8b_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/airlines-airindia-spicejet-akasa-sebi-frontrunning-lic",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-03T10:00:38.043Z"
+      },
+      "https://thedailybrief.zerodha.com/p/china-cxmt-ipo-ai-boom-stock-market-electricity-demand-lng-grid-hormuz": {
+        "title": "Is China slowly changing how it finances itself?",
+        "subtitle": "Plus: Why did IEA change its mid year electricity outlook?",
+        "post_date": "2026-07-29T01:36:46.730Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!wrG2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8fea93c-b1e6-4634-9da7-f10beb9c3fd6_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/china-cxmt-ipo-ai-boom-stock-market-electricity-demand-lng-grid-hormuz",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-03T10:00:38.311Z"
+      },
+      "https://thedailybrief.zerodha.com/p/it-results-ai-impact-indigo-loss-fuel-costs-weak-rupee": {
+        "title": "Fresh year, no fresh start for India’s largest IT firms",
+        "subtitle": "Plus: IndiGo’s profits drop in altitude",
+        "post_date": "2026-07-28T01:51:42.044Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!ymUW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42dbd01c-5906-4391-9c02-1c1a1e7ff2d8_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/it-results-ai-impact-indigo-loss-fuel-costs-weak-rupee",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-08-03T10:00:38.601Z"
       }
     }
   }
