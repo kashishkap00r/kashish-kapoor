@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-08-03T01:35:57.584Z",
+    "lastScannedDate": "2026-08-10T01:36:44.827Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6601,6 +6601,56 @@
         "matched": false,
         "matchKind": "name-only",
         "scannedAt": "2026-08-03T10:00:38.601Z"
+      },
+      "https://thedailybrief.zerodha.com/p/swiggy-zomato-quick-commerce-rapido-india-dairy-sector-milk-rising-costs": {
+        "title": "Swiggy and Eternal pick different fights",
+        "subtitle": "Plus: The curdles forming in the Indian dairy sector",
+        "post_date": "2026-08-10T01:36:44.827Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!hxCs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb58128e1-72e0-4754-a19d-29d9d1e0b7df_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/swiggy-zomato-quick-commerce-rapido-india-dairy-sector-milk-rising-costs",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-10T07:56:16.242Z"
+      },
+      "https://thedailybrief.zerodha.com/p/natural-gas-trading-india-igx-wires-cables-data-centres-ai-power-infra": {
+        "title": "How is natural gas traded in India?",
+        "subtitle": "Plus: The sparks and stops of the wires & cables industry",
+        "post_date": "2026-08-07T01:33:41.518Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Jvgd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc6631b-b961-41a4-b471-942ac438c275_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/natural-gas-trading-india-igx-wires-cables-data-centres-ai-power-infra",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-10T07:56:16.542Z"
+      },
+      "https://thedailybrief.zerodha.com/p/yen-dollar-us-intervention-currency-market-midcap-it-results-ai-pricing": {
+        "title": "Why is America bailing out the yen?",
+        "subtitle": "Plus: Indian midcap IT — reading between the lines",
+        "post_date": "2026-08-06T01:33:33.675Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!H83W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15e6b6b5-0340-44ee-84b5-ee6aa58ac730_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/yen-dollar-us-intervention-currency-market-midcap-it-results-ai-pricing",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-10T07:56:16.837Z"
+      },
+      "https://thedailybrief.zerodha.com/p/power-grid-open-access-discoms-electricity-india-refrigerant-ac-chemical-industry": {
+        "title": "Who gets the spare space on India's power grid? ",
+        "subtitle": "The policy freezing India’s refrigerants",
+        "post_date": "2026-08-05T01:34:01.601Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!bvD3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a615de4-a601-4682-b4f7-f5e275ce5430_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/power-grid-open-access-discoms-electricity-india-refrigerant-ac-chemical-industry",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-10T07:56:17.112Z"
+      },
+      "https://thedailybrief.zerodha.com/p/sebi-zeel-zee-fraud-ban-india-white-hydrogen-green-hydrogen-mission": {
+        "title": "SEBI finds another plot-hole in the Zee script",
+        "subtitle": "Can India mine white hydrogen?",
+        "post_date": "2026-08-04T01:37:08.147Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!ifY0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F844066ac-918a-406b-a9d6-6c44fca70fbe_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/sebi-zeel-zee-fraud-ban-india-white-hydrogen-green-hydrogen-mission",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-10T07:56:17.402Z"
       }
     }
   }
