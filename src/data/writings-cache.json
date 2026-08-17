@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-08-10T01:36:44.827Z",
+    "lastScannedDate": "2026-08-17T01:42:18.055Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6651,6 +6651,56 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-08-10T07:56:17.402Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indias-data-localisation-rbi-telecom-digital-privacy": {
+        "title": "India’s data fortress is a maze of conflicts",
+        "subtitle": "What are the incentives behind India’s efforts to localize its data?",
+        "post_date": "2026-08-17T01:42:18.055Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!KUUO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16d9216e-0fa2-4f63-9205-383a6628da72_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indias-data-localisation-rbi-telecom-digital-privacy",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-17T07:09:10.840Z"
+      },
+      "https://thedailybrief.zerodha.com/p/pharmacy-india-drug-law-medicines-tractors-weak-monsoon-record-sales": {
+        "title": "What is happening with the 86-year-old drug law?",
+        "subtitle": "Plus: Why did tractors not get the monsoon memo?",
+        "post_date": "2026-08-14T01:51:59.901Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Ujy0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4254540-2746-43bc-9efc-b31baabc762c_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/pharmacy-india-drug-law-medicines-tractors-weak-monsoon-record-sales",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-17T07:09:11.130Z"
+      },
+      "https://thedailybrief.zerodha.com/p/bengaluru-metro-delay-reconductoring-india-power-grid-electricity": {
+        "title": "Why Bengaluru's Metro takes forever?",
+        "subtitle": "Plus: Can “Reconductoring” solve India’s grid problem?",
+        "post_date": "2026-08-13T01:40:32.804Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Bkpf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d9b0c1f-0452-4292-92e1-11a771756f19_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/bengaluru-metro-delay-reconductoring-india-power-grid-electricity",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-17T07:09:11.425Z"
+      },
+      "https://thedailybrief.zerodha.com/p/cement-companies-war-west-asia-impact-america-research-development-world": {
+        "title": "Indian cement meets both new bridges and broken roads",
+        "subtitle": "Plus: How America’s R&D shrink hurts the whole world",
+        "post_date": "2026-08-12T01:33:41.557Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!UYS_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed984d0c-c84f-4731-b688-de85ffe9779f_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/cement-companies-war-west-asia-impact-america-research-development-world",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-17T07:09:11.711Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-private-banks-corporate-loans-growth-makhana-bihar-snacks": {
+        "title": "India’s private banks are growing again, but at a cost",
+        "subtitle": "Plus: The business of Makhana",
+        "post_date": "2026-08-11T01:34:20.589Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!nEkr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca04373c-f44d-437c-a7d8-381be2ec96f6_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-private-banks-corporate-loans-growth-makhana-bihar-snacks",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-17T07:09:12.012Z"
       }
     }
   }
