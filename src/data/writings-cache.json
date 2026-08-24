@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-08-17T01:42:18.055Z",
+    "lastScannedDate": "2026-08-24T01:38:00.563Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6701,6 +6701,66 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-08-17T07:09:12.012Z"
+      },
+      "https://thedailybrief.zerodha.com/p/supari-paan-gutkha-customs-evade-smuggling-nbfcs-personal-loan": {
+        "title": "The areca nut with an identity crisis",
+        "subtitle": "How import duties, trade agreements and fake paperwork turned the humble supari into a customs headache.",
+        "post_date": "2026-08-24T01:38:00.563Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!RICU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F521a876e-6a2c-4ea2-b672-8bb60dbd04a1_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/supari-paan-gutkha-customs-evade-smuggling-nbfcs-personal-loan",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-24T07:12:37.461Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-1": {
+        "title": "Weekly Tidbits #1",
+        "subtitle": "On LPG, defence, EVs, Swiggy, whisky & Mauritius",
+        "post_date": "2026-08-22T04:30:53.643Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!igfn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52ef177b-e919-43a0-bacf-d87d2e62db7f_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-1",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-08-24T07:12:37.724Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indian-auto-export-boom-ev-supply-issues": {
+        "title": "Indian auto: an export boom and a supply crunch",
+        "subtitle": "How has the first quarter gone for India’s 4-wheelers?",
+        "post_date": "2026-08-21T01:44:16.733Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!xzUY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28e46974-83a2-4f67-9a1d-32879159d091_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indian-auto-export-boom-ev-supply-issues",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-24T07:12:38.007Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-urea-fertilizer-subsidy-energy-norms-natural-gas": {
+        "title": "Indian urea makers will make lesser money now",
+        "subtitle": "All thanks to some new energy efficiency norms",
+        "post_date": "2026-08-20T01:50:50.790Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Q0cD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e7513d2-ac2e-44c8-af1c-0cbfebaf3719_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-urea-fertilizer-subsidy-energy-norms-natural-gas",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-24T07:12:38.300Z"
+      },
+      "https://thedailybrief.zerodha.com/p/a-40-year-old-battle-over-indias": {
+        "title": "A 40-year old battle over India’s minerals hits a climax",
+        "subtitle": "",
+        "post_date": "2026-08-19T01:45:25.738Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!B0v_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c8fc5a0-aba2-41a9-a8b5-abe30ef45093_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/a-40-year-old-battle-over-indias",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-24T07:12:38.598Z"
+      },
+      "https://thedailybrief.zerodha.com/p/ndian-government-buy-gem-portal-msme-procurement-auto-sales-loans-income": {
+        "title": "How does the Indian government buy stuff?",
+        "subtitle": "Understanding India’s ₹5 lakh crore government shopping machine",
+        "post_date": "2026-08-18T01:48:06.834Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Wb2i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66081ba7-a167-4b91-8e9d-ffb924b5a4cd_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/ndian-government-buy-gem-portal-msme-procurement-auto-sales-loans-income",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-24T07:12:38.880Z"
       }
     }
   }
