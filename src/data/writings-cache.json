@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-08-24T01:38:00.563Z",
+    "lastScannedDate": "2026-08-31T01:38:29.684Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6761,6 +6761,66 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-08-24T07:12:38.880Z"
+      },
+      "https://thedailybrief.zerodha.com/p/manufacturing-personalised-cancer-vaccines-meghalaya-uranium-mininga": {
+        "title": "How do you manufacture a medicine that keeps changing?",
+        "subtitle": "Plus: Can Meghalaya actually stop uranium mining?",
+        "post_date": "2026-08-31T01:38:29.684Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!GsFf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd250261-8379-42fa-8cd6-83f55913501a_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/manufacturing-personalised-cancer-vaccines-meghalaya-uranium-mininga",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-31T13:27:21.310Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-2": {
+        "title": "Weekly Tidbits #2",
+        "subtitle": "On RBI, trade deals, batteries, mushrooms, Reliance, Nvidia & more",
+        "post_date": "2026-08-29T04:30:40.795Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!0hyc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb38da223-d30e-4dab-a681-f72c020eda36_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-2",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-08-31T13:27:21.548Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indian-fmcg-rural-recovery-premiumisation-record-low-npas-banks": {
+        "title": "The split personalities of Indian FMCG ",
+        "subtitle": "Plus: How are NPAs in India so low?",
+        "post_date": "2026-08-28T01:39:40.383Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!RUhG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7f3c4b9-4400-42a7-be33-4ea5e041ed71_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indian-fmcg-rural-recovery-premiumisation-record-low-npas-banks",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-31T13:27:21.807Z"
+      },
+      "https://thedailybrief.zerodha.com/p/sebi-varanium-cloud-fraud-axis-bank-max-life-insurance-commission-caps": {
+        "title": "SEBI finds fraud in the cloud",
+        "subtitle": "Plus: an unseen fallout of insurance commission caps",
+        "post_date": "2026-08-27T01:47:33.168Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!dZBQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa737ef2a-5258-4cb6-8f68-44998c1d055d_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/sebi-varanium-cloud-fraud-axis-bank-max-life-insurance-commission-caps",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-31T13:27:22.048Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-sugar-prices-record-highs-hydrogen-railway-projects-electrification": {
+        "title": "India can’t find a sweet spot for its sugar policy",
+        "subtitle": "Can hydrogen actually power Indian trains?",
+        "post_date": "2026-08-26T01:33:52.073Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!muKw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb011921-2413-4ff2-9bfc-acf479566807_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-sugar-prices-record-highs-hydrogen-railway-projects-electrification",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-31T13:27:22.311Z"
+      },
+      "https://thedailybrief.zerodha.com/p/ozempic-glp-drugs-weight-loss-work-sebi-mutualfunds-bonds": {
+        "title": "Can a “miracle drug” change how we work?",
+        "subtitle": "Plus: SEBI wants to create a mutual fund distributor for bonds",
+        "post_date": "2026-08-25T01:49:03.938Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!cbaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71f1c522-8f01-4e92-9040-a55f389e35c5_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/ozempic-glp-drugs-weight-loss-work-sebi-mutualfunds-bonds",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-08-31T13:27:22.560Z"
       }
     }
   }
