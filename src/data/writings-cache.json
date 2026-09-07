@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-08-31T01:38:29.684Z",
+    "lastScannedDate": "2026-09-07T01:39:27.924Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6821,6 +6821,76 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-08-31T13:27:22.560Z"
+      },
+      "https://thedailybrief.zerodha.com/p/supreme-court-ruling-noida-real-estate-homebuyers-ev-subsidy-india": {
+        "title": "Indian homebuyers get a much needed painkiller",
+        "subtitle": "Plus: Is India withdrawing its EV subsidies too soon?",
+        "post_date": "2026-09-07T01:39:27.924Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!uY4y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e65b3c4-e084-4cfb-a9ed-49a624aafc64_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/supreme-court-ruling-noida-real-estate-homebuyers-ev-subsidy-india",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-07T12:15:29.468Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-3": {
+        "title": "Weekly Tidbits #3",
+        "subtitle": "On banks, coal, EV, Apple, Tata motors, Pizzahut & much more!",
+        "post_date": "2026-09-05T07:50:27.863Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Ktsv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff608f604-d7b7-4ad9-8ca3-fd82f19decf3_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-3",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-07T12:15:29.686Z"
+      },
+      "https://thedailybrief.zerodha.com/p/governments-suing-meta-addiction-teen-design-sebi-trafiksol-ipo": {
+        "title": "Why governments are suing Meta for $18 billion",
+        "subtitle": "Plus: The fraud behind Trafiksol’s IPO",
+        "post_date": "2026-09-04T01:58:53.666Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!OaYM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd5bafe3-7dc0-435c-b808-a2482f4175b6_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/governments-suing-meta-addiction-teen-design-sebi-trafiksol-ipo",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-07T12:15:29.899Z"
+      },
+      "https://thedailybrief.zerodha.com/p/a-self-purge-inside-the-worlds-largest": {
+        "title": "A self-purge inside the world’s largest nickel player",
+        "subtitle": "Plus: What’s wrong with the sardines market?",
+        "post_date": "2026-09-03T01:57:01.736Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!ukTg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1e276de-b8fc-42f1-af73-a738ee1df076_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/a-self-purge-inside-the-worlds-largest",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-07T12:15:30.119Z"
+      },
+      "https://thedailybrief.zerodha.com/p/qsr-dominos-kfc-pizzahut-recovery-parmesan-cheese-bank-loan-italy": {
+        "title": "What is eating into Indian QSR’s lunch?",
+        "subtitle": "Plus: How are banks lending against cheese as a collateral?",
+        "post_date": "2026-09-02T01:47:15.826Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!C6B3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014aa3e0-3ff7-4783-b408-00f7b9b4bf64_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/qsr-dominos-kfc-pizzahut-recovery-parmesan-cheese-bank-loan-italy",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-07T12:15:30.356Z"
+      },
+      "https://thedailybrief.zerodha.com/p/some-thoughts-on-youtube": {
+        "title": "Some thoughts on YouTube",
+        "subtitle": "On attention, intent, and building trust through content",
+        "post_date": "2026-09-01T10:39:45.388Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!HFOd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd85b7822-d9e2-4a1c-90b8-dd2e630d859b_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/some-thoughts-on-youtube",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-09-07T12:15:30.568Z"
+      },
+      "https://thedailybrief.zerodha.com/p/government-audit-india-ev-subsidy-scheme-global-fragrance-companies-probe": {
+        "title": "What a government audit found in India’s EV subsidy scheme?",
+        "subtitle": "Plus: Why are fragrance companies under investigation?",
+        "post_date": "2026-09-01T01:47:08.800Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!fsjU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd5ced07-db56-4ce0-aece-54f596632836_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/government-audit-india-ev-subsidy-scheme-global-fragrance-companies-probe",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-07T12:15:30.784Z"
       }
     }
   }
