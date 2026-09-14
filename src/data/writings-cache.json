@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-09-07T01:39:27.924Z",
+    "lastScannedDate": "2026-09-12T04:31:52.862Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -6891,6 +6891,56 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-09-07T12:15:30.784Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-4": {
+        "title": "Weekly Tidbits #4",
+        "subtitle": "On exports, SEBI, TRAI, railways, Swiggy and many more!",
+        "post_date": "2026-09-12T04:31:52.862Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!1_v3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4abb5148-ad9c-4ca6-a4ca-563aee98463a_726x484.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-4",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-14T12:31:01.263Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-floating-solar-tokenised-corporate-bonds": {
+        "title": "Why is India paying more for floating solar?",
+        "subtitle": "Plus: What’s behind India’s first tokenized bond?",
+        "post_date": "2026-09-11T01:42:20.594Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!bJi7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bee0a47-90e9-481c-9038-a56744d04011_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-floating-solar-tokenised-corporate-bonds",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-14T12:31:01.558Z"
+      },
+      "https://thedailybrief.zerodha.com/p/seci-industries-electrification-green-energy-auto-ancillary-aerospace-defence": {
+        "title": "SECI wants to make India’s industries electric",
+        "subtitle": "Plus: Why auto ancillaries are looking beyond the car",
+        "post_date": "2026-09-10T01:38:31.037Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!4vEG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf14f56f-fd71-4288-91ef-db48179c794e_1536x1024.jpeg",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/seci-industries-electrification-green-energy-auto-ancillary-aerospace-defence",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-14T12:31:01.839Z"
+      },
+      "https://thedailybrief.zerodha.com/p/ai-agents-upi-payments-silver-jewellery-hallmarking": {
+        "title": "When AI starts spending your money",
+        "subtitle": "Plus: How pure is your silver",
+        "post_date": "2026-09-09T01:48:02.594Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!FMGB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff80ae248-acd4-4e2f-849d-64383acf313e_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/ai-agents-upi-payments-silver-jewellery-hallmarking",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-14T12:31:02.126Z"
+      },
+      "https://thedailybrief.zerodha.com/p/isro--drdo-tech-private-manufacture-tech-india-cctv-market-new-rules": {
+        "title": "The logic behind ISRO and DRDO’s tech transfers",
+        "subtitle": "Plus: India’s surveillance takes a turn",
+        "post_date": "2026-09-08T01:49:14.372Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!-CNf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e20a1b8-d229-4382-969f-649ee5a9b3cf_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/isro--drdo-tech-private-manufacture-tech-india-cctv-market-new-rules",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-14T12:31:02.424Z"
       }
     }
   }
