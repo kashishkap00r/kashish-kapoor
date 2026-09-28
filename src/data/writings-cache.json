@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-09-21T01:50:14.269Z",
+    "lastScannedDate": "2026-09-28T01:45:34.138Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7001,6 +7001,76 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-09-21T12:37:15.455Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-irrigation-groundwater-crisis-import-timber-teak": {
+        "title": "The ebbs and flows of India’s irrigation story",
+        "subtitle": "Plus: That teak in your house probably isn't Indian",
+        "post_date": "2026-09-28T01:45:34.138Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!qr2r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb5992f0-82fa-4459-be15-cca17cbadddc_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-irrigation-groundwater-crisis-import-timber-teak",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-28T13:38:24.830Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-6": {
+        "title": "Weekly Tidbits #6",
+        "subtitle": "On oil routes, US bond yields, GST, metal scrap, Nykaa - L’Oréal & much more",
+        "post_date": "2026-09-26T04:45:49.341Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!OACa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58292b2d-3077-4be5-be16-721a5d511c9c_724x479.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-6",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-28T13:38:25.055Z"
+      },
+      "https://thedailybrief.zerodha.com/p/insurance-commissions-cut-irdai-distributors-credit-rating-country-debt": {
+        "title": "What happens when insurance commissions are cut?",
+        "subtitle": "Plus: How much of a credit rating is the country name?",
+        "post_date": "2026-09-25T01:41:57.962Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Pqvk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10c116d-26cd-4180-9425-ae9e3a232c68_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/insurance-commissions-cut-irdai-distributors-credit-rating-country-debt",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-28T13:38:25.280Z"
+      },
+      "https://thedailybrief.zerodha.com/p/figuring-things-out": {
+        "title": "Figuring things out",
+        "subtitle": "Three months of asking “wait, but why?”",
+        "post_date": "2026-09-24T11:35:45.561Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!dKwv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33233805-4bd8-41fd-a8fa-79b9f3989404_5712x4284.jpeg",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/figuring-things-out",
+        "matched": false,
+        "matchKind": "name-only",
+        "scannedAt": "2026-09-28T13:38:25.493Z"
+      },
+      "https://thedailybrief.zerodha.com/p/hotels-long-weekends-trai-voice-only-plans-telecom-jio-airtel-vi": {
+        "title": "Sunday joys, Monday blues for the hotel business",
+        "subtitle": "Plus: Why are telecom plans mostly bundles of voice, data and SMS?",
+        "post_date": "2026-09-24T01:50:48.324Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!VG7W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06fcf38b-dc86-40a8-a207-d780d64961e0_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/hotels-long-weekends-trai-voice-only-plans-telecom-jio-airtel-vi",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-28T13:38:25.712Z"
+      },
+      "https://thedailybrief.zerodha.com/p/electronic-appliances-festive-discounts-india-jute-industry": {
+        "title": "A not-so-festive season for electronic appliances",
+        "subtitle": "Plus: What’s behind the recovery of India’s golden fibre?",
+        "post_date": "2026-09-23T01:53:55.087Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!0wkf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e4ba0bd-dafc-417b-b326-5954c1adc9b3_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/electronic-appliances-festive-discounts-india-jute-industry",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-09-28T13:38:25.938Z"
+      },
+      "https://thedailybrief.zerodha.com/p/india-textile-waste-problem-gwalior-telecom-hardware": {
+        "title": "India's textile waste problem",
+        "subtitle": "Plus: India's telecom hardware problem",
+        "post_date": "2026-09-22T02:00:58.015Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!xoMc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ff17b0f-0052-43da-b249-393834848ead_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/india-textile-waste-problem-gwalior-telecom-hardware",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-09-28T13:38:26.158Z"
       }
     }
   }
