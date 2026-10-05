@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-09-28T01:45:34.138Z",
+    "lastScannedDate": "2026-10-05T01:46:25.666Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7071,6 +7071,56 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-09-28T13:38:26.158Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indias-weak-investment-rising-household-debt-hospital-rating-system": {
+        "title": "Is India's finance boom outrunning its real economy?",
+        "subtitle": "Plus: Can you put a score on a hospital?",
+        "post_date": "2026-10-05T01:46:25.666Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!XzPk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82dffdc8-4d39-4c97-965c-c7cc0265f9ad_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indias-weak-investment-rising-household-debt-hospital-rating-system",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-05T14:21:59.091Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-7": {
+        "title": "Weekly Tidbits #7",
+        "subtitle": "On AI chip demand, US pharma tariffs, factory jobs, diesel caps, Tata Sons unlisting & much more",
+        "post_date": "2026-10-03T05:01:38.395Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!g4pJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F692469d9-5294-4172-929f-508104bfdd86_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-7",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-05T14:21:59.409Z"
+      },
+      "https://thedailybrief.zerodha.com/p/inox-clean-ipo-sanctioned-oil-tankers-russia-flag": {
+        "title": "Inox Clean’s second attempt at a first impression",
+        "subtitle": "Plus: Why sanctioned tankers are taking Russia’s flag",
+        "post_date": "2026-10-01T01:58:55.200Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!h-P0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a2a8fc0-04ce-4b01-87d8-fdd3e5887fe4_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/inox-clean-ipo-sanctioned-oil-tankers-russia-flag",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-05T14:21:59.694Z"
+      },
+      "https://thedailybrief.zerodha.com/p/agro-mutual-fund-investment-scheme-growpital-railways-highway-model": {
+        "title": "The agro-mutual fund that crashed and burned",
+        "subtitle": "Plus: The Indian Railways tries the high-way",
+        "post_date": "2026-09-30T02:29:00.699Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Ybm_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38178c3f-6333-479d-8422-71f7f6fcde38_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/agro-mutual-fund-investment-scheme-growpital-railways-highway-model",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-05T14:22:00.000Z"
+      },
+      "https://thedailybrief.zerodha.com/p/solar-green-transition-jobs-coal-shortage-power-plants": {
+        "title": "The Indian states that solar is forgetting",
+        "subtitle": "Plus: Why power plants run short on coal, sometimes",
+        "post_date": "2026-09-29T02:02:06.004Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!zn0_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61c05770-2b47-4608-b79f-a1dfb1fc2b12_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/solar-green-transition-jobs-coal-shortage-power-plants",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-05T14:22:00.303Z"
       }
     }
   }
