@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-10-05T01:46:25.666Z",
+    "lastScannedDate": "2026-10-12T01:45:56.937Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7121,6 +7121,66 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-10-05T14:22:00.303Z"
+      },
+      "https://thedailybrief.zerodha.com/p/84000-crore-oil-exploration-rice-prices-india-grain-reserves": {
+        "title": "Can ₹84,000 crore get India drilling?",
+        "subtitle": "Plus: Why is rice getting expensive when India has never had more of it?",
+        "post_date": "2026-10-12T01:45:56.937Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!FXfU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e4d95fc-2c2b-47c6-b4e0-ba3888084e47_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/84000-crore-oil-exploration-rice-prices-india-grain-reserves",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-12T15:09:11.516Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-8": {
+        "title": "Weekly Tidbits #8",
+        "subtitle": "On Google's data centres, $1T export target, critical minerals, GQG dumping ITC, SpaceX & much more",
+        "post_date": "2026-10-10T05:01:53.370Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!vta1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1beae2b0-7662-48df-be35-1f5ae8f7ccd7_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-8",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-12T15:09:11.739Z"
+      },
+      "https://thedailybrief.zerodha.com/p/inside-indias-first-household-travel": {
+        "title": "Inside India’s first household travel survey",
+        "subtitle": "Plus: Supreme Court questions 10x markup on cancer drugs ",
+        "post_date": "2026-10-09T02:08:48.857Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!cntb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6821fdf2-f7ae-4dc2-b195-c70146459584_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/inside-indias-first-household-travel",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-12T15:09:11.959Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-chinese-whispers-in-indias-ev": {
+        "title": "The Chinese whispers in India’s EV batteries",
+        "subtitle": "Plus: Why India’s airlines want cheaper fuel",
+        "post_date": "2026-10-08T02:11:20.746Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!YlFN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32b8d39c-bdd9-4273-971e-51d4f6112cd7_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-chinese-whispers-in-indias-ev",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-12T15:09:12.184Z"
+      },
+      "https://thedailybrief.zerodha.com/p/does-indian-steel-really-need-so": {
+        "title": "Does Indian steel really need so much protection?",
+        "subtitle": "Plus: How CAFE 3 ended India’s small-car fight",
+        "post_date": "2026-10-07T01:58:08.821Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!Ai5P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12e0185b-a611-464a-a5b1-c7d95551336c_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/does-indian-steel-really-need-so",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-12T15:09:12.410Z"
+      },
+      "https://thedailybrief.zerodha.com/p/wheres-the-last-mile-of-indias-lpg": {
+        "title": "Where’s the last-mile of India’s LPG revolution?",
+        "subtitle": "Plus: Why are airlines opposing the move from Mumbai to Navi Mumbai?",
+        "post_date": "2026-10-06T03:01:02.191Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!3YBL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faca239a0-08dc-4c5a-8ef3-a31fdba372b8_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/wheres-the-last-mile-of-indias-lpg",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-12T15:09:12.638Z"
       }
     }
   }
