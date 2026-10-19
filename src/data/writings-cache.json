@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-10-12T01:45:56.937Z",
+    "lastScannedDate": "2026-10-19T01:42:26.690Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7181,6 +7181,66 @@
         "matched": true,
         "matchKind": "written-by",
         "scannedAt": "2026-10-12T15:09:12.638Z"
+      },
+      "https://thedailybrief.zerodha.com/p/where-is-indias-crackdown-on-food": {
+        "title": "Where is India’s crackdown on food safety headed?",
+        "subtitle": "Plus: Yes Bank's 2020 problem is back",
+        "post_date": "2026-10-19T01:42:26.690Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!TzBW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe310101d-39bb-44af-b318-529f11d1e8b2_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/where-is-indias-crackdown-on-food",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-19T12:52:21.101Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-9": {
+        "title": "Weekly Tidbits #9",
+        "subtitle": "On $1.2B BofA fine, grain surpluses, greenfield vs China, SEBI’s derivative rules, Tata-Stellantis & much more",
+        "post_date": "2026-10-17T05:01:27.759Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!CTWz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47a113b0-a0eb-4340-a0fe-915b79a8652f_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-9",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-19T12:52:21.386Z"
+      },
+      "https://thedailybrief.zerodha.com/p/breaking-down-the-nobel-prize-for": {
+        "title": "Breaking down the Nobel Prize for Economics 2026",
+        "subtitle": "Plus: IDBI’s long road to privatisation",
+        "post_date": "2026-10-16T02:04:58.848Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!i_QL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffba2c444-ad11-4fea-85b2-799f25a39449_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/breaking-down-the-nobel-prize-for",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-19T12:52:21.682Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-rbis-3-front-war-on-inflation": {
+        "title": "The RBI’s 3-front war on inflation, explained",
+        "subtitle": "Plus: Will tougher pharma rules change who gets prescribed?",
+        "post_date": "2026-10-15T01:43:24.070Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!BOia!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F244d834e-23f1-4fb6-a7d6-e0bb9ade52af_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-rbis-3-front-war-on-inflation",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-19T12:52:22.014Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-business-behind-zetwerks-5000": {
+        "title": "The business behind Zetwerk's ₹5,000 crore IPO ",
+        "subtitle": "Plus: Who pays when it becomes too hot to work?",
+        "post_date": "2026-10-14T01:48:40.070Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!S4KM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F695b07e1-60fd-40d8-ba7f-0bd7e3870769_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-business-behind-zetwerks-5000",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-19T12:52:22.299Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-us-is-one-step-away-from-banning": {
+        "title": "The US is one step away from banning green cards",
+        "subtitle": "Plus: India’s housing boom has narrowed",
+        "post_date": "2026-10-13T01:49:11.886Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!JaRM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43d682af-9b4d-4453-a367-21ee5ebd7164_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-us-is-one-step-away-from-banning",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-19T12:52:22.588Z"
       }
     }
   }
