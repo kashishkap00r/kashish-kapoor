@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-10-19T01:42:26.690Z",
+    "lastScannedDate": "2026-10-26T01:44:55.253Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7241,6 +7241,56 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-10-19T12:52:22.588Z"
+      },
+      "https://thedailybrief.zerodha.com/p/do-government-incentives-to-produce": {
+        "title": "Do government incentives to produce babies work?",
+        "subtitle": "Can solar beat coal at its own game?",
+        "post_date": "2026-10-26T01:44:55.253Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!S_ar!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdc6d46c-2008-4093-ba01-cd96356d28c1_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/do-government-incentives-to-produce",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-26T12:44:08.900Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-10": {
+        "title": "Weekly Tidbits #10",
+        "subtitle": "On French bond yields, RBI's auction rebuff, India-NZ trade deal, Starlink vs Reliance, DLF's luxury push & much more",
+        "post_date": "2026-10-24T05:01:00.333Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!0hyc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb38da223-d30e-4dab-a681-f72c020eda36_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-10",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-26T12:44:09.172Z"
+      },
+      "https://thedailybrief.zerodha.com/p/indias-ai-boom-runs-through-a-strand": {
+        "title": "India’s AI boom runs through a strand of glass",
+        "subtitle": "Plus Who really gains from India's push for maize ethanol?",
+        "post_date": "2026-10-23T01:43:08.800Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!oo-J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26502b55-5d49-4fd0-994c-59e5f935f98a_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/indias-ai-boom-runs-through-a-strand",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-26T12:44:09.441Z"
+      },
+      "https://thedailybrief.zerodha.com/p/bajaj-finance-has-started-behaving": {
+        "title": "Bajaj Finance has started behaving like a bank",
+        "subtitle": "Plus: India bets on better weather forecasting",
+        "post_date": "2026-10-22T02:16:50.986Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!ZNuI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F248d7d9d-6d75-4f5c-b8aa-094eba936a64_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/bajaj-finance-has-started-behaving",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-10-26T12:44:09.703Z"
+      },
+      "https://thedailybrief.zerodha.com/p/foreign-mines-critical-minerals-india-biocon-roche-chepear-cancer-drug": {
+        "title": "What does owning a foreign mine actually buy India?",
+        "subtitle": "Plus: Why would rivals agree on when to compete?",
+        "post_date": "2026-10-21T01:58:33.820Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!NZtV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F593e326c-de0a-49bb-884a-11f79f278208_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/foreign-mines-critical-minerals-india-biocon-roche-chepear-cancer-drug",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-10-26T12:44:09.951Z"
       }
     }
   }
