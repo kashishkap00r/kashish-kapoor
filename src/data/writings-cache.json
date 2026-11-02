@@ -1,6 +1,6 @@
 {
   "The Daily Brief": {
-    "lastScannedDate": "2026-10-26T01:44:55.253Z",
+    "lastScannedDate": "2026-11-02T02:08:26.460Z",
     "posts": {
       "https://thedailybrief.zerodha.com/p/the-price-of-a-wavin-flag": {
         "title": "The price of a Wavin’ Flag",
@@ -7291,6 +7291,66 @@
         "matched": false,
         "matchKind": "none",
         "scannedAt": "2026-10-26T12:44:09.951Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-worlds-oil-has-a-burning-desire": {
+        "title": "The world’s oil has a burning desire",
+        "subtitle": "Plus: The milk bill trickles down to you",
+        "post_date": "2026-11-02T02:08:26.460Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!NtQ_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64b34b99-48e0-4155-82e0-10bcc088e5b5_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-worlds-oil-has-a-burning-desire",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-11-02T15:30:27.089Z"
+      },
+      "https://thedailybrief.zerodha.com/p/weekly-tidbits-11": {
+        "title": "Weekly Tidbits #11",
+        "subtitle": "On Bayer's Roundup win, wheat supply cuts, SEBI's mutual fund rule, sports goods, Dr Reddy's semaglutide & much more",
+        "post_date": "2026-10-31T05:03:30.339Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!UQYf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2370d428-f82e-4955-8c96-623fe477c449_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/weekly-tidbits-11",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-11-02T15:30:27.322Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-uncertain-fates-of-indias-inter": {
+        "title": "The uncertain fates of India’s inter-state migration",
+        "subtitle": "Plus: Indian IT feels the sting of AI deflation",
+        "post_date": "2026-10-30T01:57:03.923Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!YXCZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60ce592a-1b50-4eb1-b7dc-01848a2b1e03_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-uncertain-fates-of-indias-inter",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-11-02T15:30:27.617Z"
+      },
+      "https://thedailybrief.zerodha.com/p/fdi-in-india-easy-come-easy-go": {
+        "title": "FDI in India: easy come, easy go?",
+        "subtitle": "Plus: Catching up to the economics of electrification",
+        "post_date": "2026-10-29T01:40:17.418Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!bskB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F328ae9e8-d33e-40ac-aec4-60dac2d615de_2388x1668.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/fdi-in-india-easy-come-easy-go",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-11-02T15:30:27.870Z"
+      },
+      "https://thedailybrief.zerodha.com/p/whats-going-on-in-indian-cybersecurity": {
+        "title": "What’s going on in Indian cybersecurity?",
+        "subtitle": "What’s a win in India’s quick-commerce race?",
+        "post_date": "2026-10-28T02:00:01.845Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!5hzz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4536a77-4dde-4b2b-823e-e4f622ece229_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/whats-going-on-in-indian-cybersecurity",
+        "matched": false,
+        "matchKind": "none",
+        "scannedAt": "2026-11-02T15:30:28.106Z"
+      },
+      "https://thedailybrief.zerodha.com/p/the-133-billion-deposits-that-made": {
+        "title": "The $133 billion deposits that made India's banks look less profitable",
+        "subtitle": "Where are India’s rare magnet plans headed?",
+        "post_date": "2026-10-27T02:15:04.968Z",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!nbbr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd658238d-ecbb-446d-84f4-53a177ea7ac8_1536x1024.png",
+        "canonical_url": "https://thedailybrief.zerodha.com/p/the-133-billion-deposits-that-made",
+        "matched": true,
+        "matchKind": "written-by",
+        "scannedAt": "2026-11-02T15:30:28.352Z"
       }
     }
   }
