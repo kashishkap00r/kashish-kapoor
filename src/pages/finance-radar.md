@@ -4,7 +4,7 @@ title: "FinanceRadar"
 description: "A hobby project I built to reduce news noise in my daily research workflow."
 ---
 
-[FinanceRadar](https://financeradar.kashishkapoor.com) is a small hobby project I built for myself.
+[FinanceRadar](https://financeradar.news) is a small hobby project I built for myself.
 
 There is no grand end goal here.
 I just had a practical problem: I was wasting too much time jumping across sources, seeing the same story repeated, and still missing what actually mattered.
@@ -61,10 +61,10 @@ The tool exists to reduce friction in this loop.
 The project runs as a static site with automated refresh jobs:
 - feed aggregation refreshes hourly
 - AI ranking runs daily
-- output is published to `financeradar.kashishkapoor.com`
+- output is published to `financeradar.news`
 
 So maintenance stays low, and the workflow stays reliable.
 
 If you are curious, you can check it here:
 
-[Open FinanceRadar →](https://financeradar.kashishkapoor.com)
+[Open FinanceRadar →](https://financeradar.news)
