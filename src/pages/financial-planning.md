@@ -1,17 +1,24 @@
 ---
-layout: ../layouts/Prose.astro
+layout: ../layouts/LongForm.astro
 title: "1:1 Money Help"
-description: "Personal finance is personal. I help you build a simple system and take action."
+description: "1:1 personal finance help from Kashish Kapoor for early and mid-career professionals: a 120-minute session, a personal system, and a 2–4 week action plan. Not investment advice."
+kicker: "Money help · one on one"
+heading: "Personal finance is more personal"
+headingEm: "than finance."
+lead: "You don't need more financial literacy. You need a simple structure that fits your life, and the push to actually act on it. That's what I do in 1:1 sessions with early to mid-career professionals, salaried or freelance."
+notes:
+  - label: "Format"
+    text: "One 120-minute session, one on one."
+  - label: "For"
+    text: "Early to mid-career, salaried or freelance."
+  - label: "You leave with"
+    text: "A personal Notion template and a 2–4 week action plan."
+  - label: "Not"
+    text: "SEBI-registered advice, stock tips or product sales."
+  - label: "Start"
+    text: "WhatsApp me →"
+    href: "https://wa.me/918168511286?text=Hi%20KK%2C%20I%20need%20help%20with%20my%20money%20matters"
 ---
-
-Personal finance is more personal, than finance.
-
-You don't need more "financial literacy". You need a simple structure that fits *your* life — and the push to actually act on it.
-
-That's why I do 1:1 sessions with early–mid career professionals (salaried or freelance) who want clarity and momentum with money.
-
----
-
 ## The real problem
 
 Most people aren't stuck because they don't know the basics. It's because they know a bit too much and are overwhelmed, with all the _gyaan_ out there.

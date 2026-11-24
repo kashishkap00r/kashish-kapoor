@@ -1,0 +1,66 @@
+---
+// Long-form page: big header, sticky contents on the left, the text in the
+// middle, margin notes on the right. Used by /about (an .astro page) and by
+// markdown pages via `layout:` (FinanceRadar, Money help). Markdown pages get
+// their contents list from their own ## headings automatically.
+import Base from './Base.astro';
+
+interface Note { label: string; text: string; href?: string }
+interface Heading { depth: number; slug: string; text: string }
+interface Props {
+  title?: string;
+  description?: string;
+  kicker?: string;
+  heading?: string;
+  headingEm?: string;
+  lead?: string;
+  notes?: Note[];
+  toc?: { slug: string; text: string }[];
+  heroImage?: { src: string; srcset?: string; alt: string; href?: string; width?: number; height?: number };
+  headings?: Heading[];
+  frontmatter?: Omit<Props, 'frontmatter' | 'headings'>;
+}
+
+const p = { ...(Astro.props.frontmatter ?? {}), ...Astro.props };
+const toc = p.toc ?? (Astro.props.headings ?? []).filter((h) => h.depth === 2).map(({ slug, text }) => ({ slug, text }));
+const notes = p.notes ?? [];
+const hasHero = Astro.slots.has('hero') || !!p.heroImage;
+---
+<Base title={p.title ?? p.heading ?? ''} description={p.description} preload={['/fonts/fraunces/fraunces-italic-latin.woff2', '/fonts/jetbrains-mono/jetbrains-mono-normal-latin.woff2']}>
+  <div class="wrap ink lf">
+    <header class={hasHero ? 'lf-top' : 'lf-top solo'}>
+      <div>
+        {p.kicker && <span class="k"><b>●</b>&nbsp; {p.kicker}</span>}
+        <h1>{p.heading ?? p.title}{p.headingEm && <> <em>{p.headingEm}</em></>}</h1>
+        {p.lead && <p class="lf-lead">{p.lead}</p>}
+      </div>
+      {hasHero && (
+        <div class="lf-hero">
+          <slot name="hero" />
+          {p.heroImage && (
+            <a class="browser" href={p.heroImage.href ?? p.heroImage.src}>
+              <div class="bar"><i></i><i></i><i></i><span>{p.heroImage.href ? new URL(p.heroImage.href).hostname : ''}</span></div>
+              <img src={p.heroImage.src} srcset={p.heroImage.srcset} alt={p.heroImage.alt} width={p.heroImage.width ?? 1280} height={p.heroImage.height ?? 800} fetchpriority="high" />
+            </a>
+          )}
+        </div>
+      )}
+    </header>
+    <div class="lf-grid">
+      <nav class="lf-toc" aria-label="On this page">
+        {toc.length > 0 && <span class="k">On this page</span>}
+        {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
+      </nav>
+      <article class="lf-body">
+        <slot />
+      </article>
+      <aside class="lf-notes">
+        {notes.map((n) => (
+          <p class="note"><b>{n.label}</b>{n.href ? <a href={n.href}>{n.text}</a> : n.text}</p>
+        ))}
+        <slot name="notes" />
+      </aside>
+    </div>
+    <slot name="after" />
+  </div>
+</Base>

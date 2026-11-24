@@ -1,54 +1,233 @@
 ---
-import Base from '../layouts/Base.astro';
+import LongForm from '../layouts/LongForm.astro';
+import { homePicks, coverFor, fmtMonthYear } from '../lib/data';
+
+const toc = [
+  { slug: 'shape', text: 'The shape of me' },
+  { slug: 'got-here', text: 'How I got here' },
+  { slug: 'now', text: 'What I do now' },
+  { slug: 'others', text: 'What people tell me' },
+  { slug: 'care', text: 'What I care about' },
+  { slug: 'clock', text: 'Off the clock' },
+  { slug: 'head', text: "What's in my head" },
+  { slug: 'next', text: "What's next" },
+];
+
+const notes = [
+  { label: 'Based', text: 'Bangalore. From Ambala, grew up in Himachal.' },
+  { label: 'Studied', text: 'B.Com (Hons), Delhi University. CFA Level 1 done, Level 2 next.' },
+  { label: 'Work', text: 'Research at Zerodha. Helps Rainmatter with research.' },
+  { label: 'Before', text: 'Content for PhonePe’s stockbroking arm.' },
+  { label: 'In numbers', text: '500+ pieces · 100+ videos · 1000+ failures survived.' },
+  { label: 'Built', text: 'FinanceRadar →', href: '/finance-radar/' },
+  { label: 'Helps with', text: 'Money, one on one →', href: '/financial-planning/' },
+];
+
+const bar = ['Tech + Claude Code', 'Product', 'Content + social', 'Videos', 'Sport', 'Philosophy'];
+const path = [
+  { k: 'Ambala', b: 'Home', p: 'Son of an accountant and a commerce teacher.' },
+  { k: 'Gr. 6–12', b: 'Boarding, Himachal', p: 'Topper, badminton, debating.' },
+  { k: 'College', b: 'B.Com (Hons), DU', p: 'COVID, then markets.' },
+  { k: 'Then', b: 'PhonePe', p: 'Stockbroking content.' },
+  { k: 'Now', b: 'Zerodha', p: 'Research + Rainmatter.' },
+];
+const score = [
+  { v: 'Nat’l', u: '', b: 'Badminton', p: 'National level in school. Still play.' },
+  { v: '80', u: '', b: 'Cricket', p: 'Best Sunday-league knock.' },
+  { v: '21', u: 'K', b: 'Running', p: 'Nandi Hills, untrained.' },
+  { v: '~500', u: 'km', b: 'Biking', p: 'Longest ride so far.' },
+];
 ---
-<Base title="About" description="Finance geek, experimenter, and sporty human building across money, health, and systems.">
-  <article class="prose-container">
-    <div class="about-hero">
-      <p class="about-lede"><strong>Finance geek. Experimenter. Sporty human.</strong></p>
-      <p>I am Kashish Kapoor, <strong>Business Analyst (Content &amp; Education)</strong> @ <a href="https://zerodha.com/" class="prose-link">Zerodha</a>, based in <strong>Bangalore</strong> (hometown: Ambala).</p>
-      <p>My work sits at the intersection of <strong>finance, content, and systems</strong>. I like taking messy ideas, testing them in the real world, and turning them into something useful.</p>
+<LongForm
+  title="About"
+  description="Kashish Kapoor: researcher at Zerodha, Rainmatter, FinanceRadar. How he got into finance, what he cares about, cricket, running and rabbit holes."
+  kicker="About · the long version"
+  heading="Finance geek. Experimenter."
+  headingEm="Sporty human."
+  lead="I do research at Zerodha, help Rainmatter think through its bets, and build things like FinanceRadar on the side. This is the long version: how I got here, what I care about, what I do when I'm not working, and what I'm figuring out next."
+  toc={toc}
+  notes={notes}
+>
+  <div slot="hero" class="ab-hero">
+    <img class="ab-av" src="/images/avatar.jpg" alt="Illustrated portrait of Kashish Kapoor" width="600" height="600" fetchpriority="high" />
+  </div>
+
+  <section id="shape">
+    <h2>The shape of me</h2>
+    <p>If you asked me who I am, the honest answer is that I get interested in a lot of things. Finance is at the centre, but I've become more of a generalist: someone who can tinker across tech, product, content and finance, and go deep when something grabs me.</p>
+    <p>The best way I've found to describe it is a <span class="hl">T-shaped person</span>. The top of the T is everything I'm curious about. The stem is where I've gone deep.</p>
+    <figure class="tee" aria-label="T-shape diagram">
+      <div class="tee-bar">{bar.map((b) => <span>{b}</span>)}</div>
+      <div class="tee-stem">
+        <span class="k">The deep bit</span>
+        <b>Finance</b>
+        <small>Banking · insurance · broking · wealth · payments</small>
+        <b>Energy + climate</b>
+        <small>Generation · transmission · new tech</small>
+      </div>
+    </figure>
+    <p>I'm still figuring out which other things I want to be an expert at. That's half the fun.</p>
+  </section>
+
+  <section id="got-here">
+    <h2>How I got here</h2>
+    <ol class="path">
+      {path.map((s) => <li><span class="k">{s.k}</span><b>{s.b}</b><small>{s.p}</small></li>)}
+    </ol>
+    <p>I'm from Ambala, but most of my good memories of growing up are from a boarding school in Himachal, where I lived from grade 6 to 12. I was the kid who was into everything: topping the class, national-level badminton, debating, business competitions.</p>
+    <p>My headmaster wanted me to take engineering. He knew I was a bright kid, and that's the path bright kids were pushed down. I didn't want it. <span class="hl">I picked commerce.</span> With an accountant for a dad and a commerce teacher for a mum, maybe that was always coming.</p>
+    <p>I tried accounting first and found it boring. I tried marketing too, and it didn't stick. Then COVID happened. Classes at Delhi University, where I was doing my B.Com (Hons), barely ran, and I found the stock market.</p>
+    <blockquote>I knew I was really into it when I was spending sleepless nights reading finance books.</blockquote>
+    <p>I did course after course and built financial models in my own time, for no reason other than wanting to understand how things worked. In college I was also on the placement cell and kept debating, but finance had me.</p>
+    <p>My first job was writing content for PhonePe's stockbroking arm. Then Zerodha, where I've been ever since.</p>
+  </section>
+
+  <section id="now">
+    <h2>What I do now</h2>
+    <p>I do research at Zerodha. In practice that means I read, dig and write about whatever is worth understanding, mostly <span class="hl">financial services</span> (banking, insurance, broking, wealth, payments) and <span class="hl">energy</span> (generation, transmission, new tech). The weirder the rabbit hole, the better. These are three I'm proudest of:</p>
+    <div class="picks">
+      {homePicks.map((p) => {
+        const img = coverFor(p);
+        return (
+          <a class="card" href={p.url} target="_blank" rel="noopener">
+            {img && <img src={img} alt="" width="640" height="427" loading="lazy" decoding="async" />}
+            <span class="k">{fmtMonthYear(p.date)}</span>
+            <b>{p.title.replace(/, explained$/, '')}</b>
+          </a>
+        );
+      })}
     </div>
+    <p>I also help <strong>Rainmatter</strong>, Zerodha's investment arm, with research, and lately that has pulled me deep into climate: the problem statements, the solutions, all of it. That's what keeps me going.</p>
+    <p>A lot of what I do is on video too: podcasts, expert interviews on energy and financial services, Varsity videos, and two documentaries, one on the paints war and one on India's race to go green. You'll find them on my <a href="/work/#videos">work page</a>.</p>
+    <p>I write on LinkedIn about whatever interests me that week, and sometimes those rabbit holes turn into full research pieces. On the side I built <a href="/finance-radar/">FinanceRadar</a>, a bullshit detector for financial news, because people want good financial content, not noise.</p>
+    <p>And quietly, I help a few people sort out their money, one on one and only by referral. Not as a business; I just find it interesting, and I think people deserve good financial advice. I also take career calls with students and give talks whenever someone thinks I have something worth saying. <a href="/financial-planning/">How the money help works →</a></p>
+  </section>
 
-    <div class="about-proof-grid">
-      <div class="about-proof-card">
-        <p class="about-proof-number">100+</p>
-        <p class="about-proof-label">Videos made</p>
-      </div>
-      <div class="about-proof-card">
-        <p class="about-proof-number">500+</p>
-        <p class="about-proof-label">Pieces written</p>
-      </div>
-      <div class="about-proof-card">
-        <p class="about-proof-number">1000+</p>
-        <p class="about-proof-label">Failures survived</p>
-      </div>
+  <section id="others">
+    <h2>What people tell me</h2>
+    <p>I'd rather not describe myself as smart. Here's what I hear instead, from the people I work with and for:</p>
+    <div class="says">
+      <figure><span class="k">Teammates</span><p>That I give them a sense of direction in research and writing. (A sense I borrowed from people senior to me.)</p></figure>
+      <figure><span class="k">Readers</span><p>That the questions I ask are diverse and genuine, and that's what makes the stories worth reading.</p></figure>
+      <figure><span class="k">Money-help clients</span><p>That they like the clear intent and clarity of thought I bring.</p></figure>
     </div>
+    <p>The one thing friends say most is that I'm passionate about whatever I'm doing. Generic, I know. But if you remember one thing about me, make it this: <span class="hl">I'm really, really inquisitive.</span> Whatever I'm talking about, I get really into it.</p>
+  </section>
 
-    <div class="prose">
-      <h2>What I care about</h2>
-      <p>Most people optimize random things. I try to optimize the fundamentals.</p>
-
-      <div class="about-health-pills">
-        <span>Financial health</span>
-        <span>Physical health</span>
-        <span>Mental health</span>
-      </div>
-
-      <p>Everything else is noise if these three are broken.</p>
-
-      <h2>What I am building right now</h2>
-      <ul>
-        <li>Better thinking systems around money and decision-making</li>
-        <li>Deeper finance frameworks while preparing for CFA</li>
-        <li>Marathon endurance, one run at a time</li>
-        <li>More biking and staying aggressively sporty (cricket still has my heart)</li>
-      </ul>
-
-      <h2>Want to connect?</h2>
-      <div class="about-cta">
-        <p>If this page resonated, <strong>please bother me here</strong>.</p>
-        <p><a class="cta-pill" href="https://www.linkedin.com/in/kashishkap00r/">Ping me on LinkedIn</a></p>
-      </div>
+  <section id="care">
+    <h2>What I care about</h2>
+    <p>Most people optimise random things. I try to optimise the fundamentals:</p>
+    <div class="health">
+      <div><span class="k">01</span><b>Financial health</b><small>A simple system that fits your life, and the push to act on it.</small></div>
+      <div><span class="k">02</span><b>Physical health</b><small>Cricket, badminton, running, biking, gym, yoga.</small></div>
+      <div><span class="k">03</span><b>Mental health</b><small>Staying curious, and open to being wrong.</small></div>
     </div>
-  </article>
-</Base>
+    <p>Everything else is noise if these three are broken.</p>
+  </section>
+
+  <section id="clock">
+    <h2>Off the clock</h2>
+    <div class="score">
+      {score.map((s) => <div><big>{s.v}{s.u && <small>{s.u}</small>}</big><b>{s.b}</b><span>{s.p}</span></div>)}
+    </div>
+    <p>Badminton was my sport in school, where I played at the national level. These days it's cricket: Sunday-league tournaments, a few man-of-the-match awards and best-batsman titles. My favourite memory is an 80 in a very competitive match that got personal; it set my team up for a good score.</p>
+    <p>I ran a 21K at Nandi Hills completely untrained and loved it, so I know I have a full marathon in me. Maybe an Ironman. Maybe.</p>
+    <p>I love biking but don't do it nearly enough. Wayanad and Chikmagalur so far, with the longest ride somewhere around 400 to 500 km. A solo trip around the south is on the list.</p>
+    <p>The rest: gym and yoga, travelling when I can, sleeping in whenever I can, tinkering with Claude Code until things work, and an honest amount of procrastinating.</p>
+  </section>
+
+  <section id="head">
+    <h2>What's in my head</h2>
+    <p>The biggest change in me lately: <span class="hl">I've become much more tolerant of other viewpoints.</span> I used to think I was smart enough to know everything. Now I've realised there are very few rights and wrongs, and that fascinates me.</p>
+    <p>My mental models are borrowed from a lot of places, so it's hard to name one person. But I subscribe to a lot of Naval Ravikant's philosophy, I'm deep into Hinduism and philosophy, and Fight Club is a movie I really like. Beyond that, it honestly depends on what I last consumed. Some weeks I'm obsessed with a writer or a YouTube channel; other weeks I don't remember watching them.</p>
+    <div class="tags">
+      <span class="tag hot">Naval Ravikant</span><span class="tag hot">Hinduism and philosophy</span><span class="tag">Fight Club</span><span class="tag">Climate bets</span><span class="tag">Power and the grid</span><span class="tag">Banks</span><span class="tag">Claude Code</span><span class="tag">Other people's viewpoints</span><span class="tag">Weird rabbit holes</span>
+    </div>
+  </section>
+
+  <section id="next">
+    <h2>What's next</h2>
+    <p class="pull">I'm not lost, and I'm not confused. I just want to know what's next for me.</p>
+    <p>I think I've set myself up for good things. The questions on my mind right now:</p>
+    <ul>
+      <li>CFA Level 2 is due.</li>
+      <li>Higher education, maybe an MBA. I'm not sure about it yet.</li>
+      <li>Get more jacked.</li>
+      <li>Learn a new skill or hobby.</li>
+    </ul>
+  </section>
+
+  <section slot="after" class="hi ab-hi">
+    <span class="k">Say hi</span>
+    <h2>If you like the vibe, bother me.</h2>
+    <p>If any of this interests you, talk to me. A story you think I should chase, something I can help your business with, or just a conversation about any of the above. Nothing gets me going like talking to people who are curious too. I'm most active on LinkedIn.</p>
+    <div class="btns">
+      <a class="btn" href="https://www.linkedin.com/in/kashishkap00r" target="_blank" rel="noopener">Message me on LinkedIn</a>
+      <a class="btn ghost" href="https://x.com/kashishkap00r" target="_blank" rel="noopener">Find me on X</a>
+    </div>
+  </section>
+</LongForm>
+
+<style>
+  .ab-hero { display: flex; justify-content: center; }
+  .ab-av { width: 280px; height: 280px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 8px var(--bg), 0 0 0 9px var(--rule); }
+
+  .tee { margin: 26px 0 26px; }
+  .tee-bar { display: flex; flex-wrap: wrap; gap: 0; background: var(--hi-bg); color: var(--hi-text); padding: 16px; border-radius: 6px 6px 0 0; }
+  .tee-bar span { flex: 1 1 30%; padding: 10px 12px; font-family: var(--font-mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; border-right: 1px solid rgba(250, 247, 242, .25); }
+  .tee-stem { width: 46%; margin: 0 auto; background: var(--hi-bg); color: var(--hi-text); padding: 22px 24px 26px; border-radius: 0 0 6px 6px; }
+  .tee-stem .k { color: var(--hi-text); opacity: .75; }
+  .tee-stem b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 24px; margin-top: 12px; }
+  .tee-stem small { display: block; font-size: 13.5px; opacity: .85; }
+
+  .path { list-style: none !important; padding: 0 !important; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 2px solid var(--rule-2); margin: 10px 0 30px !important; }
+  .path li { position: relative; padding: 16px 10px 0 0; margin: 0; font-family: var(--font-sans); }
+  .path li::before { content: ""; position: absolute; top: -6px; left: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--text-2); }
+  .path li:last-child::before { background: var(--accent); border-color: var(--accent); }
+  .path b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 17px; line-height: 1.25; margin-top: 6px; }
+  .path small { display: block; font-size: 13px; color: var(--text-2); line-height: 1.4; margin-top: 2px; }
+
+  .picks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 6px 0 26px; }
+  .picks .card img { aspect-ratio: 3 / 2; margin: 0 0 10px; border: 0; border-radius: 4px; }
+  .picks .card b { display: block; font-family: var(--font-serif); font-weight: 400; font-size: 17px; line-height: 1.3; margin-top: 3px; }
+  .picks .card:hover b { color: var(--accent); }
+
+  .says { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 6px 0 24px; }
+  .says figure { background: var(--panel); border-radius: 6px; padding: 20px; }
+  .says figure p { font-size: 17px; line-height: 1.5; margin: 10px 0 0; }
+
+  .health { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--rule); border-radius: 6px; margin: 6px 0 20px; }
+  .health div { padding: 20px; border-right: 1px solid var(--rule); }
+  .health div:last-child { border-right: 0; }
+  .health b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 21px; margin: 8px 0 4px; }
+  .health small { font-size: 14px; color: var(--text-2); line-height: 1.45; display: block; }
+
+  .score { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin: 6px 0 24px; }
+  .score div { padding: 18px 14px 16px 0; border-right: 1px solid var(--rule); padding-left: 14px; }
+  .score div:first-child { padding-left: 0; }
+  .score div:last-child { border-right: 0; }
+  .score big { display: block; font-family: var(--font-mono); font-size: 38px; line-height: 1; letter-spacing: -.03em; white-space: nowrap; }
+  .score big small { font-size: 15px; color: var(--muted); }
+  .score b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 18px; margin-top: 10px; }
+  .score span { font-size: 13.5px; color: var(--text-2); }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
+
+  .ab-hi { margin-top: 32px; }
+  .ab-hi h2 { font-size: 54px; }
+  .ab-hi p { max-width: 640px; }
+
+  @media (max-width: 760px) {
+    .ab-av { width: 200px; height: 200px; }
+    .tee-bar span { flex-basis: 45%; }
+    .tee-stem { width: 70%; }
+    .path { grid-template-columns: 1fr; border-top: 0; border-left: 2px solid var(--rule-2); }
+    .path li { padding: 0 0 14px 18px; }
+    .path li::before { top: 4px; left: -6px; }
+    .picks, .says, .health { grid-template-columns: 1fr; }
+    .health div { border-right: 0; border-bottom: 1px solid var(--rule); }
+    .score { grid-template-columns: 1fr 1fr; }
+    .score div { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--rule); }
+    .ab-hi h2 { font-size: 40px; }
+  }
+</style>
