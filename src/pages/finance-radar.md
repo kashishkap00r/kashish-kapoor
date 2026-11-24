@@ -1,91 +1,73 @@
 ---
 layout: ../layouts/LongForm.astro
 title: "FinanceRadar"
-description: "FinanceRadar is a free news dashboard Kashish Kapoor built to cut the noise in Indian markets, policy and business news: hourly feeds, an AI shortlist twice a day."
+description: "FinanceRadar is the free finance news dashboard Kashish Kapoor built to replace forty tabs a morning: nearly 300 sources in one feed, the noise filtered out with and without AI. Watch the two-minute video."
 kicker: "Built · FinanceRadar"
 heading: "FinanceRadar."
-headingEm: "A bullshit detector for financial news."
-lead: "A small hobby project I built for myself, so I spend less time collecting news and more time understanding it. It's free, it's live, and I open it every morning."
-heroImage:
-  src: "/images/financeradar.jpg"
-  srcset: "/images/financeradar.jpg 1x, /images/financeradar@2x.jpg 2x"
-  alt: "FinanceRadar homepage"
-  href: "https://financeradar.news"
+headingEm: "One tab instead of forty."
+lead: "I've written over 300 stories for Zerodha, on almost everything under the sun. The only way to do that is to read everything. FinanceRadar is the tool I built so that reading takes ten minutes, not forty tabs."
+video:
+  id: "Gsztrb90RoA"
+  title: "Why I built FinanceRadar"
+  duration: "1:53"
+  poster: "/images/financeradar-video.jpg"
+  poster2x: "/images/financeradar-video@2x.jpg"
+  blurb: "Two minutes on the problem, the build, and what my mornings look like now."
+  cta:
+    text: "Open FinanceRadar →"
+    href: "https://financeradar.news"
 notes:
   - label: "Live at"
     text: "financeradar.news →"
     href: "https://financeradar.news"
-  - label: "Feeds refresh"
-    text: "Every hour"
-  - label: "AI shortlist"
-    text: "Twice a day"
   - label: "Reads"
-    text: "News, reports, Telegram, YouTube, X"
-  - label: "Runs on"
-    text: "A static site and scheduled jobs. Low maintenance by design."
+    text: "Nearly 300 sources"
+  - label: "Refreshes"
+    text: "Every hour"
+  - label: "Costs you"
+    text: "Nothing. No login, no ads."
 ---
 
-[FinanceRadar](https://financeradar.news) is a small hobby project I built for myself.
+## Why I read everything
 
-There is no grand end goal here.
-I just had a practical problem: I was wasting too much time jumping across sources, seeing the same story repeated, and still missing what actually mattered.
+I've written over 300 stories for Zerodha, on almost every topic under the sun. Banks, power grids, insurers, airlines: whatever is worth understanding that week.
 
-So I built a setup that gives me a cleaner research feed.
+The only way to do that is to read indiscriminately. Across formats, across subjects, across disciplines. A Reuters wire, an RBI circular, a broker's sector note and a YouTube lecture can all end up in the same story.
 
----
+That's why my reading funnel is sacrosanct to me. If it dries up, so does the writing.
 
-## The problem I was trying to solve
+## Forty tabs, every morning
 
-When you track business and market news seriously, the bottleneck is rarely access.
-It is signal.
+Keeping that funnel full was tedious, and sometimes cumbersome. What I needed was scattered across every corner of the internet: Reuters, Mint, RBI, SEBI, brokerage reports, Twitter, Telegram, YouTube. Forty tabs, every single morning.
 
-Too much noise, too many repeats, too many low-value updates, and too much context-switching.
+And most of what sat in those tabs was noise. The same story, six times over. Endless "stocks to watch". "Nifty down 500 points". None of it was any use to me.
 
-I wanted one place that helps me:
-- scan faster
-- avoid duplicate headlines
-- spend more time on analysis than collection
+Now do all of that on a treadmill. There's always a story to write and research to finish, and you still have to know what's happening.
 
----
+## So I built the thing I needed
 
-## What FinanceRadar does now
+I'm a writer, not an engineer. But with some humble help from AI, I built the thing I needed: FinanceRadar. It's the one place I open every morning, religiously, and I haven't missed a day in over 250.
 
-Today, it is a lightweight workflow tool that:
+Every time I felt something had slipped past me, I added that source. News, research reports, Twitter, Telegram, YouTube lectures. It now reads nearly 300 hand-picked sources.
 
-- pulls from a broad set of finance/business sources on an hourly cycle
-- filters obvious low-signal items and removes duplicates
-- groups things in a way that makes scanning easier
-- adds an AI-ranked shortlist of stories worth paying attention to, twice a day
-- pulls public brokerage-report updates from selected Telegram channels
+And the noise gets filtered hard, with AI and without it. The same story shows up once. The filler doesn't show up at all.
 
-It is still intentionally simple.
-No dashboards for the sake of dashboards. Just a cleaner pipeline.
+So I open one tab, skim for about ten minutes, and I'm caught up.
 
----
+> My reading is still indiscriminate. My filter isn't.
 
-## How I use it
+## What's on it
 
-My flow is straightforward:
+- **The Big Stories.** Four AI models read the morning's news. The stories they agree on go to the top, with every outlet's take folded into one.
+- **News.** The full feed, refreshed every hour, minus 180-odd rules' worth of filler.
+- **Reports.** Research from regulators, think tanks and brokerages, the slow reads worth an evening.
+- **Telegram, YouTube and Twitter.** Broker notes, lectures and interviews, and the people worth following.
+- **This Week.** Results, data releases and central bank meetings coming up, on one calendar.
 
-1. Open FinanceRadar and do a quick top-level scan
-2. Check the AI shortlist for prioritization
-3. Open only the stories that look worth deeper reading
-4. Save items I want to come back to while writing
+## How it runs
 
-That is it.
-The tool exists to reduce friction in this loop.
+It's a static site. Scheduled jobs pull every feed each hour, and the AI shortlist runs twice a day. No logins, no paywall, no ads. It's free, and low maintenance by design.
 
----
-
-## Current setup (behind the scenes)
-
-The project runs as a static site with automated refresh jobs:
-- feed aggregation refreshes hourly
-- AI ranking runs twice a day
-- output is published to `financeradar.news`
-
-So maintenance stays low, and the workflow stays reliable.
-
-If you are curious, you can check it here:
+The video above is the first of a few. Each of the next ones takes apart one piece of FinanceRadar, and I'll add them here as they go up.
 
 [Open FinanceRadar →](https://financeradar.news)

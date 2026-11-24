@@ -550,6 +550,25 @@ main {
 .lf-hero { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 24px; padding: 40px 36px; }
 .lf-hero .browser { width: 100%; }
 
+/* Featured video row (LongForm `video`): player + quick facts */
+.lf-video { padding: 36px 40px; }
+.lf-vside { padding: 36px 32px; display: flex; flex-direction: column; gap: 14px; }
+.lf-vside h2 { font-family: var(--font-serif); font-weight: 400; font-size: 28px; line-height: 1.15; letter-spacing: -.01em; }
+.lf-vside p { color: var(--text-2); font-size: 15.5px; line-height: 1.55; }
+.lf-vside .kv { margin-top: 4px; }
+.lf-vside .kv div { grid-template-columns: 100px 1fr; }
+.lf-vside .btn { align-self: flex-start; margin-top: 8px; }
+
+/* Click-to-play YouTube (components/YouTube.astro) */
+.yt { position: relative; aspect-ratio: 16 / 9; border: 1px solid var(--rule-2); border-radius: 8px; overflow: hidden; background: var(--panel); box-shadow: var(--shadow-lg); }
+.yt-poster, .yt iframe { display: block; width: 100%; height: 100%; border: 0; }
+.yt-poster img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.yt-poster:hover img { transform: scale(1.015); }
+.yt-play { position: absolute; left: 50%; top: 50%; width: 76px; height: 76px; margin: -38px 0 0 -38px; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: #fff; box-shadow: 0 8px 24px rgba(0, 0, 0, .25); transition: transform .2s ease; }
+.yt-play svg { margin-left: 4px; }
+.yt-poster:hover .yt-play, .yt-poster:focus-visible .yt-play { transform: scale(1.08); }
+.yt-time { position: absolute; left: 14px; bottom: 14px; padding: 5px 10px; border-radius: 4px; background: rgba(20, 18, 16, .78); color: #fff; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .05em; text-transform: uppercase; }
+
 .lf-body { padding: 44px 48px 48px 40px; counter-reset: sec; }
 .lf-side { padding: 40px 32px; }
 .lf-sticky { position: sticky; top: 28px; display: flex; flex-direction: column; gap: 30px; }
@@ -590,6 +609,9 @@ main {
   .lf-head h1 { font-size: 46px; }
   .lf-lead { font-size: 17.5px; }
   .grid > .lf-hero { padding: 28px 16px; }
+  .grid > .lf-video { padding: 20px 0 8px; }
+  .grid > .lf-vside { padding: 24px 16px; }
+  .yt-play { width: 60px; height: 60px; margin: -30px 0 0 -30px; }
   .lf-body { padding: 28px 0; }
   .lf-sticky { position: static; }
   .lf-body h2 { font-size: 26px; }

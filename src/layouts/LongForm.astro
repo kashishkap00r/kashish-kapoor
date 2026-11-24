@@ -4,13 +4,17 @@
 // sticky 4-column panel (contents + facts), and a full-width "say hi" block.
 // Used by /about (.astro), FinanceRadar + Money help (markdown `layout:`)
 // and personal posts (via Prose.astro). Markdown pages get their contents
-// list from their own ## headings.
+// list from their own ## headings. An optional `feature` slot adds a
+// full-width row of cells between the header and the text; the `video`
+// prop fills that row with a click-to-play video and the quick facts.
 import Base from './Base.astro';
 import Ticker from '../components/Ticker.astro';
+import YouTube from '../components/YouTube.astro';
 
 interface Note { label: string; text: string; href?: string }
 interface Heading { depth: number; slug: string; text: string }
 interface TickerItem { label: string; value: string | number; mark?: string }
+interface Video { id: string; title: string; poster: string; poster2x?: string; duration?: string; blurb?: string; cta?: { text: string; href: string } }
 interface Props {
   title?: string;
   description?: string;
@@ -22,6 +26,8 @@ interface Props {
   notesTitle?: string;
   toc?: { slug: string; text: string }[];
   ticker?: TickerItem[];
+  /** A featured video row under the header; the quick facts move beside it. */
+  video?: Video;
   heroImage?: { src: string; srcset?: string; alt: string; href?: string; width?: number; height?: number };
   sayHi?: boolean;
   headings?: Heading[];
@@ -34,6 +40,7 @@ const notes = p.notes ?? [];
 const hasHero = Astro.slots.has('hero') || !!p.heroImage;
 const hasAfter = Astro.slots.has('after');
 const sayHi = p.sayHi !== false && !hasAfter;
+const video = p.video;
 const pad = (n: number) => String(n).padStart(2, '0');
 ---
 <Base title={p.title ?? p.heading ?? ''} description={p.description} preload={['/fonts/fraunces/fraunces-italic-latin.woff2', '/fonts/jetbrains-mono/jetbrains-mono-normal-latin.woff2']}>
@@ -57,6 +64,25 @@ const pad = (n: number) => String(n).padStart(2, '0');
           )}
         </div>
       )}
+      <slot name="feature" />
+      {video && (
+        <>
+          <div class="cell lf-video span-8">
+            <YouTube id={video.id} title={video.title} poster={video.poster} poster2x={video.poster2x} duration={video.duration} />
+          </div>
+          <div class="cell panel lf-vside span-4">
+            <span class="k"><b>●</b>&nbsp; Watch{video.duration && ` · ${video.duration}`}</span>
+            <h2>{video.title}</h2>
+            {video.blurb && <p>{video.blurb}</p>}
+            {notes.length > 0 && (
+              <div class="kv">
+                {notes.map((n) => <div><span>{n.label}</span>{n.href ? <a class="link" href={n.href}>{n.text}</a> : n.text}</div>)}
+              </div>
+            )}
+            {video.cta && <a class="btn" href={video.cta.href} target="_blank" rel="noopener">{video.cta.text}</a>}
+          </div>
+        </>
+      )}
 
       <article class="cell lf-body span-8">
         <slot />
@@ -71,7 +97,7 @@ const pad = (n: number) => String(n).padStart(2, '0');
               </ol>
             </nav>
           )}
-          {notes.length > 0 && (
+          {notes.length > 0 && !video && (
             <div class="lf-facts">
               <span class="k">{p.notesTitle ?? 'Quick facts'}</span>
               <div class="kv">

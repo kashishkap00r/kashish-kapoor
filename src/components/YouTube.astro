@@ -1,0 +1,41 @@
+---
+// Click-to-play YouTube. Until someone presses play, the page loads only a
+// self-hosted poster: no YouTube scripts, cookies or requests, so the footer's
+// "no cookies, no trackers" stays true. On click, the poster is swapped for a
+// youtube-nocookie.com player. Without JS it is a plain link to YouTube.
+interface Props {
+  id: string;
+  title: string;
+  poster: string;
+  poster2x?: string;
+  duration?: string;
+}
+const { id, title, poster, poster2x, duration } = Astro.props;
+---
+<div class="yt" data-yt={id} data-title={title}>
+  <a class="yt-poster" href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener" aria-label={`Play video: ${title}`}>
+    <img src={poster} srcset={poster2x ? `${poster} 1x, ${poster2x} 2x` : undefined} alt="" width="1280" height="720" fetchpriority="high" decoding="async" />
+    <span class="yt-play" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5.5v13l11-6.5z" fill="currentColor" /></svg>
+    </span>
+    {duration && <span class="yt-time">{duration}</span>}
+  </a>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.yt[data-yt]').forEach((box) => {
+    const link = box.querySelector('a');
+    link?.addEventListener('click', (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey) return; // let "open in new tab" work
+      e.preventDefault();
+      const f = document.createElement('iframe');
+      f.src = `https://www.youtube-nocookie.com/embed/${box.dataset.yt}?autoplay=1&rel=0`;
+      f.title = box.dataset.title ?? 'Video';
+      f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      f.allowFullscreen = true;
+      f.referrerPolicy = 'strict-origin-when-cross-origin';
+      box.replaceChildren(f);
+      f.focus();
+    });
+  });
+</script>
