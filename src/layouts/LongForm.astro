@@ -1,12 +1,16 @@
 ---
-// Long-form page: big header, sticky contents on the left, the text in the
-// middle, margin notes on the right. Used by /about (an .astro page) and by
-// markdown pages via `layout:` (FinanceRadar, Money help). Markdown pages get
-// their contents list from their own ## headings automatically.
+// Long-form pages in the homepage's grid system: ticker, hero cell + tinted
+// side panel, numbered section headings, the text in an 8-column cell with a
+// sticky 4-column panel (contents + facts), and a full-width "say hi" block.
+// Used by /about (.astro), FinanceRadar + Money help (markdown `layout:`)
+// and personal posts (via Prose.astro). Markdown pages get their contents
+// list from their own ## headings.
 import Base from './Base.astro';
+import Ticker from '../components/Ticker.astro';
 
 interface Note { label: string; text: string; href?: string }
 interface Heading { depth: number; slug: string; text: string }
+interface TickerItem { label: string; value: string | number; mark?: string }
 interface Props {
   title?: string;
   description?: string;
@@ -15,8 +19,11 @@ interface Props {
   headingEm?: string;
   lead?: string;
   notes?: Note[];
+  notesTitle?: string;
   toc?: { slug: string; text: string }[];
+  ticker?: TickerItem[];
   heroImage?: { src: string; srcset?: string; alt: string; href?: string; width?: number; height?: number };
+  sayHi?: boolean;
   headings?: Heading[];
   frontmatter?: Omit<Props, 'frontmatter' | 'headings'>;
 }
@@ -25,17 +32,22 @@ const p = { ...(Astro.props.frontmatter ?? {}), ...Astro.props };
 const toc = p.toc ?? (Astro.props.headings ?? []).filter((h) => h.depth === 2).map(({ slug, text }) => ({ slug, text }));
 const notes = p.notes ?? [];
 const hasHero = Astro.slots.has('hero') || !!p.heroImage;
+const hasAfter = Astro.slots.has('after');
+const sayHi = p.sayHi !== false && !hasAfter;
+const pad = (n: number) => String(n).padStart(2, '0');
 ---
 <Base title={p.title ?? p.heading ?? ''} description={p.description} preload={['/fonts/fraunces/fraunces-italic-latin.woff2', '/fonts/jetbrains-mono/jetbrains-mono-normal-latin.woff2']}>
+  {p.ticker && <Ticker slot="ticker" items={p.ticker} />}
+
   <div class="wrap ink lf">
-    <header class={hasHero ? 'lf-top' : 'lf-top solo'}>
-      <div>
-        {p.kicker && <span class="k"><b>●</b>&nbsp; {p.kicker}</span>}
+    <div class="grid">
+      <header class={`cell top lf-head ${hasHero ? 'span-8' : 'span-12'}`}>
+        {p.kicker && <div class="k"><b>●</b>&nbsp; {p.kicker}</div>}
         <h1>{p.heading ?? p.title}{p.headingEm && <> <em>{p.headingEm}</em></>}</h1>
         {p.lead && <p class="lf-lead">{p.lead}</p>}
-      </div>
+      </header>
       {hasHero && (
-        <div class="lf-hero">
+        <div class="cell top panel lf-hero span-4">
           <slot name="hero" />
           {p.heroImage && (
             <a class="browser" href={p.heroImage.href ?? p.heroImage.src}>
@@ -45,22 +57,44 @@ const hasHero = Astro.slots.has('hero') || !!p.heroImage;
           )}
         </div>
       )}
-    </header>
-    <div class="lf-grid">
-      <nav class="lf-toc" aria-label="On this page">
-        {toc.length > 0 && <span class="k">On this page</span>}
-        {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
-      </nav>
-      <article class="lf-body">
+
+      <article class="cell lf-body span-8">
         <slot />
       </article>
-      <aside class="lf-notes">
-        {notes.map((n) => (
-          <p class="note"><b>{n.label}</b>{n.href ? <a href={n.href}>{n.text}</a> : n.text}</p>
-        ))}
-        <slot name="notes" />
+      <aside class="cell panel lf-side span-4">
+        <div class="lf-sticky">
+          {toc.length > 0 && (
+            <nav aria-label="On this page">
+              <span class="k">On this page</span>
+              <ol class="lf-toc">
+                {toc.map((h, i) => <li><a href={`#${h.slug}`}><span>{pad(i + 1)}</span>{h.text}</a></li>)}
+              </ol>
+            </nav>
+          )}
+          {notes.length > 0 && (
+            <div class="lf-facts">
+              <span class="k">{p.notesTitle ?? 'Quick facts'}</span>
+              <div class="kv">
+                {notes.map((n) => <div><span>{n.label}</span>{n.href ? <a class="link" href={n.href}>{n.text}</a> : n.text}</div>)}
+              </div>
+            </div>
+          )}
+          <slot name="side" />
+        </div>
       </aside>
+
+      <slot name="after" />
+      {sayHi && (
+        <section class="cell hi span-12">
+          <span class="k"><b>●</b>&nbsp; Say hi</span>
+          <h2>If you like the vibe,<br />say hi.</h2>
+          <p>A story I should chase? Something I can help your business with? Or just want to talk about any of this? Nothing gets me going like a good conversation.</p>
+          <div class="btns">
+            <a class="btn" href="https://www.linkedin.com/in/kashishkap00r" target="_blank" rel="noopener">Message me on LinkedIn</a>
+            <a class="btn ghost" href="https://x.com/kashishkap00r" target="_blank" rel="noopener">Find me on X</a>
+          </div>
+        </section>
+      )}
     </div>
-    <slot name="after" />
   </div>
 </Base>

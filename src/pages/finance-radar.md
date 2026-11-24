@@ -23,6 +23,12 @@ notes:
     text: "News, reports, Telegram, YouTube, X"
   - label: "Runs on"
     text: "A static site and scheduled jobs. Low maintenance by design."
+ticker:
+  - { label: "Feeds", value: "Hourly" }
+  - { label: "AI shortlist", value: "2× a day" }
+  - { label: "Sources", value: "News · Reports · Telegram · YouTube · X" }
+  - { label: "Price", value: "Free" }
+  - { label: "Cookies", value: 0 }
 ---
 
 [FinanceRadar](https://financeradar.news) is a small hobby project I built for myself.

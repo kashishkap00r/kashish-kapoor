@@ -23,6 +23,16 @@ const notes = [
   { label: 'Helps with', text: 'Money, one on one →', href: '/financial-planning/' },
 ];
 
+const ticker = [
+  { label: 'From', value: 'Ambala' },
+  { label: 'Grew up', value: 'Himachal' },
+  { label: 'Pieces written', value: '500+', mark: '▲' },
+  { label: 'Videos made', value: '100+', mark: '▲' },
+  { label: 'CFA', value: 'L1', mark: '✓ L2 →' },
+  { label: 'Best knock', value: 80 },
+  { label: 'Failures survived', value: '1000+' },
+];
+
 const bar = ['Tech + Claude Code', 'Product', 'Content + social', 'Videos', 'Sport', 'Philosophy'];
 const path = [
   { k: 'Ambala', b: 'Home', p: 'Son of an accountant and a commerce teacher.' },
@@ -47,8 +57,9 @@ const score = [
   lead="I do research at Zerodha, help Rainmatter think through its bets, and build things like FinanceRadar on the side. This is the long version: how I got here, what I care about, what I do when I'm not working, and what I'm figuring out next."
   toc={toc}
   notes={notes}
+  ticker={ticker}
 >
-  <div slot="hero" class="ab-hero">
+  <div slot="hero">
     <img class="ab-av" src="/images/avatar.jpg" alt="Illustrated portrait of Kashish Kapoor" width="600" height="600" fetchpriority="high" />
   </div>
 
@@ -157,8 +168,8 @@ const score = [
     </ul>
   </section>
 
-  <section slot="after" class="hi ab-hi">
-    <span class="k">Say hi</span>
+  <section slot="after" class="cell hi span-12">
+    <span class="k"><b>●</b>&nbsp; Say hi</span>
     <h2>If you like the vibe, bother me.</h2>
     <p>If any of this interests you, talk to me. A story you think I should chase, something I can help your business with, or just a conversation about any of the above. Nothing gets me going like talking to people who are curious too. I'm most active on LinkedIn.</p>
     <div class="btns">
@@ -169,8 +180,7 @@ const score = [
 </LongForm>
 
 <style>
-  .ab-hero { display: flex; justify-content: center; }
-  .ab-av { width: 280px; height: 280px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 8px var(--bg), 0 0 0 9px var(--rule); }
+  .ab-av { width: 248px; height: 248px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 8px var(--bg), 0 0 0 9px var(--rule); }
 
   .tee { margin: 26px 0 26px; }
   .tee-bar { display: flex; flex-wrap: wrap; gap: 0; background: var(--hi-bg); color: var(--hi-text); padding: 16px; border-radius: 6px 6px 0 0; }
@@ -213,9 +223,6 @@ const score = [
 
   .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
 
-  .ab-hi { margin-top: 32px; }
-  .ab-hi h2 { font-size: 54px; }
-  .ab-hi p { max-width: 640px; }
 
   @media (max-width: 760px) {
     .ab-av { width: 200px; height: 200px; }
@@ -228,6 +235,5 @@ const score = [
     .health div { border-right: 0; border-bottom: 1px solid var(--rule); }
     .score { grid-template-columns: 1fr 1fr; }
     .score div { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--rule); }
-    .ab-hi h2 { font-size: 40px; }
   }
 </style>

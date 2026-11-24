@@ -18,6 +18,13 @@ notes:
   - label: "Start"
     text: "WhatsApp me →"
     href: "https://wa.me/918168511286?text=Hi%20KK%2C%20I%20need%20help%20with%20my%20money%20matters"
+ticker:
+  - { label: "Format", value: "1:1" }
+  - { label: "Session", value: "120 min" }
+  - { label: "Pillars", value: 6 }
+  - { label: "Action plan", value: "2–4 weeks" }
+  - { label: "Stock tips", value: 0 }
+  - { label: "Products sold", value: 0 }
 ---
 ## The real problem
 
