@@ -1,33 +1,257 @@
 ---
 import Base from '../layouts/Base.astro';
+import Ticker from '../components/Ticker.astro';
+import { homePicks, coverFor, fmtMonthYear } from '../lib/data';
+
+const ticker = [
+  { label: 'From', value: 'Ambala' },
+  { label: 'Based', value: 'BLR' },
+  { label: 'Pieces written', value: '500+', mark: '▲' },
+  { label: 'Videos made', value: '100+', mark: '▲' },
+  { label: 'CFA', value: 'L1', mark: '✓ L2 →' },
+  { label: 'Failures survived', value: '1000+' },
+  { label: 'Cookies', value: 0 },
+  { label: 'Trackers', value: 0 },
+];
+
+const topics = [
+  ['Banks', true], ['Cricket'], ['Climate bets'], ['Building with Claude Code', true],
+  ['Insurance'], ['Naval Ravikant'], ['Power and the grid', true], ['Long bike rides'],
+  ['Payments'], ['Hinduism and philosophy', true], ['Financial models, for fun'], ['Badminton'],
+  ['Fight Club'], ['Personal finance'], ['Gym and yoga'], ["Other people's viewpoints", true],
+  ['Debating'], ['Travel'], ['Sleeping in'], ['Weird rabbit holes'],
+] as [string, boolean?][];
+
+const score = [
+  { k: 'Cricket', v: '80', b: 'Best knock', p: 'Sunday league, in a match that got personal. A few man-of-the-match awards too.' },
+  { k: 'Badminton', v: "Nat'l", b: 'Level, in school', p: 'Still on court.' },
+  { k: 'Running', v: '21', u: 'K', b: 'Nandi Hills', p: 'Untrained. A full marathon next; an Ironman, maybe.' },
+  { k: 'Biking', v: '~500', u: 'km', b: 'Longest ride', p: 'Wayanad, Chikmagalur. A solo south trip next.' },
+  { k: 'Rabbit holes', v: '∞', b: 'And counting', p: 'See the list above. It grows weekly.' },
+];
+
+const path = [
+  { k: 'Ambala', b: 'Home', p: 'Son of an accountant and a commerce teacher.' },
+  { k: 'Gr. 6–12', b: 'Boarding school, Himachal', p: 'Topper, national-level badminton, debating. The headmaster wanted engineering. I picked commerce.' },
+  { k: 'College', b: 'B.Com (Hons), Delhi University', p: 'Accounting bored me. Then COVID shut classes and I found the stock market.' },
+  { k: 'Then', b: 'PhonePe', p: 'Content for the stockbroking arm.' },
+  { k: 'Now', b: 'Zerodha', p: 'Research, plus Rainmatter. CFA Level 1 done.' },
+];
 ---
-<Base title="Kashish" description="Finance writing + a little bit of fitness.">
-  <div class="prose-container">
-    <section class="home-hero">
-      <p>I'm Kashish Kapoor. I write about money and markets at <strong>Zerodha</strong> in <strong>Bangalore</strong> — and when I'm not writing, I'm building tools, prepping for the CFA, or helping people sort out their personal finances.</p>
-      <p>Finance is the thread. Everything else is what it pulls me into.</p>
-      <p><a class="cta-pill" href="/about/">Know more about me &rarr;</a></p>
-    </section>
+<Base
+  title="Kashish Kapoor"
+  description="Curious about almost everything. Obsessed with a few things. Research at Zerodha, Rainmatter, FinanceRadar, cricket and rabbit holes."
+  preload={['/fonts/fraunces/fraunces-italic-latin.woff2', '/fonts/jetbrains-mono/jetbrains-mono-normal-latin.woff2']}
+>
+  <Ticker slot="ticker" items={ticker} />
 
-    <div class="prose">
-      <h2>Where I write</h2>
-      <p>Most of my writing is here:</p>
-      <ul>
-        <li><strong>The Daily Brief (Zerodha)</strong> &rarr; <a href="https://thedailybrief.zerodha.com/">read it</a></li>
-        <li><strong>The Chatter (Zerodha)</strong> &rarr; <a href="https://thechatterbyzerodha.substack.com/">read it</a></li>
-      </ul>
-      <p>(Yes, my <a href="/writings/">/writings</a> page is a bit outdated right now.)</p>
+  <div class="wrap ink">
+    <div class="grid">
+      <section class="cell top hero span-8">
+        <div class="k"><b>●</b>&nbsp; Bangalore · researcher, writer, tinkerer</div>
+        <h1>Curious about almost everything. <em>Obsessed with a few things.</em></h1>
+        <p>I'm <strong>Kashish Kapoor</strong>, a generalist with one deep specialty: finance. I do research at Zerodha and help Rainmatter think through its bets. Around it, I tinker with code, play a lot of cricket, and go down whatever rabbit hole shows up this week.</p>
+      </section>
+      <section class="cell top panel me span-4">
+        <div class="portrait">
+          <img src="/images/avatar.jpg" alt="Kashish Kapoor" width="600" height="600" fetchpriority="high" />
+          <i class="dot" title="Open to conversations"></i>
+        </div>
+        <div class="kv">
+          <div><span>Work</span>Research, Zerodha</div>
+          <div><span>Also</span>Rainmatter</div>
+          <div><span>Roots</span>Ambala, via Himachal</div>
+          <div><span>Next</span>CFA Level 2</div>
+        </div>
+      </section>
 
-      <hr />
+      <section class="cell do span-8">
+        <div class="head"><h2><span class="n">01</span>What I do</h2></div>
+        <p class="lead"><strong>I do research at Zerodha.</strong> I read, dig and write about whatever is worth understanding. Three pieces I'm proudest of:</p>
+        <div class="favs">
+          {homePicks.map((p) => {
+            const img = coverFor(p);
+            return (
+              <a class="fav" href={p.url} target="_blank" rel="noopener">
+                {img ? <img src={img} alt="" width="640" height="427" loading="lazy" decoding="async" /> : <span class="tile-fallback">Research</span>}
+                <div class="k">{fmtMonthYear(p.date)}</div>
+                <h3>{p.title.replace(/, explained$/, '')}</h3>
+              </a>
+            );
+          })}
+        </div>
+        <div class="more"><span class="k">500+ pieces and counting</span><a class="link" href="/work/#archive">All my writing →</a></div>
+        <div class="items">
+          <div><span class="k">Film + talk</span><h4>Interviews and docs</h4><p>Expert interviews, podcasts, Varsity videos, and two documentaries: Asian Paints and India's energy sector.</p></div>
+          <div><span class="k">Investing</span><h4>For Rainmatter</h4><p>Helping Zerodha's investment arm think through bets, especially in climate.</p></div>
+          <div><span class="k">Think out loud</span><h4>On LinkedIn</h4><p>Short notes on whatever I'm into. Some grow into full research pieces.</p></div>
+        </div>
+      </section>
+      <section class="cell panel tp span-4">
+        <span class="k">Things I keep coming back to</span>
+        <div class="cloud">
+          {topics.map(([t, hot]) => <span class={hot ? 'tag hot' : 'tag'}>{t}</span>)}
+        </div>
+        <p class="why">Usually all in the same week. <span>Sometimes the same day.</span></p>
+      </section>
 
-      <h2>Side projects</h2>
-      <p><strong><a href="/financial-planning/">Financial Planning</a></strong>: a comprehensive 1:1 personal finance help for early/mid-career professionals.</p>
-      <p><strong><a href="/finance-radar/">FinanceRadar</a></strong>: a lightweight news dashboard I use for my own research workflow.</p>
+      <div class="cell sec-k span-12">
+        <h2><span class="n">02</span>Scoreboard</h2><span class="k">Off the clock</span>
+      </div>
+      <section class="cell score span-12" aria-label="Scoreboard">
+        {score.map((s) => (
+          <div class="sc">
+            <span class="k">{s.k}</span>
+            <big>{s.v}{s.u && <small>{s.u}</small>}</big>
+            <b>{s.b}</b>
+            <p>{s.p}</p>
+          </div>
+        ))}
+      </section>
 
-      <hr />
+      <section class="cell built span-12">
+        <a class="browser" href="https://financeradar.news" target="_blank" rel="noopener" aria-label="Open FinanceRadar">
+          <div class="bar"><i></i><i></i><i></i><span>financeradar.news</span></div>
+          <img src="/images/financeradar.jpg" alt="FinanceRadar homepage" width="1280" height="800" loading="lazy" decoding="async" />
+        </a>
+        <div>
+          <span class="k"><b>03</b>&nbsp; What I've built</span>
+          <h3>FinanceRadar</h3>
+          <p class="d">A bullshit detector for financial news. AI reads the firehose, so only the stories that matter get through. People want good financial content, not noise; this is my bet on that.</p>
+          <div class="kv">
+            <div><span>Updates</span>Twice a day</div>
+            <div><span>Reads</span>News, reports, Telegram, YouTube, X</div>
+          </div>
+          <p class="go"><a class="link" href="https://financeradar.news" target="_blank" rel="noopener">Open financeradar.news →</a></p>
+          <p class="note">Plus a handful of internal tools that make my job easier.</p>
+        </div>
+      </section>
 
-      <h2>Quickest way to reach me</h2>
-      <p>DM me on <a href="https://www.linkedin.com/in/kashishkap00r/">LinkedIn</a></p>
+      <section class="cell panel now span-6">
+        <div class="head"><h2><span class="n">04</span>Now</h2><span class="k">Nov 2026</span></div>
+        <p class="big">I'm not lost, and I'm not confused. I'm just working out what's next.</p>
+        <p class="rest">I've become far more tolerant of other viewpoints lately. Turns out there are very few rights and wrongs. On the list:</p>
+        <div class="list">
+          <div><span>01</span>CFA Level 2</div><div><span>02</span>An MBA, maybe</div>
+          <div><span>03</span>Get more jacked</div><div><span>04</span>A new skill or hobby</div>
+        </div>
+      </section>
+      <section class="cell path span-6">
+        <div class="head"><h2><span class="n">05</span>How I got here</h2></div>
+        <ul class="tl">
+          {path.map((s) => <li><span class="k">{s.k}</span><div><b>{s.b}</b><p>{s.p}</p></div></li>)}
+        </ul>
+      </section>
+
+      <section class="cell quiet span-5">
+        <div class="head"><h2><span class="n">06</span>Quietly, I also</h2></div>
+        <ul>
+          <li><b>Help a few people with money</b><span>One on one, by referral. Good advice shouldn't be rare.</span></li>
+          <li><b>Take career calls with students</b><span>Free, always.</span></li>
+          <li><b>Give talks on finance</b><span>If you think I have something to say, I'm in.</span></li>
+        </ul>
+      </section>
+      <section class="cell hi span-7">
+        <span class="k"><b>07</b>&nbsp; Say hi</span>
+        <h2>If you like the vibe,<br />say hi.</h2>
+        <p>A story I should chase? Something I can help your business with? Or just want to talk about any of this? Nothing gets me going like a good conversation.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.linkedin.com/in/kashishkap00r" target="_blank" rel="noopener">Message me on LinkedIn</a>
+          <a class="btn ghost" href="https://x.com/kashishkap00r" target="_blank" rel="noopener">Find me on X</a>
+        </div>
+      </section>
     </div>
   </div>
 </Base>
+
+<style>
+  /* Hero */
+  .hero { padding: 56px 40px 48px; }
+  .hero h1 { font-family: var(--font-serif); font-weight: 350; font-size: 90px; line-height: .95; letter-spacing: -.04em; margin-top: 18px; }
+  .hero h1 em { color: var(--accent-display); font-weight: 350; }
+  .hero p { margin-top: 26px; font-size: 19px; color: var(--text-2); max-width: 640px; line-height: 1.6; }
+  .hero p strong { color: var(--text); font-weight: 600; }
+  .me { display: flex; flex-direction: column; justify-content: space-between; padding: 40px 36px; }
+  .portrait { position: relative; width: 176px; height: 176px; }
+  .portrait img { width: 176px; height: 176px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 7px var(--panel), 0 0 0 8px var(--rule); }
+  .portrait .dot { position: absolute; right: 10px; bottom: 14px; width: 22px; height: 22px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 5px var(--panel); }
+  .me .kv { margin-top: 30px; }
+
+  /* What I do */
+  .lead { font-size: 16.5px; color: var(--text-2); margin-bottom: 18px !important; }
+  .lead strong { color: var(--text); font-weight: 600; }
+  .favs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .fav img { aspect-ratio: 3 / 2; border-radius: 4px; }
+  .fav .k { margin-top: 12px; }
+  .fav h3 { font-family: var(--font-serif); font-weight: 400; font-size: 18px; line-height: 1.3; margin-top: 4px; }
+  .fav:hover h3 { color: var(--accent); }
+  .more { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 18px; padding-bottom: 26px; border-bottom: 1px solid var(--rule); }
+  .items { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 26px; }
+  .items h4 { font-family: var(--font-serif); font-weight: 500; font-size: 20px; margin: 6px 0; }
+  .items p { font-size: 15px; color: var(--text-2); line-height: 1.55; }
+
+  /* Topics */
+  .cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .why { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--rule); font-family: var(--font-serif); font-size: 19px; line-height: 1.45; }
+  .why span { color: var(--muted); }
+
+  /* Scoreboard */
+  .sec-k { padding: 16px 36px; display: flex; justify-content: space-between; align-items: baseline; }
+  .sec-k h2 { font-family: var(--font-serif); font-weight: 400; font-size: 26px; }
+  .sec-k h2 .n { font-family: var(--font-mono); font-size: 13px; color: var(--muted); margin-right: 12px; vertical-align: middle; }
+  .score { display: grid; grid-template-columns: repeat(5, 1fr); padding: 0; }
+  .sc { padding: 28px 26px 26px; border-right: 1px solid var(--rule); }
+  .sc:last-child { border-right: 0; }
+  .sc .k { display: block; }
+  .sc big { display: block; font-family: var(--font-mono); font-weight: 400; font-size: 56px; line-height: 1; margin-top: 18px; letter-spacing: -.03em; white-space: nowrap; }
+  .sc big small { font-size: 20px; color: var(--muted); letter-spacing: 0; }
+  .sc b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 20px; margin-top: 16px; }
+  .sc p { font-size: 14px; color: var(--text-2); margin-top: 4px; line-height: 1.45; }
+
+  /* FinanceRadar */
+  .built { display: grid; grid-template-columns: 1.45fr 1fr; gap: 48px; align-items: center; padding: 44px 36px; }
+  .built h3 { font-family: var(--font-serif); font-weight: 350; font-size: 58px; line-height: 1; letter-spacing: -.02em; margin-top: 12px; }
+  .built .d { font-size: 18px; color: var(--text-2); margin-top: 16px; line-height: 1.55; }
+  .built .kv { margin-top: 22px; }
+  .built .go { margin-top: 20px; }
+  .built .note { margin-top: 18px; font-size: 14.5px; color: var(--muted); }
+
+  /* Now + path */
+  .now .big { font-family: var(--font-serif); font-weight: 350; font-size: 32px; line-height: 1.25; letter-spacing: -.01em; }
+  .now .rest { margin-top: 18px; font-size: 17px; line-height: 1.65; color: var(--text-2); }
+  .list { margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+  .list div { padding: 9px 0; border-top: 1px solid var(--rule); font-size: 15px; display: flex; gap: 10px; }
+  .list span { font-family: var(--font-mono); color: var(--muted); font-size: 13px; padding-top: 2px; }
+
+  /* Quietly */
+  .quiet li { padding: 14px 0; border-top: 1px solid var(--rule); }
+  .quiet li:first-child { border-top: 0; padding-top: 0; }
+  .quiet li b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 19px; }
+  .quiet li span { font-size: 14.5px; color: var(--text-2); }
+
+  @media (max-width: 760px) {
+    .hero { padding: 32px 0 28px; }
+    .me { padding: 28px 16px; }
+    .hero h1 { font-size: 48px; }
+    .hero p { font-size: 17.5px; }
+    .me { flex-direction: row; gap: 18px; align-items: center; }
+    .portrait, .portrait img { width: 96px; height: 96px; flex: none; }
+    .portrait .dot { width: 14px; height: 14px; right: 4px; bottom: 6px; }
+    .me .kv { margin-top: 0; flex: 1; }
+    .favs { grid-template-columns: 1fr; gap: 18px; }
+    .fav { display: grid; grid-template-columns: 112px 1fr; gap: 0 14px; align-items: center; }
+    .fav img, .fav .tile-fallback { grid-row: span 2; }
+    .fav .k { margin-top: 0; align-self: end; }
+    .fav h3 { align-self: start; }
+    .items { grid-template-columns: 1fr; gap: 18px; }
+    .sec-k { padding: 16px 0; }
+    .score { grid-template-columns: 1fr 1fr; }
+    .sc { border-bottom: 1px solid var(--rule); padding: 22px 14px 20px 0; }
+    .sc big { font-size: 42px; }
+    .sc:last-child { grid-column: span 2; }
+    .built { grid-template-columns: 1fr; gap: 24px; padding: 28px 0; }
+    .built h3 { font-size: 42px; }
+    .now .big { font-size: 26px; }
+    .list { grid-template-columns: 1fr; }
+  }
+</style>

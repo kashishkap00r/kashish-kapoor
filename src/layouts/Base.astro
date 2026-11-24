@@ -6,10 +6,15 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  /** Extra font files to preload on pages that show them above the fold. */
+  preload?: string[];
 }
 
-const { title, description } = Astro.props;
-const pageTitle = title === 'Kashish' ? title : `${title} — Kashish`;
+const { title, description, preload = [] } = Astro.props;
+const pageTitle = title === 'Kashish Kapoor' ? title : `${title} — Kashish Kapoor`;
+// Fonts every page paints in its first screen. Preloading them lets the real
+// font arrive before first paint on most connections (no visible swap).
+const fonts = ['/fonts/fraunces/fraunces-normal-latin.woff2', '/fonts/nunito-sans/nunito-sans-normal-latin.woff2', ...preload];
 ---
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
@@ -18,38 +23,24 @@ const pageTitle = title === 'Kashish' ? title : `${title} — Kashish`;
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{pageTitle}</title>
   {description && <meta name="description" content={description} />}
-  <meta property="og:title" content={title} />
+  <meta property="og:title" content={pageTitle} />
   {description && <meta property="og:description" content={description} />}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="alternate" type="application/rss+xml" title="Kashish" href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Kashish Kapoor" href="/rss.xml" />
+  {fonts.map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
 
-  {/* Google Fonts: Fraunces (headings) + Nunito Sans (body) */}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,500&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
-  {/* Theme detection — runs before paint to prevent FOUC */}
+  {/* Theme before first paint: saved choice, otherwise light (the default). */}
   <script is:inline>
-    (function() {
-      var theme = localStorage.getItem('theme');
-      if (!theme) {
-        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      }
-      document.documentElement.setAttribute('data-theme', theme);
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'dark' : 'light');
     })();
   </script>
-  <style>body { opacity: 0; }</style>
 </head>
 <body>
-  <script is:inline>
-    document.body.style.transition = 'opacity 0.5s ease';
-    requestAnimationFrame(function() {
-      requestAnimationFrame(function() {
-        document.body.style.opacity = '1';
-      });
-    });
-  </script>
-  <Nav />
+  <div class="wrap"><Nav /></div>
+  <slot name="ticker" />
   <main>
     <slot />
   </main>

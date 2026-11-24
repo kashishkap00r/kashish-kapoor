@@ -1,8 +1,10 @@
 name: Deploy to Cloudflare Pages
 
+# main deploys production (kashishkapoor.com); any other branch deploys a
+# Cloudflare preview at <branch>.kashish-kapoor.pages.dev.
 on:
   push:
-    branches: [main]
+    branches: ['**']
   # Allow manual runs from the Actions tab
   workflow_dispatch:
 
@@ -28,9 +30,12 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Check site (blocks deploy on failure)
+        run: npm run check
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: b2dfdac02cef3faa89aec67a542c52cd
-          command: pages deploy dist --project-name=kashish-kapoor --branch=main
+          command: pages deploy dist --project-name=kashish-kapoor --branch=${{ github.ref_name }}

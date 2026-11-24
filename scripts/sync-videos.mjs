@@ -1,13 +1,19 @@
 // Sync video metadata for the /work page.
 //
-// Reads the curated list of YouTube URLs from src/data/sources.json and
-// resolves each into { url, videoId, title, thumbnail, author } using YouTube's
-// public oEmbed endpoint. Titles/thumbnails are fetched automatically so the
-// owner only ever maintains a list of links.
+// Reads grouped YouTube links from src/data/sources.json → videos:
+//   { documentaries: [url], interviews: [url], product: [url],
+//     course: { playlist: url, firstVideo: url } }
+// and resolves titles via YouTube's public oEmbed endpoint into
+// src/data/videos.json with the same groups.
 //
-// Reuses the previous videos.json so only NEW urls hit oEmbed (rate-limit
-// friendly). On failure it keeps the prior entry, or falls back to a stub with
-// a thumbnail derived from the video id. No third-party dependencies.
+// Titles are cleaned to the part before the first " | " so channel names
+// ("Subtext by Zerodha", "Markets by Zerodha"…) never show on the site.
+// Thumbnails are NOT linked from YouTube: scripts/sync-images.mjs downloads
+// them to public/images/videos/<videoId>.jpg and the page checks they exist.
+//
+// Reuses the previous videos.json so only NEW urls hit oEmbed. On failure it
+// keeps the prior entry, or writes a stub titled "(title unavailable)".
+// No third-party dependencies.
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -18,9 +24,10 @@ const SOURCES = join(ROOT, 'src/data/sources.json');
 const OUT = join(ROOT, 'src/data/videos.json');
 
 const UA = 'Mozilla/5.0 (kashishkapoor.com content sync)';
+const GROUPS = ['documentaries', 'interviews', 'product'];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function parseVideoId(url) {
+export function parseVideoId(url) {
   try {
     const u = new URL(url);
     if (u.hostname === 'youtu.be') return u.pathname.slice(1).split('/')[0] || null;
@@ -34,7 +41,7 @@ function parseVideoId(url) {
   }
 }
 
-const thumbFor = (id) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+export const cleanTitle = (t) => (t || '').split(' | ')[0].replace(/\s+/g, ' ').trim();
 
 async function fetchOEmbed(url) {
   const endpoint = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
@@ -51,53 +58,54 @@ async function readJson(path, fallback) {
   }
 }
 
-async function main() {
-  const sources = await readJson(SOURCES, { videos: [] });
-  const urls = Array.isArray(sources.videos) ? sources.videos : [];
-  const prev = await readJson(OUT, []);
-  const prevByUrl = new Map(prev.map((v) => [v.url, v]));
-
-  const out = [];
-  for (const url of urls) {
-    const videoId = parseVideoId(url);
-    // Reuse prior metadata if we already resolved a title (fewer oEmbed calls).
-    const existing = prevByUrl.get(url);
-    if (existing && existing.title && existing.title !== '(title unavailable)') {
-      out.push(existing);
-      continue;
-    }
-    try {
-      const j = await fetchOEmbed(url);
-      out.push({
-        url,
-        videoId,
-        title: j.title,
-        thumbnail: videoId ? thumbFor(videoId) : j.thumbnail_url,
-        author: j.author_name ?? null,
-        fetchedAt: new Date().toISOString(),
-      });
-      console.log(`✓ ${j.title}`);
-    } catch (err) {
-      console.warn(`! ${url} — ${err.message}; using fallback`);
-      out.push(
-        existing ?? {
-          url,
-          videoId,
-          title: '(title unavailable)',
-          thumbnail: videoId ? thumbFor(videoId) : null,
-          author: null,
-          fetchedAt: new Date().toISOString(),
-        }
-      );
-    }
+// One resolved entry per url, reusing prior titles where we have them.
+async function resolve(url, prevByUrl) {
+  const videoId = parseVideoId(url);
+  const existing = prevByUrl.get(url);
+  if (existing && existing.title && existing.title !== '(title unavailable)') return existing;
+  try {
+    const j = await fetchOEmbed(url);
+    console.log(`✓ ${cleanTitle(j.title)}`);
     await sleep(250);
+    return { url, videoId, title: cleanTitle(j.title), fetchedAt: new Date().toISOString() };
+  } catch (err) {
+    console.warn(`! ${url} — ${err.message}; using fallback`);
+    return existing ?? { url, videoId, title: '(title unavailable)', fetchedAt: new Date().toISOString() };
+  }
+}
+
+async function main() {
+  const sources = await readJson(SOURCES, { videos: {} });
+  const v = sources.videos && !Array.isArray(sources.videos) ? sources.videos : {};
+  const prev = await readJson(OUT, {});
+  const prevEntries = [
+    ...GROUPS.flatMap((g) => (Array.isArray(prev[g]) ? prev[g] : [])),
+    ...(prev.course ? [prev.course] : []),
+  ];
+  const prevByUrl = new Map(prevEntries.map((e) => [e.url, e]));
+
+  const out = {};
+  for (const g of GROUPS) {
+    out[g] = [];
+    for (const url of Array.isArray(v[g]) ? v[g] : []) out[g].push(await resolve(url, prevByUrl));
+  }
+
+  // Course: a playlist. Title comes from the playlist; the thumbnail from its first video.
+  out.course = null;
+  if (v.course && v.course.playlist) {
+    const entry = await resolve(v.course.playlist, prevByUrl);
+    out.course = { ...entry, videoId: parseVideoId(v.course.firstVideo || '') };
   }
 
   await writeFile(OUT, JSON.stringify(out, null, 2) + '\n');
-  console.log(`Wrote ${out.length} video(s) → src/data/videos.json`);
+  const n = GROUPS.reduce((s, g) => s + out[g].length, 0) + (out.course ? 1 : 0);
+  console.log(`Wrote ${n} video entr${n === 1 ? 'y' : 'ies'} → src/data/videos.json`);
 }
 
-main().catch((err) => {
-  console.error('sync-videos failed:', err);
-  process.exit(1);
-});
+// Only run when executed directly (lets check-site import the helpers).
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  main().catch((err) => {
+    console.error('sync-videos failed:', err);
+    process.exit(1);
+  });
+}

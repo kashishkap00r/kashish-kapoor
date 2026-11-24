@@ -1,9 +1,42 @@
 {
-  "videos": [],
+  "videos": {
+    "_note": "Hand-edited YouTube links, grouped. Run `npm run sync` after editing.",
+    "documentaries": [
+      "https://www.youtube.com/watch?v=9ID91U4keZk",
+      "https://www.youtube.com/watch?v=-fjbEfh9wpY"
+    ],
+    "interviews": [
+      "https://www.youtube.com/watch?v=nuN4iu_PXFo",
+      "https://www.youtube.com/watch?v=Jt4HSwpaCiA",
+      "https://www.youtube.com/watch?v=fv5vIdZwLAI",
+      "https://www.youtube.com/watch?v=K481MqqV7bo",
+      "https://www.youtube.com/watch?v=yIF6lLSO7s0",
+      "https://www.youtube.com/watch?v=0uKPhdyOIkQ",
+      "https://www.youtube.com/watch?v=bP92xy8LXac",
+      "https://www.youtube.com/watch?v=S4Q0zb9rEqk",
+      "https://www.youtube.com/watch?v=TF1RjrodDNo",
+      "https://www.youtube.com/watch?v=xLkFyhEyflE",
+      "https://www.youtube.com/watch?v=tmt5UAWb0bo",
+      "https://www.youtube.com/watch?v=Un-1dNOA5CU",
+      "https://www.youtube.com/watch?v=R8rI5Ieb2lo"
+    ],
+    "course": {
+      "playlist": "https://www.youtube.com/playlist?list=PLDId1o9anARA",
+      "firstVideo": "https://www.youtube.com/watch?v=OmB-Sr9Y5Zw"
+    },
+    "product": [
+      "https://www.youtube.com/watch?v=vq7oypoXyvw",
+      "https://www.youtube.com/watch?v=MWYfkumwHyc",
+      "https://www.youtube.com/watch?v=VWJFfGwrDew"
+    ]
+  },
   "writings": {
     "ownerFirstName": "Kashish",
     "publications": [
-      { "name": "The Daily Brief", "base": "https://thedailybrief.zerodha.com" }
+      {
+        "name": "The Daily Brief",
+        "base": "https://thedailybrief.zerodha.com"
+      }
     ],
     "manualInclude": [],
     "exclude": []

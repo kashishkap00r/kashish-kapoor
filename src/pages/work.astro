@@ -1,75 +1,271 @@
 ---
 import Base from '../layouts/Base.astro';
-import videos from '../data/videos.json';
-import writings from '../data/writings.json';
+import Ticker from '../components/Ticker.astro';
+import { getCollection } from 'astro:content';
+import {
+  bestOf, allPieces, piecesByYear, coverFor, thumbFor, fmtDay,
+  docs, interviews, productVideos, course, sinceLabel,
+} from '../lib/data';
 
-// Projects live inline — small, hand-curated list. Easy to extend.
-const projects = [
-  {
-    title: 'FinanceRadar',
-    blurb: 'A lightweight finance/news signal dashboard for my personal research workflow.',
-    url: '/finance-radar/',
-  },
+const posts = (await getCollection('writings', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const postsByYear = Object.entries(
+  posts.reduce<Record<string, typeof posts>>((acc, p) => {
+    (acc[String(p.data.date.getUTCFullYear())] ||= []).push(p);
+    return acc;
+  }, {})
+).sort((a, b) => b[0].localeCompare(a[0]));
+
+const topic = (t: string) => {
+  t = t.toLowerCase();
+  if (/mma|martial|goggins|physique|fitness|healthwise|egg/.test(t)) return 'Body';
+  if (/money|investment/.test(t)) return 'Money';
+  if (/dating/.test(t)) return 'Dating';
+  if (/mental|art of living|habit/.test(t)) return 'Mind';
+  return 'Life';
+};
+
+const postYears = posts.map((p) => p.data.date.getUTCFullYear());
+const postSpan = posts.length ? `${Math.min(...postYears)} – ${Math.max(...postYears)}` : '';
+
+const ticker = [
+  { label: 'Research pieces', value: allPieces.length },
+  { label: 'Since', value: sinceLabel },
+  { label: 'Personal posts', value: posts.length },
+  { label: 'Interviews', value: interviews.length },
+  { label: 'Documentaries', value: docs.length },
+  { label: 'Live products', value: 1 },
+  { label: 'Cookies', value: 0 },
 ];
-
-function fmtDate(value) {
-  const d = new Date(value);
-  if (isNaN(d.valueOf())) return '';
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-}
 ---
-<Base title="Work" description="Videos, writing, and the tools I build.">
-  <div class="prose-container">
-    <h1 class="section-title">Work</h1>
+<Base
+  title="Work"
+  description="Research, writing, videos and things Kashish Kapoor has built: best pieces, every research piece by year, interviews, documentaries and FinanceRadar."
+  preload={['/fonts/fraunces/fraunces-italic-latin.woff2', '/fonts/jetbrains-mono/jetbrains-mono-normal-latin.woff2']}
+>
+  <Ticker slot="ticker" items={ticker} />
 
-    <!-- ─── Videos ─── -->
-    <section id="videos" class="work-section">
-      <h2>Videos</h2>
-      {videos.length === 0 ? (
-        <p class="work-empty">Videos coming soon.</p>
-      ) : (
-        <div class="video-grid">
-          {videos.map(v => (
-            <a class="video-card" href={v.url} target="_blank" rel="noopener">
-              <img src={v.thumbnail} alt={v.title} loading="lazy" width="480" height="270" />
-              <span class="video-title">{v.title}</span>
-            </a>
+  <div class="wrap ink">
+    <div class="grid">
+      <section class="cell top ph span-8">
+        <div class="k"><b>●</b>&nbsp; Work</div>
+        <h1>Research, writing, videos, <em>and things I've built.</em></h1>
+        <p>The best stuff up top. Everything else is in a box below, so you can dig without scrolling forever.</p>
+      </section>
+      <nav class="cell top panel jump span-4" aria-label="On this page">
+        <a href="#best">Best of <span>{bestOf.length}</span></a>
+        <a href="#archive">Every research piece <span>{allPieces.length}</span></a>
+        <a href="#personal">Personal writing <span>{posts.length}</span></a>
+        <a href="#videos">Videos <span>{docs.length + interviews.length + productVideos.length + (course ? 1 : 0)}</span></a>
+        <a href="#built">Built <span>FinanceRadar</span></a>
+      </nav>
+
+      <section class="cell span-12" id="best">
+        <div class="head"><h2><span class="n">01</span>Best of</h2><span class="k">Eight I'd hand you first</span></div>
+        <div class="best">
+          {bestOf.map((p) => {
+            const img = coverFor(p);
+            return (
+              <a class="b" href={p.url} target="_blank" rel="noopener">
+                {img ? <img src={img} alt="" width="640" height="427" loading="lazy" decoding="async" /> : <span class="tile-fallback">Research</span>}
+                <div class="k">{fmtDay(p.date)}, {p.date.slice(0, 4)}</div>
+                <h3>{p.title.replace(/, explained$/, '')}</h3>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      <section class="cell arch span-8" id="archive">
+        <div class="head">
+          <h2><span class="n">02</span>Every research piece</h2>
+          <div class="chips">
+            {piecesByYear.map(([y], i) => <a class={i === 0 ? 'chip on' : 'chip'} href={`#y${y}`} data-y={y}>{y}</a>)}
+          </div>
+        </div>
+        <div class="box" id="abox" tabindex="0" aria-label="Every research piece, newest first">
+          {piecesByYear.map(([y, list]) => (
+            <>
+              <div class="yr" id={`y${y}`}><span>{y}</span><span>{list.length} pieces</span></div>
+              {list.map((p) => (
+                <a class="it" href={p.url} target="_blank" rel="noopener">
+                  <span class="k">{fmtDay(p.date)}</span>
+                  <div><h4>{p.title}</h4>{p.subtitle && <p>{p.subtitle}</p>}</div>
+                </a>
+              ))}
+            </>
           ))}
         </div>
-      )}
-    </section>
-
-    <!-- ─── Writing ─── -->
-    <section id="writing" class="work-section">
-      <h2>Writing</h2>
-      {writings.length === 0 ? (
-        <p class="work-empty">Pulling in pieces — check back soon.</p>
-      ) : (
-        <ul class="post-list">
-          {writings.map(w => (
-            <li class="post-item">
-              {w.date && <time datetime={w.date}>{fmtDate(w.date)}</time>}
-              <a href={w.url} target="_blank" rel="noopener">{w.title}</a>
-              {w.subtitle && <span class="post-subtitle">{w.subtitle}</span>}
-              {w.publication && <span class="post-meta">{w.publication}</span>}
-            </li>
+        <div class="boxfoot"><span class="k">Scroll inside the box · newest first</span><span class="k">{allPieces.length} pieces</span></div>
+      </section>
+      <section class="cell panel pers span-4" id="personal">
+        <div class="head"><h2><span class="n">03</span>Personal writing</h2></div>
+        <p class="intro">Older, rookie posts on fitness, money, MMA, dating and life. Not polished, but they're how I got here.</p>
+        <div class="box" tabindex="0" aria-label="Personal writing, newest first">
+          {postsByYear.map(([y, list]) => (
+            <>
+              <div class="yr"><span>{y}</span></div>
+              {list.map((p) => (
+                <a class="it" href={`/writings/${p.slug}/`}><h4>{p.data.title}</h4><span class="t">{topic(p.data.title)}</span></a>
+              ))}
+            </>
           ))}
-        </ul>
-      )}
-      <p class="work-more">Older personal essays live in <a href="/writings/">/writings</a>.</p>
-    </section>
+        </div>
+        <div class="boxfoot"><span class="k">{postSpan}</span><span class="k">{posts.length} posts</span></div>
+      </section>
 
-    <!-- ─── Projects ─── -->
-    <section id="projects" class="work-section">
-      <h2>Projects</h2>
-      <ul class="post-list">
-        {projects.map(p => (
-          <li class="post-item">
-            <a href={p.url}>{p.title}</a>
-            <span class="post-subtitle">{p.blurb}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
+      <div class="cell sec-k span-12" id="videos">
+        <h2><span class="n">04</span>Videos</h2><span class="k">Interviews, docs, explainers</span>
+      </div>
+      <section class="cell docs span-8" aria-label="Documentaries">
+        <span class="k">Documentaries · The Long Answer</span>
+        <div class="dgrid">
+          {docs.map((v) => {
+            const img = thumbFor(v);
+            return (
+              <a class="vcard" href={v.url} target="_blank" rel="noopener">
+                {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Documentary</span>}
+                <h3>{v.title.replace(/\s+[—-]\s+Documentary$/, '')}</h3>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+      <section class="cell panel side span-4" aria-label="Course and product videos">
+        {course && (
+          <a class="course" href={course.url} target="_blank" rel="noopener">
+            {(() => { const img = thumbFor(course); return img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Course</span>; })()}
+            <span class="k">Varsity course · Hindi</span>
+            <h3>{course.title}</h3>
+            <span class="link">Full playlist →</span>
+          </a>
+        )}
+        {productVideos.length > 0 && (
+          <div class="prod">
+            <span class="k">Product launches · Kite</span>
+            {productVideos.map((v) => {
+              const img = thumbFor(v);
+              return (
+                <a class="prow" href={v.url} target="_blank" rel="noopener">
+                  {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Video</span>}
+                  <span>{v.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        )}
+      </section>
+      <section class="cell ints span-12" aria-label="Interviews">
+        <div class="head"><span class="k">Interviews · {interviews.length}</span><span class="k">Scroll sideways →</span></div>
+        <div class="strip" tabindex="0" aria-label="Interviews, scroll sideways">
+          {interviews.map((v) => {
+            const img = thumbFor(v);
+            return (
+              <a class="icard" href={v.url} target="_blank" rel="noopener">
+                {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Interview</span>}
+                <h4>{v.title}</h4>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      <section class="cell bl span-8" id="built">
+        <a class="browser" href="https://financeradar.news" target="_blank" rel="noopener" aria-label="Open FinanceRadar">
+          <div class="bar"><i></i><i></i><i></i><span>financeradar.news</span></div>
+          <img src="/images/financeradar.jpg" alt="FinanceRadar homepage" width="1280" height="800" loading="lazy" decoding="async" />
+        </a>
+        <div>
+          <span class="k"><b>05</b>&nbsp; Built</span>
+          <h3>FinanceRadar</h3>
+          <p>A bullshit detector for financial news. AI reads the firehose twice a day, so only the stories that matter get through.</p>
+          <p class="go"><a class="link" href="https://financeradar.news" target="_blank" rel="noopener">Open financeradar.news →</a></p>
+        </div>
+      </section>
+      <section class="cell panel rm span-4">
+        <span class="k"><b>06</b>&nbsp; Investing</span>
+        <h3>Rainmatter</h3>
+        <p>I help Zerodha's investment arm think through bets, especially in climate. Problem statements, solutions, all of it.</p>
+      </section>
+    </div>
   </div>
 </Base>
+
+<script>
+  // Year chips scroll the archive box, not the page. Without JS they are plain
+  // in-page links to the same year headers.
+  const box = document.getElementById('abox');
+  document.querySelectorAll<HTMLAnchorElement>('.chips .chip').forEach((chip) => {
+    chip.addEventListener('click', (e) => {
+      const target = document.getElementById('y' + chip.dataset.y);
+      if (!box || !target) return;
+      e.preventDefault();
+      document.querySelectorAll('.chips .chip').forEach((c) => c.classList.remove('on'));
+      chip.classList.add('on');
+      box.scrollTo({ top: target.offsetTop, behavior: 'smooth' });
+    });
+  });
+</script>
+
+<style>
+  .ph { padding: 48px 40px 40px; }
+  .ph h1 { font-family: var(--font-serif); font-weight: 350; font-size: 76px; line-height: 1; letter-spacing: -.035em; margin-top: 14px; }
+  .ph h1 em { color: var(--accent-display); }
+  .ph p { margin-top: 18px; font-size: 19px; color: var(--text-2); max-width: 620px; }
+  .jump { display: flex; flex-direction: column; justify-content: flex-end; }
+  .jump a { display: flex; justify-content: space-between; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 15.5px; }
+  .jump a span { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+  .jump a:hover { color: var(--accent); }
+
+  .best { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px 22px; }
+  .b img { aspect-ratio: 3 / 2; border-radius: 4px; }
+  .b .k { margin-top: 10px; }
+  .b h3 { font-family: var(--font-serif); font-weight: 400; font-size: 18px; line-height: 1.3; margin-top: 3px; }
+  .b:hover h3 { color: var(--accent); }
+
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-family: var(--font-mono); font-size: 11.5px; padding: 5px 11px; border: 1px solid var(--rule-2); border-radius: 999px; color: var(--text-2); }
+  .chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+
+  .pers .intro { font-size: 15px; color: var(--text-2); margin: -10px 0 16px; }
+  .pers .box { height: 352px; }
+  .pers .it { grid-template-columns: 1fr auto; }
+  .pers .it .t { font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+
+  .sec-k { padding: 16px 36px; display: flex; justify-content: space-between; align-items: baseline; }
+  .sec-k h2 { font-family: var(--font-serif); font-weight: 400; font-size: 26px; }
+  .sec-k h2 .n { font-family: var(--font-mono); font-size: 13px; color: var(--muted); margin-right: 12px; vertical-align: middle; }
+
+  .vcard img, .course img, .icard img, .prow img { aspect-ratio: 16 / 9; border-radius: 4px; }
+  .dgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 14px; }
+  .vcard h3 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; line-height: 1.25; margin-top: 12px; }
+  .vcard:hover h3, .course:hover h3, .icard:hover h4, .prow:hover span { color: var(--accent); }
+  .course { display: block; }
+  .course .k { display: block; margin-top: 12px; }
+  .course h3 { font-family: var(--font-serif); font-weight: 500; font-size: 22px; margin: 4px 0 6px; }
+  .prod { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .prow { display: grid; grid-template-columns: 96px 1fr; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 14.5px; line-height: 1.35; }
+  .prow:last-child { border-bottom: 0; }
+
+  .ints .head { margin-bottom: 14px; }
+  .strip { display: grid; grid-auto-flow: column; grid-auto-columns: 248px; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; scrollbar-width: thin; scrollbar-color: var(--rule-2) transparent; }
+  .strip:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  .icard { scroll-snap-align: start; }
+  .icard h4 { font-family: var(--font-serif); font-weight: 400; font-size: 16.5px; line-height: 1.3; margin-top: 10px; }
+
+  .bl { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
+  .bl h3, .rm h3 { font-family: var(--font-serif); font-weight: 400; font-size: 34px; line-height: 1.05; margin-top: 10px; }
+  .bl p, .rm p { font-size: 15.5px; color: var(--text-2); margin-top: 10px; }
+  .bl .go { margin-top: 14px; }
+
+  @media (max-width: 760px) {
+    .ph { padding: 32px 0; }
+    .ph h1 { font-size: 48px; }
+    .best { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
+    .head { flex-wrap: wrap; }
+    .sec-k { padding: 16px 0; }
+    .dgrid { grid-template-columns: 1fr; }
+    .strip { grid-auto-columns: 72%; }
+    .bl { grid-template-columns: 1fr; }
+  }
+</style>

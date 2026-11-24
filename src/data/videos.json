@@ -1,1 +1,122 @@
-[]
+{
+  "documentaries": [
+    {
+      "url": "https://www.youtube.com/watch?v=9ID91U4keZk",
+      "videoId": "9ID91U4keZk",
+      "title": "Can Birla Opus Win the Indian Paints War? — Documentary",
+      "fetchedAt": "2026-11-24T09:52:26.871Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-fjbEfh9wpY",
+      "videoId": "-fjbEfh9wpY",
+      "title": "Inside India’s Race to Go Green — Documentary",
+      "fetchedAt": "2026-11-24T09:52:27.192Z"
+    }
+  ],
+  "interviews": [
+    {
+      "url": "https://www.youtube.com/watch?v=nuN4iu_PXFo",
+      "videoId": "nuN4iu_PXFo",
+      "title": "What they learned running a fund in GIFT City?",
+      "fetchedAt": "2026-11-24T09:52:27.507Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jt4HSwpaCiA",
+      "videoId": "Jt4HSwpaCiA",
+      "title": "India's Youth Employment Crisis",
+      "fetchedAt": "2026-11-24T09:52:27.831Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fv5vIdZwLAI",
+      "videoId": "fv5vIdZwLAI",
+      "title": "Is Copper in a Supercycle?",
+      "fetchedAt": "2026-11-24T09:52:28.158Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=K481MqqV7bo",
+      "videoId": "K481MqqV7bo",
+      "title": "Tamal Bandyopadhyay on microfinance industry cycle",
+      "fetchedAt": "2026-11-24T09:52:28.477Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yIF6lLSO7s0",
+      "videoId": "yIF6lLSO7s0",
+      "title": "Amit Tripathi on monetary policy and Indian banks",
+      "fetchedAt": "2026-11-24T09:52:28.827Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0uKPhdyOIkQ",
+      "videoId": "0uKPhdyOIkQ",
+      "title": "Sagar Lele on how to read company results like an analyst",
+      "fetchedAt": "2026-11-24T09:52:29.159Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bP92xy8LXac",
+      "videoId": "bP92xy8LXac",
+      "title": "Why India’s cities can’t borrow? ft. Rajashree Murukute",
+      "fetchedAt": "2026-11-24T09:52:29.484Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=S4Q0zb9rEqk",
+      "videoId": "S4Q0zb9rEqk",
+      "title": "Why India Throws Away Free Solar Power ft. Mudit, VoltSeal",
+      "fetchedAt": "2026-11-24T09:52:29.793Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TF1RjrodDNo",
+      "videoId": "TF1RjrodDNo",
+      "title": "The state of nuclear energy in India ft. Karthik Ganesan",
+      "fetchedAt": "2026-11-24T09:52:30.110Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xLkFyhEyflE",
+      "videoId": "xLkFyhEyflE",
+      "title": "The real cost of UPI",
+      "fetchedAt": "2026-11-24T09:52:30.834Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tmt5UAWb0bo",
+      "videoId": "tmt5UAWb0bo",
+      "title": "Understanding Shipbuilding Industry from scratch ft. Ishmohit Arora (@SOICfinance )",
+      "fetchedAt": "2026-11-24T09:52:31.381Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Un-1dNOA5CU",
+      "videoId": "Un-1dNOA5CU",
+      "title": "How to Spot Global Investing Themes? ft. AI, Defense, Trump Trades",
+      "fetchedAt": "2026-11-24T09:52:31.689Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R8rI5Ieb2lo",
+      "videoId": "R8rI5Ieb2lo",
+      "title": "Ozempic & the GLP-1 Boom ft. Ishmohit Arora (@SOICfinance )",
+      "fetchedAt": "2026-11-24T09:52:31.998Z"
+    }
+  ],
+  "product": [
+    {
+      "url": "https://www.youtube.com/watch?v=vq7oypoXyvw",
+      "videoId": "vq7oypoXyvw",
+      "title": "Introducing Kite Screener: Find, track, and trade stocks in one place",
+      "fetchedAt": "2026-11-24T09:52:32.314Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MWYfkumwHyc",
+      "videoId": "MWYfkumwHyc",
+      "title": "Zerodha monthly update: Everything new across Kite, Console & Fund House",
+      "fetchedAt": "2026-11-24T09:52:32.625Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VWJFfGwrDew",
+      "videoId": "VWJFfGwrDew",
+      "title": "New charting features on Kite app",
+      "fetchedAt": "2026-11-24T09:52:32.941Z"
+    }
+  ],
+  "course": {
+    "url": "https://www.youtube.com/playlist?list=PLDId1o9anARA",
+    "videoId": "OmB-Sr9Y5Zw",
+    "title": "Fundamental Analysis",
+    "fetchedAt": "2026-11-24T09:52:33.260Z"
+  }
+}

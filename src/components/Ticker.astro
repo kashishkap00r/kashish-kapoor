@@ -1,0 +1,22 @@
+---
+// The mono "market ticker" strip under the nav. Each page passes its own facts.
+interface Item {
+  label: string;
+  value: string | number;
+  /** Small trailing mark, e.g. "▲" or "✓ L2 →". */
+  mark?: string;
+}
+interface Props {
+  items: Item[];
+}
+const { items } = Astro.props;
+---
+<div class="ticker" aria-label="Quick facts">
+  <div class="wrap">
+    <ul>
+      {items.map((it) => (
+        <li>{it.label}<b>{it.value}</b>{it.mark && <i>{it.mark}</i>}</li>
+      ))}
+    </ul>
+  </div>
+</div>

@@ -7,7 +7,9 @@
     "preview": "astro preview",
     "sync:videos": "node scripts/sync-videos.mjs",
     "sync:writings": "node scripts/sync-writings.mjs",
-    "sync": "npm run sync:videos && npm run sync:writings"
+    "sync": "npm run sync:videos && npm run sync:writings && npm run sync:images",
+    "sync:images": "node scripts/sync-images.mjs",
+    "check": "node scripts/check-site.mjs"
   },
   "dependencies": {
     "astro": "^4.0.0",
