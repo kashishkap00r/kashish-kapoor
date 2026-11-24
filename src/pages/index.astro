@@ -110,9 +110,9 @@ const path = [
       </section>
 
       <section class="cell built span-12">
-        <a class="browser" href="https://financeradar.news" target="_blank" rel="noopener" aria-label="Open FinanceRadar">
+        <a class="browser" href="/finance-radar/" aria-label="More on FinanceRadar">
           <div class="bar"><i></i><i></i><i></i><span>financeradar.news</span></div>
-          <img src="/images/financeradar.jpg" alt="FinanceRadar homepage" width="1280" height="800" loading="lazy" decoding="async" />
+          <img src="/images/financeradar.jpg" srcset="/images/financeradar.jpg 1x, /images/financeradar@2x.jpg 2x" alt="FinanceRadar homepage" width="1280" height="800" loading="lazy" decoding="async" />
         </a>
         <div>
           <span class="k"><b>03</b>&nbsp; What I've built</span>
@@ -122,7 +122,7 @@ const path = [
             <div><span>Updates</span>Twice a day</div>
             <div><span>Reads</span>News, reports, Telegram, YouTube, X</div>
           </div>
-          <p class="go"><a class="link" href="https://financeradar.news" target="_blank" rel="noopener">Open financeradar.news →</a></p>
+          <p class="go"><a class="link" href="/finance-radar/">More on FinanceRadar →</a></p>
           <p class="note">Plus a handful of internal tools that make my job easier.</p>
         </div>
       </section>
@@ -146,7 +146,7 @@ const path = [
       <section class="cell quiet span-5">
         <div class="head"><h2><span class="n">06</span>Quietly, I also</h2></div>
         <ul>
-          <li><b>Help a few people with money</b><span>One on one, by referral. Good advice shouldn't be rare.</span></li>
+          <li><a href="/financial-planning/"><b>Help a few people with money</b><span>One on one, by referral. Good advice shouldn't be rare. <em class="link">How it works →</em></span></a></li>
           <li><b>Take career calls with students</b><span>Free, always.</span></li>
           <li><b>Give talks on finance</b><span>If you think I have something to say, I'm in.</span></li>
         </ul>
@@ -172,9 +172,9 @@ const path = [
   .hero p { margin-top: 26px; font-size: 19px; color: var(--text-2); max-width: 640px; line-height: 1.6; }
   .hero p strong { color: var(--text); font-weight: 600; }
   .me { display: flex; flex-direction: column; justify-content: space-between; padding: 40px 36px; }
-  .portrait { position: relative; width: 176px; height: 176px; }
-  .portrait img { width: 176px; height: 176px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 7px var(--panel), 0 0 0 8px var(--rule); }
-  .portrait .dot { position: absolute; right: 10px; bottom: 14px; width: 22px; height: 22px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 5px var(--panel); }
+  .portrait { position: relative; width: 232px; height: 232px; align-self: center; }
+  .portrait img { width: 232px; height: 232px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 7px var(--panel), 0 0 0 8px var(--rule); }
+  .portrait .dot { position: absolute; right: 16px; bottom: 20px; width: 24px; height: 24px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 5px var(--panel); }
   .me .kv { margin-top: 30px; }
 
   /* What I do */
@@ -228,6 +228,8 @@ const path = [
   .quiet li:first-child { border-top: 0; padding-top: 0; }
   .quiet li b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 19px; }
   .quiet li span { font-size: 14.5px; color: var(--text-2); }
+  .quiet li a:hover b { color: var(--accent); }
+  .quiet li em { font-style: normal; font-weight: 600; }
 
   @media (max-width: 760px) {
     .hero { padding: 32px 0 28px; }
@@ -235,7 +237,7 @@ const path = [
     .hero h1 { font-size: 48px; }
     .hero p { font-size: 17.5px; }
     .me { flex-direction: row; gap: 18px; align-items: center; }
-    .portrait, .portrait img { width: 96px; height: 96px; flex: none; }
+    .portrait, .portrait img { width: 96px; height: 96px; flex: none; align-self: auto; }
     .portrait .dot { width: 14px; height: 14px; right: 4px; bottom: 6px; }
     .me .kv { margin-top: 0; flex: 1; }
     .favs { grid-template-columns: 1fr; gap: 18px; }
