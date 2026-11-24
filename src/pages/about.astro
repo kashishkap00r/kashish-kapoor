@@ -23,16 +23,6 @@ const notes = [
   { label: 'Helps with', text: 'Money, one on one →', href: '/financial-planning/' },
 ];
 
-const ticker = [
-  { label: 'From', value: 'Ambala' },
-  { label: 'Grew up', value: 'Himachal' },
-  { label: 'Pieces written', value: '500+', mark: '▲' },
-  { label: 'Videos made', value: '100+', mark: '▲' },
-  { label: 'CFA', value: 'L1', mark: '✓ L2 →' },
-  { label: 'Best knock', value: 80 },
-  { label: 'Failures survived', value: '1000+' },
-];
-
 const bar = ['Tech + Claude Code', 'Product', 'Content + social', 'Videos', 'Sport', 'Philosophy'];
 const path = [
   { k: 'Ambala', b: 'Home', p: 'Son of an accountant and a commerce teacher.' },
@@ -57,7 +47,6 @@ const score = [
   lead="I do research at Zerodha, help Rainmatter think through its bets, and build things like FinanceRadar on the side. This is the long version: how I got here, what I care about, what I do when I'm not working, and what I'm figuring out next."
   toc={toc}
   notes={notes}
-  ticker={ticker}
 >
   <div slot="hero">
     <img class="ab-av" src="/images/avatar.jpg" alt="Cartoon portrait of Kashish Kapoor" width="600" height="600" fetchpriority="high" />
@@ -86,7 +75,7 @@ const score = [
       {path.map((s) => <li><span class="k">{s.k}</span><b>{s.b}</b><small>{s.p}</small></li>)}
     </ol>
     <p>I'm from Ambala, but most of my good memories of growing up are from a boarding school in Himachal, where I lived from grade 6 to 12. I was the kid who was into everything: topping the class, national-level badminton, debating, business competitions.</p>
-    <p>My headmaster wanted me to take engineering. He knew I was a bright kid, and that's the path bright kids were pushed down. I didn't want it. <span class="hl">I picked commerce.</span> With an accountant for a dad and a commerce teacher for a mum, maybe that was always coming.</p>
+    <p>My headmaster wanted me to take engineering. He knew I was a bright kid, and that's the path bright kids were pushed down. I didn't want it. I picked commerce. With an accountant for a dad and a commerce teacher for a mum, maybe that was always coming.</p>
     <p>I tried accounting first and found it boring. I tried marketing too, and it didn't stick. Then COVID happened. Classes at Delhi University, where I was doing my B.Com (Hons), barely ran, and I found the stock market.</p>
     <blockquote>I knew I was really into it when I was spending sleepless nights reading finance books.</blockquote>
     <p>I did course after course and built financial models in my own time, for no reason other than wanting to understand how things worked. In college I was also on the placement cell and kept debating, but finance had me.</p>
@@ -95,7 +84,7 @@ const score = [
 
   <section id="now">
     <h2>What I do now</h2>
-    <p>I do research at Zerodha. In practice that means I read, dig and write about whatever is worth understanding, mostly <span class="hl">financial services</span> (banking, insurance, broking, wealth, payments) and <span class="hl">energy</span> (generation, transmission, new tech). The weirder the rabbit hole, the better. These are three I'm proudest of:</p>
+    <p>I do research at Zerodha. In practice that means I read, dig and write about whatever is worth understanding, mostly financial services (banking, insurance, broking, wealth, payments) and energy (generation, transmission, new tech). The weirder the rabbit hole, the better. These are three I'm proudest of:</p>
     <div class="picks">
       {homePicks.map((p) => {
         const img = coverFor(p);
@@ -149,16 +138,13 @@ const score = [
 
   <section id="head">
     <h2>What's in my head</h2>
-    <p>The biggest change in me lately: <span class="hl">I've become much more tolerant of other viewpoints.</span> I used to think I was smart enough to know everything. Now I've realised there are very few rights and wrongs, and that fascinates me.</p>
+    <p>The biggest change in me lately: I've become much more tolerant of other viewpoints. I used to think I was smart enough to know everything. Now I've realised there are very few rights and wrongs, and that fascinates me.</p>
     <p>My mental models are borrowed from a lot of places, so it's hard to name one person. But I subscribe to a lot of Naval Ravikant's philosophy, I'm deep into Hinduism and philosophy, and Fight Club is a movie I really like. Beyond that, it honestly depends on what I last consumed. Some weeks I'm obsessed with a writer or a YouTube channel; other weeks I don't remember watching them.</p>
-    <div class="tags">
-      <span class="tag hot">Naval Ravikant</span><span class="tag hot">Hinduism and philosophy</span><span class="tag">Fight Club</span><span class="tag">Climate bets</span><span class="tag">Power and the grid</span><span class="tag">Banks</span><span class="tag">Claude Code</span><span class="tag">Other people's viewpoints</span><span class="tag">Weird rabbit holes</span>
-    </div>
   </section>
 
   <section id="next">
     <h2>What's next</h2>
-    <p class="pull">I'm not lost, and I'm not confused. I just want to know what's next for me.</p>
+    <p>I'm not lost, and I'm not confused. I just want to know what's next for me.</p>
     <p>I think I've set myself up for good things. The questions on my mind right now:</p>
     <ul>
       <li>CFA Level 2 is due.</li>
@@ -202,9 +188,10 @@ const score = [
   .picks .card b { display: block; font-family: var(--font-serif); font-weight: 400; font-size: 17px; line-height: 1.3; margin-top: 3px; }
   .picks .card:hover b { color: var(--accent); }
 
-  .says { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 6px 0 24px; }
-  .says figure { background: var(--panel); border-radius: 6px; padding: 20px; }
-  .says figure p { font-size: 17px; line-height: 1.5; margin: 10px 0 0; }
+  .says { margin: 6px 0 24px; border-top: 1px solid var(--rule); }
+  .says figure { display: grid; grid-template-columns: 150px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .says figure .k { padding-top: 4px; }
+  .says figure p { margin: 0; }
 
   .health { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--rule); border-radius: 6px; margin: 6px 0 20px; }
   .health div { padding: 20px; border-right: 1px solid var(--rule); }
@@ -221,7 +208,6 @@ const score = [
   .score b { display: block; font-family: var(--font-serif); font-weight: 500; font-size: 18px; margin-top: 10px; }
   .score span { font-size: 13.5px; color: var(--text-2); }
 
-  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
 
 
   @media (max-width: 760px) {
@@ -231,7 +217,8 @@ const score = [
     .path { grid-template-columns: 1fr; border-top: 0; border-left: 2px solid var(--rule-2); }
     .path li { padding: 0 0 14px 18px; }
     .path li::before { top: 4px; left: -6px; }
-    .picks, .says, .health { grid-template-columns: 1fr; }
+    .picks, .health { grid-template-columns: 1fr; }
+    .says figure { grid-template-columns: 1fr; gap: 4px; }
     .health div { border-right: 0; border-bottom: 1px solid var(--rule); }
     .score { grid-template-columns: 1fr 1fr; }
     .score div { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--rule); }

@@ -55,7 +55,6 @@ const path = [
       <section class="cell top panel me span-4">
         <div class="portrait">
           <img src="/images/avatar.jpg" alt="Cartoon portrait of Kashish Kapoor" width="600" height="600" fetchpriority="high" />
-          <i class="dot" title="Open to conversations"></i>
         </div>
         <div class="kv">
           <div><span>Work</span>Research, Zerodha</div>
@@ -174,7 +173,6 @@ const path = [
   .me { display: flex; flex-direction: column; justify-content: space-between; padding: 40px 36px; }
   .portrait { position: relative; width: 232px; height: 232px; align-self: center; }
   .portrait img { width: 232px; height: 232px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 0 0 7px var(--panel), 0 0 0 8px var(--rule); }
-  .portrait .dot { position: absolute; right: 16px; bottom: 20px; width: 24px; height: 24px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 5px var(--panel); }
   .me .kv { margin-top: 30px; }
 
   /* What I do */
@@ -238,8 +236,7 @@ const path = [
     .hero p { font-size: 17.5px; }
     .me { flex-direction: row; gap: 18px; align-items: center; }
     .portrait, .portrait img { width: 96px; height: 96px; flex: none; align-self: auto; }
-    .portrait .dot { width: 14px; height: 14px; right: 4px; bottom: 6px; }
-    .me .kv { margin-top: 0; flex: 1; }
+      .me .kv { margin-top: 0; flex: 1; }
     .favs { grid-template-columns: 1fr; gap: 18px; }
     .fav { display: grid; grid-template-columns: 112px 1fr; gap: 0 14px; align-items: center; }
     .fav img, .fav .tile-fallback { grid-row: span 2; }
