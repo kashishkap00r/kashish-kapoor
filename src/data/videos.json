@@ -93,26 +93,6 @@
       "fetchedAt": "2026-11-24T09:52:31.998Z"
     }
   ],
-  "product": [
-    {
-      "url": "https://www.youtube.com/watch?v=vq7oypoXyvw",
-      "videoId": "vq7oypoXyvw",
-      "title": "Introducing Kite Screener: Find, track, and trade stocks in one place",
-      "fetchedAt": "2026-11-24T09:52:32.314Z"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=MWYfkumwHyc",
-      "videoId": "MWYfkumwHyc",
-      "title": "Zerodha monthly update: Everything new across Kite, Console & Fund House",
-      "fetchedAt": "2026-11-24T09:52:32.625Z"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=VWJFfGwrDew",
-      "videoId": "VWJFfGwrDew",
-      "title": "New charting features on Kite app",
-      "fetchedAt": "2026-11-24T09:52:32.941Z"
-    }
-  ],
   "course": {
     "url": "https://www.youtube.com/playlist?list=PLDId1o9anARA",
     "videoId": "OmB-Sr9Y5Zw",

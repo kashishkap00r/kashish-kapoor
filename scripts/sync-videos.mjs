@@ -1,7 +1,7 @@
 // Sync video metadata for the /work page.
 //
 // Reads grouped YouTube links from src/data/sources.json → videos:
-//   { documentaries: [url], interviews: [url], product: [url],
+//   { documentaries: [url], interviews: [url],
 //     course: { playlist: url, firstVideo: url } }
 // and resolves titles via YouTube's public oEmbed endpoint into
 // src/data/videos.json with the same groups.
@@ -24,7 +24,7 @@ const SOURCES = join(ROOT, 'src/data/sources.json');
 const OUT = join(ROOT, 'src/data/videos.json');
 
 const UA = 'Mozilla/5.0 (kashishkapoor.com content sync)';
-const GROUPS = ['documentaries', 'interviews', 'product'];
+const GROUPS = ['documentaries', 'interviews'];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export function parseVideoId(url) {

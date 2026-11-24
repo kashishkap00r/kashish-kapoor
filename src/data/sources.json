@@ -23,12 +23,7 @@
     "course": {
       "playlist": "https://www.youtube.com/playlist?list=PLDId1o9anARA",
       "firstVideo": "https://www.youtube.com/watch?v=OmB-Sr9Y5Zw"
-    },
-    "product": [
-      "https://www.youtube.com/watch?v=vq7oypoXyvw",
-      "https://www.youtube.com/watch?v=MWYfkumwHyc",
-      "https://www.youtube.com/watch?v=VWJFfGwrDew"
-    ]
+    }
   },
   "writings": {
     "ownerFirstName": "Kashish",

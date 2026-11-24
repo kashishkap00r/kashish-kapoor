@@ -57,14 +57,12 @@ export const piecesByYear: [string, Piece[]][] = Object.entries(
 const v = videos as {
   documentaries?: Video[];
   interviews?: Video[];
-  product?: Video[];
   course?: Video | null;
 };
 export const docs = v.documentaries ?? [];
 export const interviews = v.interviews ?? [];
-export const productVideos = v.product ?? [];
 export const course = v.course ?? null;
-export const videoCount = docs.length + interviews.length + productVideos.length + (course ? 1 : 0);
+export const videoCount = docs.length + interviews.length + (course ? 1 : 0);
 
 export const firstYear = pieces.length ? pieces[pieces.length - 1].date.slice(0, 4) : '';
 export const sinceLabel = pieces.length

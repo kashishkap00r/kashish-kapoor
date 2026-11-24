@@ -58,7 +58,7 @@ async function main() {
     if (!w || !w.coverImage) continue; // check-site reports missing picks
     jobs.push([sizedCover(w.coverImage), join(coversDir, `${coverSlug(url)}.jpg`)]);
   }
-  const vids = [...(videos.documentaries || []), ...(videos.interviews || []), ...(videos.product || [])];
+  const vids = [...(videos.documentaries || []), ...(videos.interviews || [])];
   if (videos.course) vids.push(videos.course);
   for (const v of vids) {
     if (v.videoId) jobs.push([`https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`, join(videosDir, `${v.videoId}.jpg`)]);

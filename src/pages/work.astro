@@ -4,7 +4,7 @@ import Ticker from '../components/Ticker.astro';
 import { getCollection } from 'astro:content';
 import {
   bestOf, allPieces, piecesByYear, coverFor, thumbFor, fmtDay,
-  docs, interviews, productVideos, course, sinceLabel,
+  docs, interviews, course, sinceLabel,
 } from '../lib/data';
 
 const posts = (await getCollection('writings', ({ data }) => !data.draft))
@@ -56,7 +56,7 @@ const ticker = [
         <a href="#best">Best of <span>{bestOf.length}</span></a>
         <a href="#archive">Every research piece <span>{allPieces.length}</span></a>
         <a href="#personal">Personal writing <span>{posts.length}</span></a>
-        <a href="#videos">Videos <span>{docs.length + interviews.length + productVideos.length + (course ? 1 : 0)}</span></a>
+        <a href="#videos">Videos <span>{docs.length + interviews.length + (course ? 1 : 0)}</span></a>
         <a href="#built">Built <span>FinanceRadar</span></a>
       </nav>
 
@@ -117,47 +117,9 @@ const ticker = [
       <div class="cell sec-k span-12" id="videos">
         <h2><span class="n">04</span>Videos</h2><span class="k">Interviews, docs, explainers</span>
       </div>
-      <section class="cell docs span-8" aria-label="Documentaries">
-        <span class="k">Documentaries · The Long Answer</span>
-        <div class="dgrid">
-          {docs.map((v) => {
-            const img = thumbFor(v);
-            return (
-              <a class="vcard" href={v.url} target="_blank" rel="noopener">
-                {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Documentary</span>}
-                <h3>{v.title.replace(/\s+[—-]\s+Documentary$/, '')}</h3>
-              </a>
-            );
-          })}
-        </div>
-      </section>
-      <section class="cell panel side span-4" aria-label="Course and product videos">
-        {course && (
-          <a class="course" href={course.url} target="_blank" rel="noopener">
-            {(() => { const img = thumbFor(course); return img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Course</span>; })()}
-            <span class="k">Varsity course · Hindi</span>
-            <h3>{course.title}</h3>
-            <span class="link">Full playlist →</span>
-          </a>
-        )}
-        {productVideos.length > 0 && (
-          <div class="prod">
-            <span class="k">Product launches · Kite</span>
-            {productVideos.map((v) => {
-              const img = thumbFor(v);
-              return (
-                <a class="prow" href={v.url} target="_blank" rel="noopener">
-                  {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Video</span>}
-                  <span>{v.title}</span>
-                </a>
-              );
-            })}
-          </div>
-        )}
-      </section>
-      <section class="cell ints span-12" aria-label="Interviews">
-        <div class="head"><span class="k">Interviews · {interviews.length}</span><span class="k">Scroll sideways →</span></div>
-        <div class="strip" tabindex="0" aria-label="Interviews, scroll sideways">
+      <section class="cell ints span-8" aria-label="Interviews">
+        <div class="vhead"><span class="k">Interviews · {interviews.length}</span><span class="k scroll-hint">Scroll inside the box</span></div>
+        <div class="vbox" tabindex="0" aria-label="Interviews, scroll inside">
           {interviews.map((v) => {
             const img = thumbFor(v);
             return (
@@ -168,6 +130,30 @@ const ticker = [
             );
           })}
         </div>
+      </section>
+      <section class="cell panel side span-4" aria-label="Course and documentaries">
+        {course && (
+          <a class="course" href={course.url} target="_blank" rel="noopener">
+            {(() => { const img = thumbFor(course); return img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Course</span>; })()}
+            <span class="k">Varsity course · Hindi</span>
+            <h3>{course.title}</h3>
+            <span class="link">Full playlist →</span>
+          </a>
+        )}
+        {docs.length > 0 && (
+          <div class="docs">
+            <span class="k">Documentaries · The Long Answer</span>
+            {docs.map((v) => {
+              const img = thumbFor(v);
+              return (
+                <a class="dcard" href={v.url} target="_blank" rel="noopener">
+                  {img ? <img src={img} alt="" width="480" height="360" loading="lazy" decoding="async" /> : <span class="tile-fallback">Documentary</span>}
+                  <h3>{v.title.replace(/\s+[—-]\s+Documentary$/, '')}</h3>
+                </a>
+              );
+            })}
+          </div>
+        )}
       </section>
 
       <section class="cell bl span-8" id="built">
@@ -236,21 +222,20 @@ const ticker = [
   .sec-k h2 { font-family: var(--font-serif); font-weight: 400; font-size: 26px; }
   .sec-k h2 .n { font-family: var(--font-mono); font-size: 13px; color: var(--muted); margin-right: 12px; vertical-align: middle; }
 
-  .vcard img, .course img, .icard img, .prow img { aspect-ratio: 16 / 9; border-radius: 4px; }
-  .dgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 14px; }
-  .vcard h3 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; line-height: 1.25; margin-top: 12px; }
-  .vcard:hover h3, .course:hover h3, .icard:hover h4, .prow:hover span { color: var(--accent); }
+  .course img, .icard img, .dcard img { aspect-ratio: 16 / 9; border-radius: 4px; }
+  .course:hover h3, .icard:hover h4, .dcard:hover h3 { color: var(--accent); }
   .course { display: block; }
   .course .k { display: block; margin-top: 12px; }
   .course h3 { font-family: var(--font-serif); font-weight: 500; font-size: 22px; margin: 4px 0 6px; }
-  .prod { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--rule); }
-  .prow { display: grid; grid-template-columns: 96px 1fr; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 14.5px; line-height: 1.35; }
-  .prow:last-child { border-bottom: 0; }
+  .docs { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .dcard { display: block; margin-top: 14px; }
+  .dcard h3 { font-family: var(--font-serif); font-weight: 400; font-size: 18px; line-height: 1.3; margin-top: 10px; }
 
-  .ints .head { margin-bottom: 14px; }
-  .strip { display: grid; grid-auto-flow: column; grid-auto-columns: 248px; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; scrollbar-width: thin; scrollbar-color: var(--rule-2) transparent; }
-  .strip:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-  .icard { scroll-snap-align: start; }
+  /* Interviews: a box that scrolls inside itself, as tall as the side panel. */
+  .ints { display: flex; flex-direction: column; }
+  .vhead { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+  .vbox { flex: 1 1 0; min-height: 440px; overflow-y: auto; display: grid; grid-template-columns: 1fr 1fr; align-content: start; gap: 22px 18px; padding: 18px; border: 1px solid var(--rule); border-radius: 6px; scrollbar-width: thin; scrollbar-color: var(--rule-2) transparent; }
+  .vbox:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .icard h4 { font-family: var(--font-serif); font-weight: 400; font-size: 16.5px; line-height: 1.3; margin-top: 10px; }
 
   .bl { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
@@ -264,8 +249,10 @@ const ticker = [
     .best { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
     .head { flex-wrap: wrap; }
     .sec-k { padding: 16px 0; }
-    .dgrid { grid-template-columns: 1fr; }
-    .strip { grid-auto-columns: 72%; }
+    /* Phones: swipe sideways instead of a scroll box inside the scrolling page. */
+    .scroll-hint { display: none; }
+    .vbox { flex: none; min-height: 0; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; padding: 0 0 12px; border: 0; }
+    .icard { scroll-snap-align: start; }
     .bl { grid-template-columns: 1fr; }
   }
 </style>
